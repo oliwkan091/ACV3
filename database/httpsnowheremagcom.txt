@@ -1,0 +1,2 @@
+block = ["instagram","/author/"]
+key = []

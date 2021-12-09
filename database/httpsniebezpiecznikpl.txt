@@ -1,0 +1,2 @@
+block = ["TOP10","#comments","?more","/tag/","#respond"]
+key = []

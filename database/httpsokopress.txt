@@ -1,0 +1,2 @@
+block = ["/autor/","/ludzie/","/wypowiedzi/","/publications/"]
+key = []

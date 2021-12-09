@@ -1,0 +1,2 @@
+block = ["/author/","/wp-content/"]
+key = []

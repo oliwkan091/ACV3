@@ -1,0 +1,24 @@
+tytul = [
+	"https://historycznyambasador.com/",
+	"https://niebezpiecznik.pl/",
+	"https://wikileaks.org/",
+	"https://marciniwuc.com/strona-z-wpisami/",
+	"https://thegeopolitics.com/",
+	"https://www.mojbar.pl/artykuly/"
+]
+
+PC = {
+	name = "gfregr"
+	loc = ["fgesrwfgsrf","gregred"]
+	z = {
+		a = "ferfe",
+		b = "gferfge",
+		c = "aaaaa"
+	}
+	cos = [
+		"rrge",
+		"egreg",
+		"wewegf",
+		"gerwg"
+	]
+}

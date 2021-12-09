@@ -1,0 +1,4 @@
+Loc = {
+DESKTOP-17H1DCO = "C:\Users\Oliwier_Kania\Documents\Google_Drive\Schengen",
+DESKTOP-JAOAOQP = "D:\Dokumenty\Dysk_Google\Schengen",
+}

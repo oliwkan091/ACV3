@@ -1,0 +1,12 @@
+[DONE]	Pozbyæ siê requests i przestawiæ wszystko na selenium
+[DONE]	Zwiêkszyæ czêstotliwoœæ zapisu bazy wynikowej lub zabezpieczyæ program przed nieautoryzowanym zmkniêciem przed czasem 
+[X]		Prze³¹czni do aktualizacji mimo daty 
+[X]		Zapisywanie errorów
+[X]		Poprawnienie algorytmu dodwania tytu³ów, czasami najkrótszy to pouste s³owo i nic siê nie wypisuje 
+[X]		Zgodnie w wytycznymi windows scheduler nie w³¹czy aplikacji 64 bit ale mo¿na by to jakoœ obejœæ by na wsystkim dzia³o automatycznie
+[X]		Instalator	
+[X]		Œcie¿ka zapisu newARricles.txt nie jest zpaisywanan no i pod³oga nie jest dodawana po zapisie 
+[X]		Œcie¿ka jest Ÿle zpisywana i nie da siê jej rozpoznaæ po raz drugi 
+[X]		Œcie¿ka jest Ÿle zpisywana i nie da siê jej rozpoznaæ po raz drugi
+[X]		Dodaæ ubezpieczenie na wypadek zbytd³ugiego oczekiawania na sprawdzenie czy linik istanieje. articleCheckerV3.py linia 43 
+[X]		Wielow¹tkowoœæ dodaæ

@@ -1,0 +1,4 @@
+#Nale¿y wype³niæ wszystkie pola. Je¿eli plik nie znajduje siê w folderze z programeme to nale¿y dodaæ go ³¹cznie z jego pe³n¹ œcierzk¹ 
+articles = "pagesToCheck.txt"
+resoults = "D:\Documents\Dysk Google\Schengen\New Artilex.txt"
+database = ""

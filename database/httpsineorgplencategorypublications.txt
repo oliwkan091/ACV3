@@ -1,0 +1,2 @@
+block = ["/category/","/author/","/tag/"]
+key = []

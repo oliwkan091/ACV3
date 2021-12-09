@@ -1,0 +1,2979 @@
+15/10/2021 12:42:19  Program started 
+15/10/2021 12:42:19  Started git sync on boot 
+15/10/2021 12:42:19  Finished git sync on boot 
+15/10/2021 12:42:20  Chromedriver.exe failed to start 
+15/10/2021 12:42:50  Program started 
+15/10/2021 12:42:50  Started git sync on boot 
+15/10/2021 12:42:50  Finished git sync on boot 
+15/10/2021 12:42:51  Chromedriver.exe failed to start 
+15/10/2021 12:43:11  Program started 
+15/10/2021 12:43:11  Started git sync on boot 
+15/10/2021 12:43:11  Finished git sync on boot 
+15/10/2021 12:43:11  Chromedriver.exe failed to start 
+15/10/2021 12:44:17  Program started 
+15/10/2021 12:44:17  Started git sync on boot 
+15/10/2021 12:44:17  Finished git sync on boot 
+15/10/2021 12:44:18  Chromedriver.exe failed to start 
+15/10/2021 12:44:42  Program started 
+15/10/2021 12:44:42  Started git sync on boot 
+15/10/2021 12:44:42  Finished git sync on boot 
+15/10/2021 12:45:41  Program started 
+15/10/2021 12:45:41  Started git sync on boot 
+15/10/2021 12:45:41  Finished git sync on boot 
+15/10/2021 12:45:44  Chromedriver.exe failed to start 
+15/10/2021 12:47:16  Program started 
+15/10/2021 12:47:16  Started git sync on boot 
+15/10/2021 12:47:16  Finished git sync on boot 
+15/10/2021 12:47:18  Chromedriver.exe failed to start 
+15/10/2021 12:48:07  Program started 
+15/10/2021 12:48:07  Started git sync on boot 
+15/10/2021 12:48:07  Finished git sync on boot 
+15/10/2021 12:48:09  Chromedriver.exe failed to start 
+15/10/2021 12:48:16  Program started 
+15/10/2021 12:48:16  Started git sync on boot 
+15/10/2021 12:48:16  Finished git sync on boot 
+15/10/2021 12:48:18  Chromedriver.exe failed to start 
+15/10/2021 12:48:50  Program started 
+15/10/2021 12:48:50  Started git sync on boot 
+15/10/2021 12:48:50  Finished git sync on boot 
+15/10/2021 12:48:52  Chromedriver.exe failed to start 
+15/10/2021 12:50:10  Program started 
+15/10/2021 12:50:10  Started git sync on boot 
+15/10/2021 12:50:10  Finished git sync on boot 
+15/10/2021 12:50:11  Chromedriver.exe failed to start 
+15/10/2021 12:52:58  Program started 
+15/10/2021 12:52:58  Started git sync on boot 
+15/10/2021 12:52:58  Finished git sync on boot 
+15/10/2021 12:52:59  Chromedriver.exe failed to start 
+15/10/2021 12:54:02  Program started 
+15/10/2021 12:54:02  Started git sync on boot 
+15/10/2021 12:54:02  Finished git sync on boot 
+15/10/2021 12:54:02  Preparing to start chromedriver.exe 
+15/10/2021 12:54:03  Chromedriver.exe started 
+15/10/2021 12:54:08  Preparing to start chromedriver.exe 
+15/10/2021 12:54:09  Chromedriver.exe started 
+15/10/2021 12:54:26  Program started 
+15/10/2021 12:54:26  Started git sync on boot 
+15/10/2021 12:54:26  Finished git sync on boot 
+15/10/2021 12:54:26  Preparing to start chromedriver.exe 
+15/10/2021 12:54:51  Program started 
+15/10/2021 12:54:51  Started git sync on boot 
+15/10/2021 12:54:51  Finished git sync on boot 
+15/10/2021 12:54:51  Preparing to start chromedriver.exe 
+15/10/2021 12:54:54  Chromedriver.exe failed to start 
+15/10/2021 12:55:18  Program started 
+15/10/2021 12:55:18  Started git sync on boot 
+15/10/2021 12:55:18  Finished git sync on boot 
+15/10/2021 12:55:19  Preparing to start chromedriver.exe 
+15/10/2021 12:55:20  Chromedriver.exe started 
+15/10/2021 12:58:31  Preparing to start chromedriver.exe 
+15/10/2021 12:58:32  Chromedriver.exe started 
+15/10/2021 12:58:37  Program started 
+15/10/2021 12:58:37  Started git sync on boot 
+15/10/2021 12:58:37  Finished git sync on boot 
+15/10/2021 12:58:37  Preparing to start chromedriver.exe 
+15/10/2021 12:58:38  Chromedriver.exe started 
+15/10/2021 12:58:40  Preparing to start chromedriver.exe 
+15/10/2021 12:58:41  Chromedriver.exe started 
+15/10/2021 12:58:46  Preparing to start chromedriver.exe 
+15/10/2021 12:58:47  Chromedriver.exe started 
+15/10/2021 12:58:53  Preparing to start chromedriver.exe 
+15/10/2021 12:58:54  Chromedriver.exe started 
+15/10/2021 12:58:59  Preparing to start chromedriver.exe 
+15/10/2021 12:59:00  Chromedriver.exe started 
+15/10/2021 12:59:07  Preparing to start chromedriver.exe 
+15/10/2021 12:59:08  Chromedriver.exe started 
+15/10/2021 12:59:15  Preparing to start chromedriver.exe 
+15/10/2021 12:59:16  Chromedriver.exe started 
+15/10/2021 12:59:24  Preparing to start chromedriver.exe 
+15/10/2021 12:59:25  Chromedriver.exe started 
+15/10/2021 12:59:30  Preparing to start chromedriver.exe 
+15/10/2021 12:59:31  Chromedriver.exe started 
+15/10/2021 12:59:38  Preparing to start chromedriver.exe 
+15/10/2021 12:59:39  Chromedriver.exe started 
+15/10/2021 12:59:43  Preparing to start chromedriver.exe 
+15/10/2021 12:59:44  Chromedriver.exe started 
+15/10/2021 12:59:49  Preparing to start chromedriver.exe 
+15/10/2021 12:59:50  Chromedriver.exe started 
+15/10/2021 12:59:54  Preparing to start chromedriver.exe 
+15/10/2021 12:59:55  Chromedriver.exe started 
+15/10/2021 13:00:01  Preparing to start chromedriver.exe 
+15/10/2021 13:00:02  Chromedriver.exe started 
+15/10/2021 13:00:05  Preparing to start chromedriver.exe 
+15/10/2021 13:00:06  Chromedriver.exe started 
+15/10/2021 13:00:10  Preparing to start chromedriver.exe 
+15/10/2021 13:00:11  Chromedriver.exe started 
+15/10/2021 13:00:15  Preparing to start chromedriver.exe 
+15/10/2021 13:00:16  Chromedriver.exe started 
+15/10/2021 13:00:20  Preparing to start chromedriver.exe 
+15/10/2021 13:00:21  Chromedriver.exe started 
+15/10/2021 13:00:25  Started git sync on finish 
+15/10/2021 13:00:25  Finished git sync on finish 
+15/10/2021 13:00:25  Program finished 
+15/10/2021 13:01:27  Program started 
+15/10/2021 13:01:27  Started git sync on boot 
+15/10/2021 13:01:31  Finished git sync on boot 
+15/10/2021 13:01:31  Preparing to start chromedriver.exe 
+15/10/2021 13:01:32  Chromedriver.exe started 
+15/10/2021 13:01:36  Preparing to start chromedriver.exe 
+15/10/2021 13:01:37  Chromedriver.exe started 
+15/10/2021 13:01:43  Preparing to start chromedriver.exe 
+15/10/2021 13:01:44  Chromedriver.exe started 
+15/10/2021 13:01:48  Preparing to start chromedriver.exe 
+15/10/2021 13:01:49  Chromedriver.exe started 
+15/10/2021 13:01:54  Preparing to start chromedriver.exe 
+15/10/2021 13:01:55  Chromedriver.exe started 
+15/10/2021 13:02:02  Preparing to start chromedriver.exe 
+15/10/2021 13:02:03  Chromedriver.exe started 
+15/10/2021 13:02:09  Preparing to start chromedriver.exe 
+15/10/2021 13:02:10  Chromedriver.exe started 
+15/10/2021 13:02:13  Preparing to start chromedriver.exe 
+15/10/2021 13:02:14  Chromedriver.exe started 
+15/10/2021 13:02:19  Preparing to start chromedriver.exe 
+15/10/2021 13:02:20  Chromedriver.exe started 
+15/10/2021 13:02:26  Preparing to start chromedriver.exe 
+15/10/2021 13:02:27  Chromedriver.exe started 
+15/10/2021 13:02:31  Preparing to start chromedriver.exe 
+15/10/2021 13:02:32  Chromedriver.exe started 
+15/10/2021 13:02:36  Preparing to start chromedriver.exe 
+15/10/2021 13:02:37  Chromedriver.exe started 
+15/10/2021 13:02:42  Preparing to start chromedriver.exe 
+15/10/2021 13:02:43  Chromedriver.exe started 
+15/10/2021 13:02:48  Preparing to start chromedriver.exe 
+15/10/2021 13:02:49  Chromedriver.exe started 
+15/10/2021 13:02:53  Preparing to start chromedriver.exe 
+15/10/2021 13:02:54  Chromedriver.exe started 
+15/10/2021 13:02:57  Preparing to start chromedriver.exe 
+15/10/2021 13:02:58  Chromedriver.exe started 
+15/10/2021 13:03:01  Preparing to start chromedriver.exe 
+15/10/2021 13:03:02  Chromedriver.exe started 
+15/10/2021 13:03:05  Preparing to start chromedriver.exe 
+15/10/2021 13:03:06  Chromedriver.exe started 
+15/10/2021 13:03:10  Started git sync on finish 
+15/10/2021 13:17:22  Program started 
+15/10/2021 13:17:22  Program finished, everything was ap tu date 
+15/10/2021 13:19:22  Program started 
+15/10/2021 13:19:22  Started git sync on boot 
+15/10/2021 13:19:26  Finished git sync on boot 
+15/10/2021 13:19:26  Preparing to start chromedriver.exe 
+15/10/2021 13:19:27  Chromedriver.exe started 
+15/10/2021 13:19:33  Preparing to start chromedriver.exe 
+15/10/2021 13:19:34  Chromedriver.exe started 
+15/10/2021 13:19:43  Preparing to start chromedriver.exe 
+15/10/2021 13:19:44  Chromedriver.exe started 
+15/10/2021 13:19:49  Preparing to start chromedriver.exe 
+15/10/2021 13:19:50  Chromedriver.exe started 
+15/10/2021 13:19:55  Preparing to start chromedriver.exe 
+15/10/2021 13:19:56  Chromedriver.exe started 
+15/10/2021 13:20:03  Preparing to start chromedriver.exe 
+15/10/2021 13:20:04  Chromedriver.exe started 
+15/10/2021 13:20:11  Preparing to start chromedriver.exe 
+15/10/2021 13:20:12  Chromedriver.exe started 
+15/10/2021 13:20:15  Preparing to start chromedriver.exe 
+15/10/2021 13:20:16  Chromedriver.exe started 
+15/10/2021 13:20:21  Preparing to start chromedriver.exe 
+15/10/2021 13:20:22  Chromedriver.exe started 
+15/10/2021 13:20:28  Preparing to start chromedriver.exe 
+15/10/2021 13:20:29  Chromedriver.exe started 
+15/10/2021 13:20:33  Preparing to start chromedriver.exe 
+15/10/2021 13:20:34  Chromedriver.exe started 
+15/10/2021 13:20:39  Preparing to start chromedriver.exe 
+15/10/2021 13:20:40  Chromedriver.exe started 
+15/10/2021 13:20:46  Preparing to start chromedriver.exe 
+15/10/2021 13:20:47  Chromedriver.exe started 
+15/10/2021 13:20:52  Preparing to start chromedriver.exe 
+15/10/2021 13:20:53  Chromedriver.exe started 
+15/10/2021 13:20:57  Preparing to start chromedriver.exe 
+15/10/2021 13:20:58  Chromedriver.exe started 
+15/10/2021 13:21:01  Preparing to start chromedriver.exe 
+15/10/2021 13:21:02  Chromedriver.exe started 
+15/10/2021 13:21:05  Preparing to start chromedriver.exe 
+15/10/2021 13:21:06  Chromedriver.exe started 
+15/10/2021 13:21:09  Preparing to start chromedriver.exe 
+15/10/2021 13:21:10  Chromedriver.exe started 
+15/10/2021 13:21:14  Started git sync on finish 
+15/10/2021 13:26:48  Program started 
+15/10/2021 13:26:48  Program finished, everything was ap tu date 
+15/10/2021 13:26:55  Program started 
+15/10/2021 13:26:55  Started git sync on boot 
+15/10/2021 13:26:59  Finished git sync on boot 
+15/10/2021 13:26:59  Preparing to start chromedriver.exe 
+15/10/2021 13:27:01  Chromedriver.exe started 
+15/10/2021 13:27:04  Preparing to start chromedriver.exe 
+15/10/2021 13:27:05  Chromedriver.exe started 
+15/10/2021 13:27:13  Preparing to start chromedriver.exe 
+15/10/2021 13:27:14  Chromedriver.exe started 
+15/10/2021 13:27:20  Preparing to start chromedriver.exe 
+15/10/2021 13:27:21  Chromedriver.exe started 
+15/10/2021 13:27:26  Preparing to start chromedriver.exe 
+15/10/2021 13:27:27  Chromedriver.exe started 
+15/10/2021 13:27:37  Preparing to start chromedriver.exe 
+15/10/2021 13:27:38  Chromedriver.exe started 
+15/10/2021 13:27:45  Preparing to start chromedriver.exe 
+15/10/2021 13:27:47  Chromedriver.exe started 
+15/10/2021 13:27:50  Preparing to start chromedriver.exe 
+15/10/2021 13:27:51  Chromedriver.exe started 
+15/10/2021 13:27:56  Preparing to start chromedriver.exe 
+15/10/2021 13:27:57  Chromedriver.exe started 
+15/10/2021 13:28:03  Preparing to start chromedriver.exe 
+15/10/2021 13:28:04  Chromedriver.exe started 
+15/10/2021 13:28:09  Preparing to start chromedriver.exe 
+15/10/2021 13:28:10  Chromedriver.exe started 
+15/10/2021 13:28:15  Preparing to start chromedriver.exe 
+15/10/2021 13:28:16  Chromedriver.exe started 
+15/10/2021 13:28:20  Preparing to start chromedriver.exe 
+15/10/2021 13:28:21  Chromedriver.exe started 
+15/10/2021 13:28:26  Preparing to start chromedriver.exe 
+15/10/2021 13:28:27  Chromedriver.exe started 
+15/10/2021 13:28:31  Preparing to start chromedriver.exe 
+15/10/2021 13:28:32  Chromedriver.exe started 
+15/10/2021 13:28:35  Preparing to start chromedriver.exe 
+15/10/2021 13:28:36  Chromedriver.exe started 
+15/10/2021 13:28:39  Preparing to start chromedriver.exe 
+15/10/2021 13:28:40  Chromedriver.exe started 
+15/10/2021 13:28:44  Preparing to start chromedriver.exe 
+15/10/2021 13:28:45  Chromedriver.exe started 
+15/10/2021 13:28:49  Started git sync on finish 
+15/10/2021 13:28:52  Finished git sync on finish 
+15/10/2021 13:28:52  Program finished 
+16/10/2021 12:10:31  Program started 
+16/10/2021 12:10:31  Started git sync on boot 
+16/10/2021 12:10:34  Finished git sync on boot 
+16/10/2021 12:10:34  Preparing to start chromedriver.exe 
+16/10/2021 12:10:35  Chromedriver.exe started 
+16/10/2021 12:10:40  Preparing to start chromedriver.exe 
+16/10/2021 12:10:41  Chromedriver.exe started 
+16/10/2021 12:10:49  Preparing to start chromedriver.exe 
+16/10/2021 12:10:50  Chromedriver.exe started 
+16/10/2021 12:10:56  Preparing to start chromedriver.exe 
+16/10/2021 12:10:57  Chromedriver.exe started 
+16/10/2021 12:11:03  Preparing to start chromedriver.exe 
+16/10/2021 12:11:04  Chromedriver.exe started 
+16/10/2021 12:11:14  Preparing to start chromedriver.exe 
+16/10/2021 12:11:15  Chromedriver.exe started 
+16/10/2021 12:13:50  Program started 
+16/10/2021 12:13:50  Started git sync on boot 
+16/10/2021 12:13:53  Finished git sync on boot 
+16/10/2021 12:13:53  Preparing to start chromedriver.exe 
+16/10/2021 12:13:54  Chromedriver.exe started 
+16/10/2021 12:13:56  Preparing to start chromedriver.exe 
+16/10/2021 12:13:57  Chromedriver.exe started 
+16/10/2021 12:14:05  Preparing to start chromedriver.exe 
+16/10/2021 12:14:06  Chromedriver.exe started 
+16/10/2021 12:14:10  Preparing to start chromedriver.exe 
+16/10/2021 12:14:11  Chromedriver.exe started 
+16/10/2021 12:14:16  Preparing to start chromedriver.exe 
+16/10/2021 12:14:17  Chromedriver.exe started 
+16/10/2021 12:14:24  Preparing to start chromedriver.exe 
+16/10/2021 12:14:25  Chromedriver.exe started 
+16/10/2021 12:15:15  Program started 
+16/10/2021 12:15:15  Started git sync on boot 
+16/10/2021 12:15:18  Finished git sync on boot 
+16/10/2021 12:15:18  Preparing to start chromedriver.exe 
+16/10/2021 12:15:19  Chromedriver.exe started 
+16/10/2021 12:15:22  Preparing to start chromedriver.exe 
+16/10/2021 12:15:23  Chromedriver.exe started 
+16/10/2021 12:15:29  Preparing to start chromedriver.exe 
+16/10/2021 12:15:30  Chromedriver.exe started 
+16/10/2021 12:15:34  Preparing to start chromedriver.exe 
+16/10/2021 12:15:35  Chromedriver.exe started 
+16/10/2021 12:15:40  Preparing to start chromedriver.exe 
+16/10/2021 12:15:41  Chromedriver.exe started 
+16/10/2021 12:15:47  Preparing to start chromedriver.exe 
+16/10/2021 12:15:48  Chromedriver.exe started 
+16/10/2021 12:15:53  Cannot connect to the specified link https://www.mojbar.pl/artykuly/
+16/10/2021 12:15:56  Preparing to start chromedriver.exe 
+16/10/2021 12:15:57  Chromedriver.exe started 
+16/10/2021 12:16:02  Preparing to start chromedriver.exe 
+16/10/2021 12:16:03  Chromedriver.exe started 
+16/10/2021 12:16:10  Preparing to start chromedriver.exe 
+16/10/2021 12:16:11  Chromedriver.exe started 
+16/10/2021 12:16:15  Preparing to start chromedriver.exe 
+16/10/2021 12:16:16  Chromedriver.exe started 
+16/10/2021 12:16:20  Preparing to start chromedriver.exe 
+16/10/2021 12:16:21  Chromedriver.exe started 
+16/10/2021 12:16:26  Preparing to start chromedriver.exe 
+16/10/2021 12:16:28  Chromedriver.exe started 
+16/10/2021 12:16:33  Preparing to start chromedriver.exe 
+16/10/2021 12:16:34  Chromedriver.exe started 
+16/10/2021 12:16:55  Preparing to start chromedriver.exe 
+16/10/2021 12:16:56  Chromedriver.exe started 
+16/10/2021 12:16:59  Preparing to start chromedriver.exe 
+16/10/2021 12:17:00  Chromedriver.exe started 
+16/10/2021 12:17:03  Preparing to start chromedriver.exe 
+16/10/2021 12:17:04  Chromedriver.exe started 
+16/10/2021 12:17:09  Preparing to start chromedriver.exe 
+16/10/2021 12:17:10  Chromedriver.exe started 
+16/10/2021 12:17:17  Started git sync on finish 
+16/10/2021 12:17:21  Finished git sync on finish 
+16/10/2021 12:17:21  Program finished 
+16/10/2021 12:19:04  
+ 
+16/10/2021 12:19:04  Program started 
+16/10/2021 12:19:04  Program finished, everything was ap tu date 
+16/10/2021 12:20:10  Program started 
+16/10/2021 12:20:10  Program finished, everything was ap tu date 
+ 
+16/10/2021 12:20:24  Program started 
+16/10/2021 12:20:24  Program finished, everything was ap tu date 
+ 
+18/10/2021 11:30:29  Program started 
+18/10/2021 11:30:29  Started git sync on boot 
+18/10/2021 11:30:35  Finished git sync on boot 
+18/10/2021 11:30:35  Preparing to start chromedriver.exe 
+18/10/2021 11:30:38  Chromedriver.exe started 
+18/10/2021 11:30:42  Preparing to start chromedriver.exe 
+18/10/2021 11:30:43  Chromedriver.exe started 
+18/10/2021 11:30:56  Preparing to start chromedriver.exe 
+18/10/2021 11:30:57  Chromedriver.exe started 
+18/10/2021 11:31:09  Preparing to start chromedriver.exe 
+18/10/2021 11:31:10  Chromedriver.exe started 
+18/10/2021 11:31:16  Preparing to start chromedriver.exe 
+18/10/2021 11:31:18  Chromedriver.exe started 
+18/10/2021 11:31:24  Cannot connect to the specified link https://thegeopolitics.com/
+18/10/2021 11:31:24  Cannot connect to the specified link https://www.mojbar.pl/artykuly/
+18/10/2021 11:31:25  Preparing to start chromedriver.exe 
+18/10/2021 11:31:26  Chromedriver.exe started 
+18/10/2021 11:31:31  Preparing to start chromedriver.exe 
+18/10/2021 11:31:33  Chromedriver.exe started 
+18/10/2021 11:31:41  Preparing to start chromedriver.exe 
+18/10/2021 11:31:42  Chromedriver.exe started 
+18/10/2021 11:31:48  Preparing to start chromedriver.exe 
+18/10/2021 11:31:49  Chromedriver.exe started 
+18/10/2021 11:31:55  Preparing to start chromedriver.exe 
+18/10/2021 11:31:57  Chromedriver.exe started 
+18/10/2021 11:32:01  Preparing to start chromedriver.exe 
+18/10/2021 11:32:02  Chromedriver.exe started 
+18/10/2021 11:32:17  Preparing to start chromedriver.exe 
+18/10/2021 11:32:18  Chromedriver.exe started 
+18/10/2021 11:32:24  Preparing to start chromedriver.exe 
+18/10/2021 11:32:25  Chromedriver.exe started 
+18/10/2021 11:32:30  Preparing to start chromedriver.exe 
+18/10/2021 11:32:31  Chromedriver.exe started 
+18/10/2021 11:32:34  Preparing to start chromedriver.exe 
+18/10/2021 11:32:35  Chromedriver.exe started 
+18/10/2021 11:32:41  Preparing to start chromedriver.exe 
+18/10/2021 11:32:42  Chromedriver.exe started 
+18/10/2021 11:32:53  Started git sync on finish 
+18/10/2021 11:32:56  Finished git sync on finish 
+18/10/2021 11:32:56  Program finished 
+ 
+22/10/2021 17:31:47  Program started 
+22/10/2021 17:31:47  Started git sync on boot 
+22/10/2021 17:31:53  Finished git sync on boot 
+22/10/2021 17:31:53  Preparing to start chromedriver.exe 
+22/10/2021 17:31:57  Chromedriver.exe started 
+22/10/2021 17:32:01  Preparing to start chromedriver.exe 
+22/10/2021 17:32:03  Chromedriver.exe started 
+22/10/2021 17:32:27  Preparing to start chromedriver.exe 
+22/10/2021 17:32:28  Chromedriver.exe started 
+22/10/2021 17:32:40  Preparing to start chromedriver.exe 
+22/10/2021 17:32:41  Chromedriver.exe started 
+22/10/2021 17:32:47  Preparing to start chromedriver.exe 
+22/10/2021 17:32:48  Chromedriver.exe started 
+22/10/2021 17:32:58  Cannot connect to the specified link https://thegeopolitics.com/
+22/10/2021 17:32:58  Preparing to start chromedriver.exe 
+22/10/2021 17:33:00  Chromedriver.exe started 
+22/10/2021 17:33:04  Preparing to start chromedriver.exe 
+22/10/2021 17:33:06  Chromedriver.exe started 
+22/10/2021 17:33:13  Preparing to start chromedriver.exe 
+22/10/2021 17:33:14  Chromedriver.exe started 
+22/10/2021 17:34:13  Program started 
+22/10/2021 17:34:13  Started git sync on boot 
+22/10/2021 17:34:18  Finished git sync on boot 
+22/10/2021 17:34:18  Preparing to start chromedriver.exe 
+22/10/2021 17:34:19  Chromedriver.exe started 
+22/10/2021 17:34:24  Preparing to start chromedriver.exe 
+22/10/2021 17:34:25  Chromedriver.exe started 
+22/10/2021 17:34:34  Preparing to start chromedriver.exe 
+22/10/2021 17:34:36  Chromedriver.exe started 
+22/10/2021 17:34:41  Preparing to start chromedriver.exe 
+22/10/2021 17:34:42  Chromedriver.exe started 
+22/10/2021 17:34:47  Preparing to start chromedriver.exe 
+22/10/2021 17:34:48  Chromedriver.exe started 
+22/10/2021 17:34:55  Cannot connect to the specified link https://thegeopolitics.com/
+22/10/2021 17:34:55  Preparing to start chromedriver.exe 
+22/10/2021 17:34:56  Chromedriver.exe started 
+22/10/2021 17:35:00  Preparing to start chromedriver.exe 
+22/10/2021 17:35:01  Chromedriver.exe started 
+22/10/2021 17:35:11  Preparing to start chromedriver.exe 
+22/10/2021 17:35:12  Chromedriver.exe started 
+22/10/2021 17:35:20  Preparing to start chromedriver.exe 
+22/10/2021 17:35:22  Chromedriver.exe started 
+22/10/2021 17:35:27  Preparing to start chromedriver.exe 
+22/10/2021 17:35:28  Chromedriver.exe started 
+22/10/2021 17:35:34  Preparing to start chromedriver.exe 
+22/10/2021 17:35:35  Chromedriver.exe started 
+22/10/2021 17:35:44  Preparing to start chromedriver.exe 
+22/10/2021 17:35:45  Chromedriver.exe started 
+22/10/2021 17:35:52  Preparing to start chromedriver.exe 
+22/10/2021 17:35:53  Chromedriver.exe started 
+22/10/2021 17:36:19  Preparing to start chromedriver.exe 
+22/10/2021 17:36:20  Chromedriver.exe started 
+22/10/2021 17:36:24  Preparing to start chromedriver.exe 
+22/10/2021 17:36:26  Chromedriver.exe started 
+22/10/2021 17:36:29  Preparing to start chromedriver.exe 
+22/10/2021 17:36:30  Chromedriver.exe started 
+22/10/2021 17:36:40  Preparing to start chromedriver.exe 
+22/10/2021 17:36:42  Chromedriver.exe started 
+22/10/2021 17:36:57  Started git sync on finish 
+22/10/2021 17:37:03  Finished git sync on finish 
+22/10/2021 17:37:03  Program finished 
+ 
+23/10/2021 18:15:49  Program started 
+23/10/2021 18:15:50  Started git sync on boot 
+23/10/2021 18:15:55  Finished git sync on boot 
+23/10/2021 18:15:55  Preparing to start chromedriver.exe 
+23/10/2021 18:15:56  Chromedriver.exe started 
+23/10/2021 18:16:01  Preparing to start chromedriver.exe 
+23/10/2021 18:16:02  Chromedriver.exe started 
+23/10/2021 18:16:18  Preparing to start chromedriver.exe 
+23/10/2021 18:16:20  Chromedriver.exe started 
+23/10/2021 18:16:27  Preparing to start chromedriver.exe 
+23/10/2021 18:16:29  Chromedriver.exe started 
+23/10/2021 18:16:36  Preparing to start chromedriver.exe 
+23/10/2021 18:16:38  Chromedriver.exe started 
+23/10/2021 18:16:45  Cannot connect to the specified link https://thegeopolitics.com/
+23/10/2021 18:16:45  Preparing to start chromedriver.exe 
+23/10/2021 18:16:46  Chromedriver.exe started 
+23/10/2021 18:16:51  Preparing to start chromedriver.exe 
+23/10/2021 18:16:52  Chromedriver.exe started 
+23/10/2021 18:16:58  Preparing to start chromedriver.exe 
+23/10/2021 18:16:59  Chromedriver.exe started 
+23/10/2021 18:17:08  Preparing to start chromedriver.exe 
+23/10/2021 18:17:09  Chromedriver.exe started 
+23/10/2021 18:17:15  Preparing to start chromedriver.exe 
+23/10/2021 18:17:16  Chromedriver.exe started 
+23/10/2021 18:17:20  Preparing to start chromedriver.exe 
+23/10/2021 18:17:22  Chromedriver.exe started 
+23/10/2021 18:17:27  Preparing to start chromedriver.exe 
+23/10/2021 18:17:28  Chromedriver.exe started 
+23/10/2021 18:17:33  Preparing to start chromedriver.exe 
+23/10/2021 18:17:34  Chromedriver.exe started 
+23/10/2021 18:17:40  Preparing to start chromedriver.exe 
+23/10/2021 18:17:41  Chromedriver.exe started 
+23/10/2021 18:17:44  Preparing to start chromedriver.exe 
+23/10/2021 18:17:45  Chromedriver.exe started 
+23/10/2021 18:17:50  Preparing to start chromedriver.exe 
+23/10/2021 18:17:51  Chromedriver.exe started 
+23/10/2021 18:17:55  Preparing to start chromedriver.exe 
+23/10/2021 18:17:56  Chromedriver.exe started 
+23/10/2021 18:18:06  Preparing to start chromedriver.exe 
+23/10/2021 18:18:07  Chromedriver.exe started 
+23/10/2021 18:19:22  Started git sync on finish 
+23/10/2021 18:19:26  Finished git sync on finish 
+23/10/2021 18:19:26  Program finished 
+ 
+23/10/2021 20:51:44  Program started 
+23/10/2021 20:51:45  Program finished, everything was ap tu date 
+ 
+23/10/2021 20:52:45  Program started 
+23/10/2021 20:52:45  Started git sync on boot 
+23/10/2021 20:52:48  Finished git sync on boot 
+23/10/2021 20:52:49  Preparing to start chromedriver.exe 
+23/10/2021 20:52:53  Chromedriver.exe started 
+23/10/2021 20:52:57  Preparing to start chromedriver.exe 
+23/10/2021 20:52:58  Chromedriver.exe started 
+23/10/2021 20:53:08  Preparing to start chromedriver.exe 
+23/10/2021 20:53:09  Chromedriver.exe started 
+23/10/2021 20:53:13  Preparing to start chromedriver.exe 
+23/10/2021 20:53:14  Chromedriver.exe started 
+23/10/2021 20:53:20  Preparing to start chromedriver.exe 
+23/10/2021 20:53:21  Chromedriver.exe started 
+23/10/2021 20:53:25  Cannot connect to the specified link https://thegeopolitics.com/
+23/10/2021 20:53:26  Preparing to start chromedriver.exe 
+23/10/2021 20:53:27  Chromedriver.exe started 
+23/10/2021 20:53:30  Preparing to start chromedriver.exe 
+23/10/2021 20:53:31  Chromedriver.exe started 
+23/10/2021 20:53:37  Preparing to start chromedriver.exe 
+23/10/2021 20:53:38  Chromedriver.exe started 
+23/10/2021 20:53:45  Preparing to start chromedriver.exe 
+23/10/2021 20:53:46  Chromedriver.exe started 
+23/10/2021 20:53:50  Preparing to start chromedriver.exe 
+23/10/2021 20:53:51  Chromedriver.exe started 
+23/10/2021 20:53:55  Preparing to start chromedriver.exe 
+23/10/2021 20:53:56  Chromedriver.exe started 
+23/10/2021 20:54:01  Preparing to start chromedriver.exe 
+23/10/2021 20:54:02  Chromedriver.exe started 
+23/10/2021 20:54:07  Preparing to start chromedriver.exe 
+23/10/2021 20:54:08  Chromedriver.exe started 
+23/10/2021 20:54:26  Preparing to start chromedriver.exe 
+23/10/2021 20:54:27  Chromedriver.exe started 
+23/10/2021 20:54:30  Preparing to start chromedriver.exe 
+23/10/2021 20:54:31  Chromedriver.exe started 
+23/10/2021 20:54:35  Preparing to start chromedriver.exe 
+23/10/2021 20:54:36  Chromedriver.exe started 
+23/10/2021 20:54:41  Preparing to start chromedriver.exe 
+23/10/2021 20:54:42  Chromedriver.exe started 
+23/10/2021 20:54:48  Preparing to start chromedriver.exe 
+23/10/2021 20:54:49  Chromedriver.exe started 
+23/10/2021 20:54:56  Started git sync on finish 
+23/10/2021 20:55:00  Finished git sync on finish 
+23/10/2021 20:55:00  Program finished 
+ 
+24/10/2021 09:28:55  Program started 
+24/10/2021 09:28:56  Started git sync on boot 
+24/10/2021 09:29:02  Finished git sync on boot 
+24/10/2021 09:29:02  Preparing to start chromedriver.exe 
+24/10/2021 09:29:04  Chromedriver.exe started 
+24/10/2021 09:29:09  Preparing to start chromedriver.exe 
+24/10/2021 09:29:10  Chromedriver.exe started 
+24/10/2021 09:29:22  Preparing to start chromedriver.exe 
+24/10/2021 09:29:24  Chromedriver.exe started 
+24/10/2021 09:29:30  Preparing to start chromedriver.exe 
+24/10/2021 09:29:31  Chromedriver.exe started 
+24/10/2021 09:29:37  Preparing to start chromedriver.exe 
+24/10/2021 09:29:38  Chromedriver.exe started 
+24/10/2021 09:29:44  Cannot connect to the specified link https://thegeopolitics.com/
+24/10/2021 09:29:44  Preparing to start chromedriver.exe 
+24/10/2021 09:29:45  Chromedriver.exe started 
+24/10/2021 09:29:50  Preparing to start chromedriver.exe 
+24/10/2021 09:29:51  Chromedriver.exe started 
+24/10/2021 09:29:59  Preparing to start chromedriver.exe 
+24/10/2021 09:30:00  Chromedriver.exe started 
+24/10/2021 09:30:08  Preparing to start chromedriver.exe 
+24/10/2021 09:30:09  Chromedriver.exe started 
+24/10/2021 09:30:14  Preparing to start chromedriver.exe 
+24/10/2021 09:30:15  Chromedriver.exe started 
+24/10/2021 09:30:21  Preparing to start chromedriver.exe 
+24/10/2021 09:30:22  Chromedriver.exe started 
+24/10/2021 09:30:29  Preparing to start chromedriver.exe 
+24/10/2021 09:30:30  Chromedriver.exe started 
+24/10/2021 09:30:49  Preparing to start chromedriver.exe 
+24/10/2021 09:30:50  Chromedriver.exe started 
+24/10/2021 09:31:10  Preparing to start chromedriver.exe 
+24/10/2021 09:31:12  Chromedriver.exe started 
+24/10/2021 09:31:27  Preparing to start chromedriver.exe 
+24/10/2021 09:31:29  Chromedriver.exe started 
+24/10/2021 09:31:32  Preparing to start chromedriver.exe 
+24/10/2021 09:31:33  Chromedriver.exe started 
+24/10/2021 09:31:37  Preparing to start chromedriver.exe 
+24/10/2021 09:31:38  Chromedriver.exe started 
+24/10/2021 09:31:47  Preparing to start chromedriver.exe 
+24/10/2021 09:31:48  Chromedriver.exe started 
+24/10/2021 09:31:55  Started git sync on finish 
+24/10/2021 09:32:00  Finished git sync on finish 
+24/10/2021 09:32:00  Program finished 
+ 
+24/10/2021 10:44:00  Program started 
+24/10/2021 10:44:00  Program finished, everything was ap tu date 
+ 
+24/10/2021 10:44:14  Program started 
+24/10/2021 10:44:14  Started git sync on boot 
+24/10/2021 10:44:17  Finished git sync on boot 
+24/10/2021 10:44:18  Preparing to start chromedriver.exe 
+24/10/2021 10:44:19  Chromedriver.exe started 
+24/10/2021 10:44:20  Cannot connect to the specified link https://historycznyambasador.com/
+24/10/2021 10:44:21  Preparing to start chromedriver.exe 
+24/10/2021 10:44:22  Chromedriver.exe started 
+24/10/2021 10:53:38  Program started 
+24/10/2021 10:53:38  Started git sync on boot 
+24/10/2021 10:53:43  Finished git sync on boot 
+24/10/2021 10:53:43  Preparing to start chromedriver.exe 
+24/10/2021 10:54:03  Program started 
+24/10/2021 10:54:03  Started git sync on boot 
+24/10/2021 10:54:06  Finished git sync on boot 
+24/10/2021 10:54:07  Preparing to start chromedriver.exe 
+24/10/2021 10:54:08  Chromedriver.exe started 
+24/10/2021 10:54:10  Preparing to start chromedriver.exe 
+24/10/2021 10:54:12  Chromedriver.exe started 
+24/10/2021 10:57:27  Program started 
+24/10/2021 10:57:27  Started git sync on boot 
+24/10/2021 10:57:30  Finished git sync on boot 
+24/10/2021 10:57:31  Preparing to start chromedriver.exe 
+24/10/2021 10:57:32  Chromedriver.exe started 
+24/10/2021 11:10:19  Program started 
+24/10/2021 11:10:19  Started git sync on boot 
+24/10/2021 11:10:22  Finished git sync on boot 
+24/10/2021 11:10:22  Preparing to start chromedriver.exe 
+24/10/2021 11:10:23  Chromedriver.exe started 
+24/10/2021 11:10:26  Preparing to start chromedriver.exe 
+24/10/2021 11:10:27  Chromedriver.exe started 
+24/10/2021 11:10:35  Preparing to start chromedriver.exe 
+24/10/2021 11:10:36  Chromedriver.exe started 
+24/10/2021 11:10:41  Preparing to start chromedriver.exe 
+24/10/2021 11:10:42  Chromedriver.exe started 
+24/10/2021 11:10:47  Preparing to start chromedriver.exe 
+24/10/2021 11:10:48  Chromedriver.exe started 
+24/10/2021 11:10:53  Cannot connect to the specified link https://thegeopolitics.com/
+24/10/2021 11:10:53  Preparing to start chromedriver.exe 
+24/10/2021 11:10:54  Chromedriver.exe started 
+24/10/2021 11:10:58  Preparing to start chromedriver.exe 
+24/10/2021 11:10:59  Chromedriver.exe started 
+24/10/2021 11:11:04  Preparing to start chromedriver.exe 
+24/10/2021 11:11:05  Chromedriver.exe started 
+24/10/2021 11:11:12  Preparing to start chromedriver.exe 
+24/10/2021 11:11:13  Chromedriver.exe started 
+24/10/2021 11:11:18  Preparing to start chromedriver.exe 
+24/10/2021 11:11:19  Chromedriver.exe started 
+24/10/2021 11:11:23  Preparing to start chromedriver.exe 
+24/10/2021 11:11:24  Chromedriver.exe started 
+24/10/2021 11:11:30  Preparing to start chromedriver.exe 
+24/10/2021 11:11:31  Chromedriver.exe started 
+24/10/2021 11:11:36  Preparing to start chromedriver.exe 
+24/10/2021 11:11:37  Chromedriver.exe started 
+24/10/2021 11:11:42  Preparing to start chromedriver.exe 
+24/10/2021 11:11:43  Chromedriver.exe started 
+24/10/2021 11:11:47  Preparing to start chromedriver.exe 
+24/10/2021 11:11:48  Chromedriver.exe started 
+24/10/2021 11:11:51  Preparing to start chromedriver.exe 
+24/10/2021 11:11:52  Chromedriver.exe started 
+24/10/2021 11:11:59  Preparing to start chromedriver.exe 
+24/10/2021 11:12:00  Chromedriver.exe started 
+24/10/2021 11:12:05  Preparing to start chromedriver.exe 
+24/10/2021 11:12:06  Chromedriver.exe started 
+24/10/2021 11:12:12  Started git sync on finish 
+24/10/2021 11:12:15  Finished git sync on finish 
+24/10/2021 11:12:15  Program finished 
+ 
+25/10/2021 17:43:23  Program started 
+25/10/2021 17:43:23  Started git sync on boot 
+25/10/2021 17:43:28  Finished git sync on boot 
+25/10/2021 17:43:29  Preparing to start chromedriver.exe 
+25/10/2021 17:43:30  Chromedriver.exe started 
+25/10/2021 17:43:33  Preparing to start chromedriver.exe 
+25/10/2021 17:43:34  Chromedriver.exe started 
+25/10/2021 17:43:48  Preparing to start chromedriver.exe 
+25/10/2021 17:43:49  Chromedriver.exe started 
+25/10/2021 17:43:56  Preparing to start chromedriver.exe 
+25/10/2021 17:43:58  Chromedriver.exe started 
+25/10/2021 17:44:03  Preparing to start chromedriver.exe 
+25/10/2021 17:44:04  Chromedriver.exe started 
+25/10/2021 17:44:14  Cannot connect to the specified link https://thegeopolitics.com/
+25/10/2021 17:44:15  Preparing to start chromedriver.exe 
+25/10/2021 17:44:16  Chromedriver.exe started 
+25/10/2021 17:44:21  Preparing to start chromedriver.exe 
+25/10/2021 17:44:22  Chromedriver.exe started 
+25/10/2021 17:44:29  Preparing to start chromedriver.exe 
+25/10/2021 17:44:30  Chromedriver.exe started 
+25/10/2021 17:44:42  Preparing to start chromedriver.exe 
+25/10/2021 17:44:44  Chromedriver.exe started 
+25/10/2021 17:44:49  Preparing to start chromedriver.exe 
+25/10/2021 17:44:50  Chromedriver.exe started 
+25/10/2021 17:45:00  Preparing to start chromedriver.exe 
+25/10/2021 17:45:01  Chromedriver.exe started 
+25/10/2021 17:45:08  Preparing to start chromedriver.exe 
+25/10/2021 17:45:09  Chromedriver.exe started 
+25/10/2021 17:45:15  Preparing to start chromedriver.exe 
+25/10/2021 17:45:16  Chromedriver.exe started 
+25/10/2021 17:45:22  Preparing to start chromedriver.exe 
+25/10/2021 17:45:24  Chromedriver.exe started 
+25/10/2021 17:45:27  Preparing to start chromedriver.exe 
+25/10/2021 17:45:29  Chromedriver.exe started 
+25/10/2021 17:45:33  Preparing to start chromedriver.exe 
+25/10/2021 17:45:34  Chromedriver.exe started 
+25/10/2021 17:45:39  Preparing to start chromedriver.exe 
+25/10/2021 17:45:40  Chromedriver.exe started 
+25/10/2021 17:45:53  Preparing to start chromedriver.exe 
+25/10/2021 17:45:54  Chromedriver.exe started 
+25/10/2021 17:46:01  Started git sync on finish 
+25/10/2021 17:46:06  Finished git sync on finish 
+25/10/2021 17:46:06  Program finished 
+ 
+26/10/2021 10:13:30  Program started 
+26/10/2021 10:13:31  Started git sync on boot 
+26/10/2021 10:13:31  Finished git sync on boot 
+26/10/2021 10:13:32  Preparing to start chromedriver.exe 
+26/10/2021 10:13:34  Chromedriver.exe started 
+26/10/2021 10:13:39  Preparing to start chromedriver.exe 
+26/10/2021 10:14:34  Program started 
+26/10/2021 10:14:35  Started git sync on boot 
+26/10/2021 10:14:35  Finished git sync on boot 
+26/10/2021 10:14:35  Preparing to start chromedriver.exe 
+26/10/2021 10:14:37  Chromedriver.exe started 
+26/10/2021 10:16:04  Program started 
+26/10/2021 10:16:04  Started git sync on boot 
+26/10/2021 10:16:04  Finished git sync on boot 
+26/10/2021 10:16:05  Preparing to start chromedriver.exe 
+26/10/2021 10:16:08  Chromedriver.exe started 
+29/10/2021 10:10:57  Program started 
+29/10/2021 10:10:57  Started git sync on boot 
+29/10/2021 10:10:58  Finished git sync on boot 
+29/10/2021 10:11:02  Preparing to start chromedriver.exe 
+29/10/2021 10:11:06  Chromedriver.exe started 
+29/10/2021 10:12:49  Program started 
+29/10/2021 10:12:49  Preparing to start chromedriver.exe 
+29/10/2021 10:12:50  Chromedriver.exe started 
+29/10/2021 10:13:26  Program started 
+29/10/2021 10:13:26  Preparing to start chromedriver.exe 
+29/10/2021 10:13:27  Chromedriver.exe started 
+29/10/2021 10:13:56  Program started 
+29/10/2021 10:13:56  Preparing to start chromedriver.exe 
+29/10/2021 10:13:57  Chromedriver.exe started 
+29/10/2021 10:14:28  Program started 
+29/10/2021 10:14:28  Preparing to start chromedriver.exe 
+29/10/2021 10:14:29  Chromedriver.exe started 
+29/10/2021 10:14:58  Program started 
+29/10/2021 10:14:59  Preparing to start chromedriver.exe 
+29/10/2021 10:15:00  Chromedriver.exe started 
+29/10/2021 10:15:26  Program started 
+29/10/2021 10:15:26  Preparing to start chromedriver.exe 
+29/10/2021 10:15:27  Chromedriver.exe started 
+29/10/2021 10:16:24  Program started 
+29/10/2021 10:16:24  Preparing to start chromedriver.exe 
+29/10/2021 10:16:25  Chromedriver.exe started 
+29/10/2021 10:16:49  Program started 
+29/10/2021 10:16:50  Preparing to start chromedriver.exe 
+29/10/2021 10:16:51  Chromedriver.exe started 
+30/10/2021 17:17:04  Program started 
+30/10/2021 17:17:05  Preparing to start chromedriver.exe 
+30/10/2021 17:17:06  Chromedriver.exe started 
+30/10/2021 17:55:14  Program started 
+30/10/2021 17:55:15  Preparing to start chromedriver.exe 
+30/10/2021 17:55:16  Chromedriver.exe started 
+30/10/2021 17:58:01  Program started 
+30/10/2021 17:58:11  Preparing to start chromedriver.exe 
+30/10/2021 17:58:12  Chromedriver.exe started 
+30/10/2021 18:01:27  Program started 
+30/10/2021 18:01:28  Preparing to start chromedriver.exe 
+30/10/2021 18:01:29  Chromedriver.exe started 
+30/10/2021 18:01:47  Program started 
+30/10/2021 18:02:08  Preparing to start chromedriver.exe 
+30/10/2021 18:02:09  Chromedriver.exe started 
+30/10/2021 19:09:01  Program started 
+30/10/2021 19:09:01  Preparing to start chromedriver.exe 
+30/10/2021 19:09:03  Chromedriver.exe started 
+30/10/2021 22:43:19  Program started 
+30/10/2021 22:43:20  Preparing to start chromedriver.exe 
+30/10/2021 22:43:21  Chromedriver.exe started 
+30/10/2021 22:59:22  Program started 
+30/10/2021 23:00:02  Program started 
+30/10/2021 23:01:39  Program started 
+30/10/2021 23:02:16  Program started 
+30/10/2021 23:02:51  Program started 
+30/10/2021 23:04:16  Program started 
+30/10/2021 23:05:26  Program started 
+30/10/2021 23:06:35  Program started 
+30/10/2021 23:06:35  Preparing to start chromedriver.exe 
+30/10/2021 23:06:37  Chromedriver.exe started 
+30/10/2021 23:07:05  Program started 
+30/10/2021 23:07:05  Preparing to start chromedriver.exe 
+30/10/2021 23:07:06  Chromedriver.exe started 
+30/10/2021 23:07:26  Program started 
+30/10/2021 23:07:26  Preparing to start chromedriver.exe 
+30/10/2021 23:07:28  Chromedriver.exe started 
+30/10/2021 23:07:50  Program started 
+30/10/2021 23:07:51  Preparing to start chromedriver.exe 
+30/10/2021 23:07:52  Chromedriver.exe started 
+30/10/2021 23:10:34  Program started 
+30/10/2021 23:10:35  Preparing to start chromedriver.exe 
+30/10/2021 23:10:36  Chromedriver.exe started 
+30/10/2021 23:12:46  Program started 
+30/10/2021 23:12:48  Preparing to start chromedriver.exe 
+30/10/2021 23:12:49  Chromedriver.exe started 
+30/10/2021 23:17:41  Program started 
+30/10/2021 23:18:10  Program started 
+30/10/2021 23:18:30  Program started 
+30/10/2021 23:19:01  Program started 
+30/10/2021 23:19:02  Preparing to start chromedriver.exe 
+30/10/2021 23:19:03  Chromedriver.exe started 
+30/10/2021 23:21:11  Program started 
+30/10/2021 23:21:15  Preparing to start chromedriver.exe 
+30/10/2021 23:21:16  Chromedriver.exe started 
+30/10/2021 23:22:06  Program started 
+30/10/2021 23:22:06  Preparing to start chromedriver.exe 
+30/10/2021 23:22:08  Chromedriver.exe started 
+30/10/2021 23:22:20  Program started 
+30/10/2021 23:22:21  Preparing to start chromedriver.exe 
+30/10/2021 23:22:22  Chromedriver.exe started 
+30/10/2021 23:24:57  Program started 
+30/10/2021 23:25:33  Program started 
+30/10/2021 23:26:29  Program started 
+30/10/2021 23:26:30  Preparing to start chromedriver.exe 
+30/10/2021 23:26:32  Chromedriver.exe started 
+30/10/2021 23:30:19  Program started 
+30/10/2021 23:30:19  Preparing to start chromedriver.exe 
+30/10/2021 23:30:20  Chromedriver.exe started 
+30/10/2021 23:35:52  Program started 
+30/10/2021 23:35:53  Preparing to start chromedriver.exe 
+30/10/2021 23:35:54  Chromedriver.exe started 
+30/10/2021 23:39:59  Program started 
+30/10/2021 23:39:59  Preparing to start chromedriver.exe 
+30/10/2021 23:40:01  Chromedriver.exe started 
+30/10/2021 23:43:13  Program started 
+30/10/2021 23:43:13  Preparing to start chromedriver.exe 
+30/10/2021 23:43:15  Chromedriver.exe started 
+30/10/2021 23:44:02  Program started 
+30/10/2021 23:44:02  Preparing to start chromedriver.exe 
+30/10/2021 23:44:03  Chromedriver.exe started 
+30/10/2021 23:45:00  Program started 
+30/10/2021 23:45:01  Preparing to start chromedriver.exe 
+30/10/2021 23:45:02  Chromedriver.exe started 
+31/10/2021 19:50:28  Program started 
+31/10/2021 19:50:29  Preparing to start chromedriver.exe 
+31/10/2021 19:50:30  Chromedriver.exe started 
+31/10/2021 19:52:02  Program started 
+31/10/2021 19:52:03  Preparing to start chromedriver.exe 
+31/10/2021 19:52:04  Chromedriver.exe started 
+31/10/2021 19:52:33  Program started 
+31/10/2021 19:52:34  Preparing to start chromedriver.exe 
+31/10/2021 19:52:35  Chromedriver.exe started 
+31/10/2021 19:53:47  Program started 
+31/10/2021 19:53:48  Preparing to start chromedriver.exe 
+31/10/2021 19:53:49  Chromedriver.exe started 
+31/10/2021 19:56:49  Program started 
+31/10/2021 19:56:50  Preparing to start chromedriver.exe 
+31/10/2021 19:56:51  Chromedriver.exe started 
+31/10/2021 19:58:27  Program started 
+31/10/2021 19:58:28  Preparing to start chromedriver.exe 
+31/10/2021 19:58:29  Chromedriver.exe started 
+31/10/2021 19:59:54  Program started 
+31/10/2021 20:00:39  Program started 
+31/10/2021 20:01:08  Program started 
+31/10/2021 20:01:24  Program started 
+31/10/2021 20:03:37  Program started 
+31/10/2021 20:15:24  Program started 
+31/10/2021 20:15:49  Program started 
+31/10/2021 20:15:49  Preparing to start chromedriver.exe 
+31/10/2021 20:15:51  Chromedriver.exe started 
+31/10/2021 20:16:12  Program started 
+31/10/2021 20:16:13  Preparing to start chromedriver.exe 
+31/10/2021 20:16:14  Chromedriver.exe started 
+31/10/2021 20:16:42  Program started 
+31/10/2021 20:16:43  Preparing to start chromedriver.exe 
+31/10/2021 20:16:44  Chromedriver.exe started 
+31/10/2021 20:16:50  Preparing to start chromedriver.exe 
+31/10/2021 20:16:51  Chromedriver.exe started 
+31/10/2021 20:17:43  Program started 
+31/10/2021 20:17:43  Preparing to start chromedriver.exe 
+31/10/2021 20:17:45  Chromedriver.exe started 
+31/10/2021 20:17:50  Preparing to start chromedriver.exe 
+31/10/2021 20:17:51  Chromedriver.exe started 
+31/10/2021 20:18:48  Program started 
+31/10/2021 20:18:49  Preparing to start chromedriver.exe 
+31/10/2021 20:18:50  Chromedriver.exe started 
+31/10/2021 20:18:56  Preparing to start chromedriver.exe 
+31/10/2021 20:18:57  Chromedriver.exe started 
+31/10/2021 20:21:49  Program started 
+31/10/2021 20:21:50  Preparing to start chromedriver.exe 
+31/10/2021 20:21:51  Chromedriver.exe started 
+31/10/2021 20:21:59  Preparing to start chromedriver.exe 
+31/10/2021 20:22:00  Chromedriver.exe started 
+31/10/2021 20:22:27  Program started 
+31/10/2021 20:22:28  Preparing to start chromedriver.exe 
+31/10/2021 20:22:29  Chromedriver.exe started 
+31/10/2021 20:22:57  Program started 
+31/10/2021 20:22:57  Preparing to start chromedriver.exe 
+31/10/2021 20:22:59  Chromedriver.exe started 
+31/10/2021 20:23:05  Preparing to start chromedriver.exe 
+31/10/2021 20:23:06  Chromedriver.exe started 
+31/10/2021 20:24:40  Program started 
+31/10/2021 20:24:41  Preparing to start chromedriver.exe 
+31/10/2021 20:24:42  Chromedriver.exe started 
+31/10/2021 20:24:48  Preparing to start chromedriver.exe 
+31/10/2021 20:24:49  Chromedriver.exe started 
+31/10/2021 20:32:09  Program started 
+31/10/2021 20:32:10  Preparing to start chromedriver.exe 
+31/10/2021 20:32:11  Chromedriver.exe started 
+31/10/2021 20:32:23  Preparing to start chromedriver.exe 
+31/10/2021 20:32:24  Chromedriver.exe started 
+31/10/2021 20:35:49  Program started 
+31/10/2021 20:35:49  Preparing to start chromedriver.exe 
+31/10/2021 20:35:50  Chromedriver.exe started 
+31/10/2021 20:36:00  Preparing to start chromedriver.exe 
+31/10/2021 20:36:01  Chromedriver.exe started 
+31/10/2021 20:37:04  Program started 
+31/10/2021 20:37:04  Preparing to start chromedriver.exe 
+31/10/2021 20:37:05  Chromedriver.exe started 
+31/10/2021 20:37:15  Preparing to start chromedriver.exe 
+31/10/2021 20:37:16  Chromedriver.exe started 
+31/10/2021 20:39:54  Program started 
+31/10/2021 20:39:55  Preparing to start chromedriver.exe 
+31/10/2021 20:39:56  Chromedriver.exe started 
+31/10/2021 20:40:07  Preparing to start chromedriver.exe 
+31/10/2021 20:40:08  Chromedriver.exe started 
+31/10/2021 20:43:12  Program started 
+31/10/2021 20:43:13  Preparing to start chromedriver.exe 
+31/10/2021 20:43:14  Chromedriver.exe started 
+31/10/2021 20:43:24  Preparing to start chromedriver.exe 
+31/10/2021 20:43:25  Chromedriver.exe started 
+31/10/2021 20:52:19  Program started 
+31/10/2021 20:52:20  Preparing to start chromedriver.exe 
+31/10/2021 20:52:21  Chromedriver.exe started 
+31/10/2021 20:52:33  Preparing to start chromedriver.exe 
+31/10/2021 20:52:34  Chromedriver.exe started 
+31/10/2021 20:56:40  Program started 
+31/10/2021 20:56:41  Preparing to start chromedriver.exe 
+31/10/2021 20:56:42  Chromedriver.exe started 
+31/10/2021 20:56:49  Preparing to start chromedriver.exe 
+31/10/2021 20:56:50  Chromedriver.exe started 
+31/10/2021 21:10:08  Program started 
+31/10/2021 21:10:08  Preparing to start chromedriver.exe 
+31/10/2021 21:10:09  Chromedriver.exe started 
+31/10/2021 21:10:16  Preparing to start chromedriver.exe 
+31/10/2021 21:10:17  Chromedriver.exe started 
+31/10/2021 21:11:14  Program started 
+31/10/2021 21:11:15  Preparing to start chromedriver.exe 
+31/10/2021 21:11:16  Chromedriver.exe started 
+31/10/2021 21:11:22  Preparing to start chromedriver.exe 
+31/10/2021 21:11:23  Chromedriver.exe started 
+01/11/2021 10:40:40  Program started 
+01/11/2021 10:40:40  Preparing to start chromedriver.exe 
+01/11/2021 10:40:41  Chromedriver.exe started 
+01/11/2021 10:41:01  Program started 
+01/11/2021 10:41:01  Preparing to start chromedriver.exe 
+01/11/2021 10:41:02  Chromedriver.exe started 
+01/11/2021 10:41:08  Preparing to start chromedriver.exe 
+01/11/2021 10:41:09  Chromedriver.exe started 
+01/11/2021 10:44:11  Program started 
+01/11/2021 10:44:11  Preparing to start chromedriver.exe 
+01/11/2021 10:44:12  Chromedriver.exe started 
+01/11/2021 10:44:18  Preparing to start chromedriver.exe 
+01/11/2021 10:44:19  Chromedriver.exe started 
+01/11/2021 10:50:53  Program started 
+01/11/2021 10:50:54  Preparing to start chromedriver.exe 
+01/11/2021 10:50:55  Chromedriver.exe started 
+01/11/2021 10:51:02  Preparing to start chromedriver.exe 
+01/11/2021 10:51:03  Chromedriver.exe started 
+01/11/2021 10:56:54  Program started 
+01/11/2021 10:56:55  Preparing to start chromedriver.exe 
+01/11/2021 10:56:56  Chromedriver.exe started 
+01/11/2021 10:57:01  Preparing to start chromedriver.exe 
+01/11/2021 10:57:02  Chromedriver.exe started 
+01/11/2021 20:01:48  Program started 
+01/11/2021 20:01:48  Preparing to start chromedriver.exe 
+01/11/2021 20:01:50  Chromedriver.exe started 
+01/11/2021 20:01:56  Preparing to start chromedriver.exe 
+01/11/2021 20:01:57  Chromedriver.exe started 
+01/11/2021 20:05:12  Program started 
+01/11/2021 20:05:13  Preparing to start chromedriver.exe 
+01/11/2021 20:05:14  Chromedriver.exe started 
+01/11/2021 20:05:19  Preparing to start chromedriver.exe 
+01/11/2021 20:05:20  Chromedriver.exe started 
+01/11/2021 20:06:40  Program started 
+01/11/2021 20:06:41  Preparing to start chromedriver.exe 
+01/11/2021 20:06:42  Chromedriver.exe started 
+01/11/2021 20:06:46  Preparing to start chromedriver.exe 
+01/11/2021 20:06:47  Chromedriver.exe started 
+01/11/2021 20:10:35  Program started 
+01/11/2021 20:10:36  Preparing to start chromedriver.exe 
+01/11/2021 20:10:37  Chromedriver.exe started 
+01/11/2021 20:10:41  Preparing to start chromedriver.exe 
+01/11/2021 20:10:43  Chromedriver.exe started 
+01/11/2021 20:12:28  Program started 
+01/11/2021 20:12:28  Preparing to start chromedriver.exe 
+01/11/2021 20:12:29  Chromedriver.exe started 
+01/11/2021 20:12:33  Preparing to start chromedriver.exe 
+01/11/2021 20:12:34  Chromedriver.exe started 
+01/11/2021 20:14:41  Program started 
+01/11/2021 20:14:41  Preparing to start chromedriver.exe 
+01/11/2021 20:14:42  Chromedriver.exe started 
+01/11/2021 20:14:46  Preparing to start chromedriver.exe 
+01/11/2021 20:14:47  Chromedriver.exe started 
+01/11/2021 20:15:11  Program started 
+01/11/2021 20:15:11  Preparing to start chromedriver.exe 
+01/11/2021 20:15:12  Chromedriver.exe started 
+01/11/2021 20:15:16  Preparing to start chromedriver.exe 
+01/11/2021 20:15:18  Chromedriver.exe started 
+01/11/2021 20:18:03  Program started 
+01/11/2021 20:18:04  Preparing to start chromedriver.exe 
+01/11/2021 20:18:05  Chromedriver.exe started 
+01/11/2021 20:18:13  Preparing to start chromedriver.exe 
+01/11/2021 20:18:15  Chromedriver.exe started 
+01/11/2021 20:21:42  Program started 
+01/11/2021 20:21:43  Preparing to start chromedriver.exe 
+01/11/2021 20:21:44  Chromedriver.exe started 
+01/11/2021 20:21:53  Preparing to start chromedriver.exe 
+01/11/2021 20:21:54  Chromedriver.exe started 
+01/11/2021 20:31:10  Program started 
+01/11/2021 20:31:12  Preparing to start chromedriver.exe 
+01/11/2021 20:31:13  Chromedriver.exe started 
+01/11/2021 20:31:25  Preparing to start chromedriver.exe 
+01/11/2021 20:31:26  Chromedriver.exe started 
+01/11/2021 20:33:21  Program started 
+01/11/2021 20:33:22  Preparing to start chromedriver.exe 
+01/11/2021 20:33:23  Chromedriver.exe started 
+01/11/2021 20:33:31  Preparing to start chromedriver.exe 
+01/11/2021 20:33:32  Chromedriver.exe started 
+01/11/2021 20:33:43  Preparing to start chromedriver.exe 
+01/11/2021 20:33:45  Chromedriver.exe started 
+01/11/2021 20:37:49  Program started 
+01/11/2021 20:37:50  Preparing to start chromedriver.exe 
+01/11/2021 20:37:51  Chromedriver.exe started 
+01/11/2021 20:38:01  Preparing to start chromedriver.exe 
+01/11/2021 20:38:02  Chromedriver.exe started 
+01/11/2021 20:38:12  Preparing to start chromedriver.exe 
+01/11/2021 20:38:13  Chromedriver.exe started 
+01/11/2021 20:38:29  Preparing to start chromedriver.exe 
+01/11/2021 20:38:30  Chromedriver.exe started 
+01/11/2021 22:55:19  Program started 
+01/11/2021 22:55:20  Preparing to start chromedriver.exe 
+01/11/2021 22:55:21  Chromedriver.exe started 
+01/11/2021 22:56:01  Program started 
+01/11/2021 22:56:01  Preparing to start chromedriver.exe 
+01/11/2021 22:56:02  Chromedriver.exe started 
+01/11/2021 22:56:07  Preparing to start chromedriver.exe 
+01/11/2021 22:56:08  Chromedriver.exe started 
+01/11/2021 22:56:25  Preparing to start chromedriver.exe 
+01/11/2021 22:56:26  Chromedriver.exe started 
+01/11/2021 22:56:35  Preparing to start chromedriver.exe 
+01/11/2021 22:56:36  Chromedriver.exe started 
+01/11/2021 23:02:08  Program started 
+01/11/2021 23:02:08  Preparing to start chromedriver.exe 
+01/11/2021 23:02:09  Chromedriver.exe started 
+01/11/2021 23:02:14  Preparing to start chromedriver.exe 
+01/11/2021 23:02:15  Chromedriver.exe started 
+01/11/2021 23:02:24  Preparing to start chromedriver.exe 
+01/11/2021 23:02:26  Chromedriver.exe started 
+01/11/2021 23:02:36  Preparing to start chromedriver.exe 
+01/11/2021 23:02:38  Chromedriver.exe started 
+01/11/2021 23:03:03  Preparing to start chromedriver.exe 
+01/11/2021 23:03:04  Chromedriver.exe started 
+01/11/2021 23:03:58  Preparing to start chromedriver.exe 
+01/11/2021 23:03:59  Chromedriver.exe started 
+01/11/2021 23:05:24  Preparing to start chromedriver.exe 
+01/11/2021 23:05:25  Chromedriver.exe started 
+01/11/2021 23:07:17  Preparing to start chromedriver.exe 
+01/11/2021 23:07:19  Chromedriver.exe started 
+02/11/2021 12:19:42  Program started 
+02/11/2021 12:19:43  Preparing to start chromedriver.exe 
+02/11/2021 12:19:44  Chromedriver.exe started 
+02/11/2021 12:19:49  Preparing to start chromedriver.exe 
+02/11/2021 12:19:50  Chromedriver.exe started 
+02/11/2021 12:20:43  Program started 
+02/11/2021 12:20:44  Preparing to start chromedriver.exe 
+02/11/2021 12:20:45  Chromedriver.exe started 
+02/11/2021 12:20:50  Preparing to start chromedriver.exe 
+02/11/2021 12:20:51  Chromedriver.exe started 
+02/11/2021 12:23:05  Program started 
+02/11/2021 12:23:06  Preparing to start chromedriver.exe 
+02/11/2021 12:23:07  Chromedriver.exe started 
+02/11/2021 12:23:13  Preparing to start chromedriver.exe 
+02/11/2021 12:23:14  Chromedriver.exe started 
+02/11/2021 12:29:30  Program started 
+02/11/2021 12:29:30  Preparing to start chromedriver.exe 
+02/11/2021 12:29:31  Chromedriver.exe started 
+02/11/2021 12:29:37  Preparing to start chromedriver.exe 
+02/11/2021 12:29:38  Chromedriver.exe started 
+02/11/2021 12:30:03  Program started 
+02/11/2021 12:30:04  Preparing to start chromedriver.exe 
+02/11/2021 12:30:05  Chromedriver.exe started 
+02/11/2021 12:30:10  Preparing to start chromedriver.exe 
+02/11/2021 12:30:11  Chromedriver.exe started 
+02/11/2021 12:30:59  Program started 
+02/11/2021 12:30:59  Preparing to start chromedriver.exe 
+02/11/2021 12:31:00  Chromedriver.exe started 
+02/11/2021 12:31:06  Preparing to start chromedriver.exe 
+02/11/2021 12:31:07  Chromedriver.exe started 
+02/11/2021 12:35:01  Program started 
+02/11/2021 12:35:02  Preparing to start chromedriver.exe 
+02/11/2021 12:35:03  Chromedriver.exe started 
+02/11/2021 12:35:08  Preparing to start chromedriver.exe 
+02/11/2021 12:35:10  Chromedriver.exe started 
+02/11/2021 12:35:30  Program started 
+02/11/2021 12:35:30  Preparing to start chromedriver.exe 
+02/11/2021 12:35:31  Chromedriver.exe started 
+02/11/2021 12:35:37  Preparing to start chromedriver.exe 
+02/11/2021 12:35:38  Chromedriver.exe started 
+02/11/2021 12:36:12  Program started 
+02/11/2021 12:36:13  Preparing to start chromedriver.exe 
+02/11/2021 12:36:14  Chromedriver.exe started 
+02/11/2021 12:36:20  Preparing to start chromedriver.exe 
+02/11/2021 12:36:21  Chromedriver.exe started 
+02/11/2021 12:38:37  Program started 
+02/11/2021 12:38:37  Preparing to start chromedriver.exe 
+02/11/2021 12:38:38  Chromedriver.exe started 
+02/11/2021 12:38:44  Preparing to start chromedriver.exe 
+02/11/2021 12:38:45  Chromedriver.exe started 
+02/11/2021 12:43:24  Program started 
+02/11/2021 12:43:25  Preparing to start chromedriver.exe 
+02/11/2021 12:43:26  Chromedriver.exe started 
+02/11/2021 12:43:32  Preparing to start chromedriver.exe 
+02/11/2021 12:43:33  Chromedriver.exe started 
+02/11/2021 12:46:02  Program started 
+02/11/2021 12:46:03  Preparing to start chromedriver.exe 
+02/11/2021 12:46:04  Chromedriver.exe started 
+02/11/2021 12:46:10  Preparing to start chromedriver.exe 
+02/11/2021 12:46:11  Chromedriver.exe started 
+02/11/2021 12:48:34  Program started 
+02/11/2021 12:48:35  Preparing to start chromedriver.exe 
+02/11/2021 12:48:36  Chromedriver.exe started 
+02/11/2021 12:48:42  Preparing to start chromedriver.exe 
+02/11/2021 12:48:43  Chromedriver.exe started 
+02/11/2021 12:49:24  Program started 
+02/11/2021 12:49:26  Preparing to start chromedriver.exe 
+02/11/2021 12:49:27  Chromedriver.exe started 
+02/11/2021 12:49:32  Preparing to start chromedriver.exe 
+02/11/2021 12:49:33  Chromedriver.exe started 
+02/11/2021 12:51:50  Program started 
+02/11/2021 12:51:50  Preparing to start chromedriver.exe 
+02/11/2021 12:51:51  Chromedriver.exe started 
+02/11/2021 12:51:57  Preparing to start chromedriver.exe 
+02/11/2021 12:51:58  Chromedriver.exe started 
+02/11/2021 12:56:33  Program started 
+02/11/2021 12:56:34  Preparing to start chromedriver.exe 
+02/11/2021 12:56:35  Chromedriver.exe started 
+02/11/2021 12:56:41  Preparing to start chromedriver.exe 
+02/11/2021 12:56:42  Chromedriver.exe started 
+02/11/2021 13:05:44  Program started 
+02/11/2021 13:05:45  Preparing to start chromedriver.exe 
+02/11/2021 13:05:46  Chromedriver.exe started 
+02/11/2021 13:05:55  Preparing to start chromedriver.exe 
+02/11/2021 13:05:56  Chromedriver.exe started 
+02/11/2021 13:11:00  Program started 
+02/11/2021 13:11:00  Preparing to start chromedriver.exe 
+02/11/2021 13:11:01  Chromedriver.exe started 
+02/11/2021 13:11:07  Preparing to start chromedriver.exe 
+02/11/2021 13:11:09  Chromedriver.exe started 
+02/11/2021 13:11:17  Preparing to start chromedriver.exe 
+02/11/2021 13:11:18  Chromedriver.exe started 
+02/11/2021 13:11:30  Preparing to start chromedriver.exe 
+02/11/2021 13:11:31  Chromedriver.exe started 
+02/11/2021 13:15:21  Program started 
+02/11/2021 13:15:22  Preparing to start chromedriver.exe 
+02/11/2021 13:15:23  Chromedriver.exe started 
+02/11/2021 13:15:31  Preparing to start chromedriver.exe 
+02/11/2021 13:15:33  Chromedriver.exe started 
+02/11/2021 13:15:43  Preparing to start chromedriver.exe 
+02/11/2021 13:15:44  Chromedriver.exe started 
+02/11/2021 13:16:01  Preparing to start chromedriver.exe 
+02/11/2021 13:16:02  Chromedriver.exe started 
+02/11/2021 13:53:45  Program started 
+02/11/2021 13:53:45  Preparing to start chromedriver.exe 
+02/11/2021 13:53:46  Chromedriver.exe started 
+02/11/2021 13:54:00  Preparing to start chromedriver.exe 
+02/11/2021 13:54:01  Chromedriver.exe started 
+02/11/2021 13:55:55  Program started 
+02/11/2021 13:55:56  Preparing to start chromedriver.exe 
+02/11/2021 13:55:57  Chromedriver.exe started 
+02/11/2021 13:56:05  Preparing to start chromedriver.exe 
+02/11/2021 13:56:07  Chromedriver.exe started 
+02/11/2021 13:56:51  Preparing to start chromedriver.exe 
+02/11/2021 13:56:52  Chromedriver.exe started 
+02/11/2021 13:57:17  Preparing to start chromedriver.exe 
+02/11/2021 13:57:18  Chromedriver.exe started 
+02/11/2021 13:57:29  Preparing to start chromedriver.exe 
+02/11/2021 13:57:30  Chromedriver.exe started 
+02/11/2021 13:57:43  Preparing to start chromedriver.exe 
+02/11/2021 13:57:44  Chromedriver.exe started 
+02/11/2021 14:05:08  Preparing to start chromedriver.exe 
+02/11/2021 14:05:09  Chromedriver.exe started 
+02/11/2021 14:05:25  Preparing to start chromedriver.exe 
+02/11/2021 14:05:27  Chromedriver.exe started 
+02/11/2021 14:05:34  Preparing to start chromedriver.exe 
+02/11/2021 14:05:36  Chromedriver.exe started 
+02/11/2021 14:05:46  Preparing to start chromedriver.exe 
+02/11/2021 14:05:47  Chromedriver.exe started 
+02/11/2021 14:06:23  Preparing to start chromedriver.exe 
+02/11/2021 14:06:24  Chromedriver.exe started 
+02/11/2021 14:06:55  Preparing to start chromedriver.exe 
+02/11/2021 14:06:57  Chromedriver.exe started 
+02/11/2021 14:07:14  Preparing to start chromedriver.exe 
+02/11/2021 14:07:15  Chromedriver.exe started 
+02/11/2021 14:07:47  Preparing to start chromedriver.exe 
+02/11/2021 14:07:48  Chromedriver.exe started 
+02/11/2021 14:08:24  Preparing to start chromedriver.exe 
+02/11/2021 14:08:25  Chromedriver.exe started 
+02/11/2021 14:08:33  Preparing to start chromedriver.exe 
+02/11/2021 14:08:35  Chromedriver.exe started 
+02/11/2021 14:09:52  Preparing to start chromedriver.exe 
+02/11/2021 14:09:53  Chromedriver.exe started 
+02/11/2021 14:13:46  Preparing to start chromedriver.exe 
+02/11/2021 14:13:47  Chromedriver.exe started 
+02/11/2021 14:13:54  Program finished 
+ 
+02/11/2021 14:23:02  Program started 
+02/11/2021 14:23:02  Program finished, everything was ap tu date 
+ 
+02/11/2021 14:23:15  Program started 
+02/11/2021 14:23:15  Started git sync on boot 
+02/11/2021 14:23:18  Finished git sync on boot 
+02/11/2021 14:23:18  Preparing to start chromedriver.exe 
+02/11/2021 14:23:19  Chromedriver.exe started 
+02/11/2021 14:23:34  Preparing to start chromedriver.exe 
+02/11/2021 14:23:35  Chromedriver.exe started 
+02/11/2021 14:24:26  Preparing to start chromedriver.exe 
+02/11/2021 14:24:27  Chromedriver.exe started 
+02/11/2021 14:25:43  Preparing to start chromedriver.exe 
+02/11/2021 14:25:44  Chromedriver.exe started 
+02/11/2021 14:25:55  Preparing to start chromedriver.exe 
+02/11/2021 14:25:56  Chromedriver.exe started 
+02/11/2021 14:26:09  Preparing to start chromedriver.exe 
+02/11/2021 14:26:10  Chromedriver.exe started 
+02/11/2021 14:26:50  Preparing to start chromedriver.exe 
+02/11/2021 14:26:51  Chromedriver.exe started 
+02/11/2021 14:27:08  Preparing to start chromedriver.exe 
+02/11/2021 14:27:09  Chromedriver.exe started 
+02/11/2021 14:27:18  Preparing to start chromedriver.exe 
+02/11/2021 14:27:19  Chromedriver.exe started 
+02/11/2021 14:27:30  Preparing to start chromedriver.exe 
+02/11/2021 14:27:31  Chromedriver.exe started 
+02/11/2021 14:27:56  Preparing to start chromedriver.exe 
+02/11/2021 14:27:58  Chromedriver.exe started 
+02/11/2021 14:28:24  Preparing to start chromedriver.exe 
+02/11/2021 14:28:25  Chromedriver.exe started 
+02/11/2021 14:28:33  Preparing to start chromedriver.exe 
+02/11/2021 14:28:34  Chromedriver.exe started 
+02/11/2021 14:28:51  Preparing to start chromedriver.exe 
+02/11/2021 14:28:52  Chromedriver.exe started 
+02/11/2021 14:29:15  Preparing to start chromedriver.exe 
+02/11/2021 14:29:16  Chromedriver.exe started 
+02/11/2021 14:29:25  Preparing to start chromedriver.exe 
+02/11/2021 14:29:26  Chromedriver.exe started 
+02/11/2021 14:29:36  Preparing to start chromedriver.exe 
+02/11/2021 14:29:37  Chromedriver.exe started 
+02/11/2021 14:29:53  Preparing to start chromedriver.exe 
+02/11/2021 14:29:54  Chromedriver.exe started 
+02/11/2021 14:30:01  Started git sync on finish 
+02/11/2021 14:30:07  Finished git sync on finish 
+02/11/2021 14:30:07  Program finished 
+ 
+<<<<<<< HEAD
+05/11/2021 16:45:50  Program started 
+05/11/2021 16:45:50  Started git sync on boot 
+05/11/2021 16:45:57  Finished git sync on boot 
+05/11/2021 16:45:57  Preparing to start chromedriver.exe 
+05/11/2021 16:46:06  Chromedriver.exe started 
+05/11/2021 16:46:22  Preparing to start chromedriver.exe 
+05/11/2021 16:46:23  Chromedriver.exe started 
+05/11/2021 16:47:08  Preparing to start chromedriver.exe 
+05/11/2021 16:47:09  Chromedriver.exe started 
+05/11/2021 16:50:16  Preparing to start chromedriver.exe 
+05/11/2021 16:50:17  Chromedriver.exe started 
+05/11/2021 16:50:27  Preparing to start chromedriver.exe 
+05/11/2021 16:50:28  Chromedriver.exe started 
+05/11/2021 16:51:30  Preparing to start chromedriver.exe 
+05/11/2021 16:51:32  Chromedriver.exe started 
+05/11/2021 16:52:13  Preparing to start chromedriver.exe 
+05/11/2021 16:52:15  Chromedriver.exe started 
+05/11/2021 16:52:34  Preparing to start chromedriver.exe 
+05/11/2021 16:52:35  Chromedriver.exe started 
+05/11/2021 16:52:49  Preparing to start chromedriver.exe 
+05/11/2021 16:52:50  Chromedriver.exe started 
+05/11/2021 16:53:01  Preparing to start chromedriver.exe 
+05/11/2021 16:53:02  Chromedriver.exe started 
+05/11/2021 16:53:45  Preparing to start chromedriver.exe 
+05/11/2021 16:53:46  Chromedriver.exe started 
+05/11/2021 16:54:46  Preparing to start chromedriver.exe 
+05/11/2021 16:54:47  Chromedriver.exe started 
+05/11/2021 16:55:59  Preparing to start chromedriver.exe 
+05/11/2021 16:56:00  Chromedriver.exe started 
+05/11/2021 16:57:28  Preparing to start chromedriver.exe 
+05/11/2021 16:57:29  Chromedriver.exe started 
+05/11/2021 16:57:51  Preparing to start chromedriver.exe 
+05/11/2021 16:57:52  Chromedriver.exe started 
+05/11/2021 16:58:01  Preparing to start chromedriver.exe 
+05/11/2021 16:58:02  Chromedriver.exe started 
+05/11/2021 16:59:31  Preparing to start chromedriver.exe 
+05/11/2021 16:59:32  Chromedriver.exe started 
+05/11/2021 17:03:34  Preparing to start chromedriver.exe 
+05/11/2021 17:03:35  Chromedriver.exe started 
+05/11/2021 17:03:42  Started git sync on finish 
+05/11/2021 17:03:45  Finished git sync on finish 
+05/11/2021 17:03:45  Program finished 
+=======
+02/11/2021 18:21:00  Program started 
+02/11/2021 18:21:00  Program finished, everything was ap tu date 
+ 
+02/11/2021 18:21:10  Program started 
+02/11/2021 18:21:10  Started git sync on boot 
+02/11/2021 18:21:12  Finished git sync on boot 
+02/11/2021 18:22:04  Preparing to start chromedriver.exe 
+02/11/2021 18:22:05  Chromedriver.exe started 
+02/11/2021 18:22:16  Preparing to start chromedriver.exe 
+02/11/2021 18:22:17  Chromedriver.exe started 
+02/11/2021 18:22:57  Preparing to start chromedriver.exe 
+02/11/2021 18:22:58  Chromedriver.exe started 
+02/11/2021 18:23:55  Preparing to start chromedriver.exe 
+02/11/2021 18:23:56  Chromedriver.exe started 
+02/11/2021 18:24:06  Preparing to start chromedriver.exe 
+02/11/2021 18:24:07  Chromedriver.exe started 
+02/11/2021 18:24:18  Preparing to start chromedriver.exe 
+02/11/2021 18:24:19  Chromedriver.exe started 
+02/11/2021 18:24:58  Preparing to start chromedriver.exe 
+02/11/2021 18:24:59  Chromedriver.exe started 
+02/11/2021 18:25:14  Preparing to start chromedriver.exe 
+02/11/2021 18:25:15  Chromedriver.exe started 
+02/11/2021 18:25:22  Preparing to start chromedriver.exe 
+02/11/2021 18:25:23  Chromedriver.exe started 
+02/11/2021 18:25:33  Preparing to start chromedriver.exe 
+02/11/2021 18:25:34  Chromedriver.exe started 
+02/11/2021 18:25:57  Preparing to start chromedriver.exe 
+02/11/2021 18:25:58  Chromedriver.exe started 
+02/11/2021 18:26:22  Preparing to start chromedriver.exe 
+02/11/2021 18:26:23  Chromedriver.exe started 
+02/11/2021 18:26:31  Preparing to start chromedriver.exe 
+02/11/2021 18:26:32  Chromedriver.exe started 
+02/11/2021 18:26:47  Preparing to start chromedriver.exe 
+02/11/2021 18:26:49  Chromedriver.exe started 
+02/11/2021 18:27:07  Preparing to start chromedriver.exe 
+02/11/2021 18:27:08  Chromedriver.exe started 
+02/11/2021 18:27:15  Preparing to start chromedriver.exe 
+02/11/2021 18:27:16  Chromedriver.exe started 
+02/11/2021 18:27:33  Preparing to start chromedriver.exe 
+02/11/2021 18:27:34  Chromedriver.exe started 
+02/11/2021 18:28:34  Preparing to start chromedriver.exe 
+02/11/2021 18:28:35  Chromedriver.exe started 
+02/11/2021 18:28:42  Started git sync on finish 
+02/11/2021 18:28:43  Finished git sync on finish 
+02/11/2021 18:28:43  Program finished 
+ 
+03/11/2021 14:18:54  Program started 
+03/11/2021 14:18:54  Started git sync on boot 
+03/11/2021 14:18:56  Finished git sync on boot 
+04/11/2021 09:56:42  Program started 
+04/11/2021 09:56:42  Started git sync on boot 
+04/11/2021 09:56:44  Finished git sync on boot 
+04/11/2021 09:57:08  Preparing to start chromedriver.exe 
+04/11/2021 09:57:10  Chromedriver.exe started 
+04/11/2021 09:57:22  Preparing to start chromedriver.exe 
+04/11/2021 09:57:23  Chromedriver.exe started 
+04/11/2021 09:58:07  Preparing to start chromedriver.exe 
+04/11/2021 09:58:08  Chromedriver.exe started 
+04/11/2021 09:58:59  Preparing to start chromedriver.exe 
+04/11/2021 09:59:00  Chromedriver.exe started 
+04/11/2021 09:59:10  Preparing to start chromedriver.exe 
+04/11/2021 09:59:11  Chromedriver.exe started 
+04/11/2021 09:59:57  Preparing to start chromedriver.exe 
+04/11/2021 09:59:58  Chromedriver.exe started 
+04/11/2021 10:00:37  Preparing to start chromedriver.exe 
+04/11/2021 10:00:38  Chromedriver.exe started 
+04/11/2021 10:00:54  Preparing to start chromedriver.exe 
+04/11/2021 10:00:55  Chromedriver.exe started 
+04/11/2021 10:01:02  Preparing to start chromedriver.exe 
+04/11/2021 10:01:03  Chromedriver.exe started 
+04/11/2021 10:01:12  Preparing to start chromedriver.exe 
+04/11/2021 10:01:13  Chromedriver.exe started 
+04/11/2021 10:01:50  Preparing to start chromedriver.exe 
+04/11/2021 10:01:51  Chromedriver.exe started 
+04/11/2021 10:02:29  Preparing to start chromedriver.exe 
+04/11/2021 10:02:30  Chromedriver.exe started 
+04/11/2021 10:02:39  Preparing to start chromedriver.exe 
+04/11/2021 10:02:40  Chromedriver.exe started 
+04/11/2021 10:03:06  Preparing to start chromedriver.exe 
+04/11/2021 10:03:07  Chromedriver.exe started 
+04/11/2021 10:03:25  Preparing to start chromedriver.exe 
+04/11/2021 10:03:26  Chromedriver.exe started 
+04/11/2021 10:03:33  Preparing to start chromedriver.exe 
+04/11/2021 10:03:34  Chromedriver.exe started 
+04/11/2021 10:03:46  Preparing to start chromedriver.exe 
+04/11/2021 10:03:47  Chromedriver.exe started 
+04/11/2021 10:09:19  Preparing to start chromedriver.exe 
+04/11/2021 10:09:20  Chromedriver.exe started 
+04/11/2021 10:09:27  Started git sync on finish 
+04/11/2021 10:09:28  Finished git sync on finish 
+04/11/2021 10:09:28  Program finished 
+>>>>>>> fd707837e83628013c8b4a497c6d4bb14919007a
+ 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8ce02496a15e71e19db7c22c2caae390cb3b48d6
+>>>>>>> 939a3af01d942946b8f3cfcb296641d068202454
+09/11/2021 23:06:50  Program started 
+09/11/2021 23:06:50  Started git sync on boot 
+09/11/2021 23:06:53  Finished git sync on boot 
+09/11/2021 23:07:50  Preparing to start chromedriver.exe 
+09/11/2021 23:07:51  Chromedriver.exe started 
+09/11/2021 23:08:03  Preparing to start chromedriver.exe 
+09/11/2021 23:08:04  Chromedriver.exe started 
+09/11/2021 23:08:49  Preparing to start chromedriver.exe 
+09/11/2021 23:08:50  Chromedriver.exe started 
+09/11/2021 23:12:23  Preparing to start chromedriver.exe 
+09/11/2021 23:12:25  Chromedriver.exe started 
+09/11/2021 23:12:44  Preparing to start chromedriver.exe 
+09/11/2021 23:12:45  Chromedriver.exe started 
+09/11/2021 23:14:17  Preparing to start chromedriver.exe 
+09/11/2021 23:14:18  Chromedriver.exe started 
+09/11/2021 23:15:41  Preparing to start chromedriver.exe 
+09/11/2021 23:15:42  Chromedriver.exe started 
+09/11/2021 23:16:05  Preparing to start chromedriver.exe 
+09/11/2021 23:16:06  Chromedriver.exe started 
+09/11/2021 23:16:14  Preparing to start chromedriver.exe 
+09/11/2021 23:16:15  Chromedriver.exe started 
+09/11/2021 23:16:25  Preparing to start chromedriver.exe 
+09/11/2021 23:16:26  Chromedriver.exe started 
+09/11/2021 23:17:29  Preparing to start chromedriver.exe 
+09/11/2021 23:17:31  Chromedriver.exe started 
+09/11/2021 23:18:04  Preparing to start chromedriver.exe 
+09/11/2021 23:18:05  Chromedriver.exe started 
+09/11/2021 23:19:03  Preparing to start chromedriver.exe 
+09/11/2021 23:19:04  Chromedriver.exe started 
+09/11/2021 23:20:16  Preparing to start chromedriver.exe 
+09/11/2021 23:20:17  Chromedriver.exe started 
+09/11/2021 23:20:36  Preparing to start chromedriver.exe 
+09/11/2021 23:20:37  Chromedriver.exe started 
+09/11/2021 23:20:44  Preparing to start chromedriver.exe 
+09/11/2021 23:20:45  Chromedriver.exe started 
+09/11/2021 23:22:06  Preparing to start chromedriver.exe 
+09/11/2021 23:22:07  Chromedriver.exe started 
+09/11/2021 23:28:49  Preparing to start chromedriver.exe 
+09/11/2021 23:28:50  Chromedriver.exe started 
+09/11/2021 23:28:56  Started git sync on finish 
+09/11/2021 23:28:58  Finished git sync on finish 
+09/11/2021 23:28:58  Program finished 
+ 
+10/11/2021 13:48:24  Program started 
+10/11/2021 13:48:25  Started git sync on boot 
+10/11/2021 13:49:02  Finished git sync on boot 
+10/11/2021 13:49:10  Preparing to start chromedriver.exe 
+10/11/2021 13:49:13  Chromedriver.exe started 
+10/11/2021 13:49:28  Preparing to start chromedriver.exe 
+10/11/2021 13:49:29  Chromedriver.exe started 
+10/11/2021 13:50:18  Preparing to start chromedriver.exe 
+10/11/2021 13:50:19  Chromedriver.exe started 
+10/11/2021 13:50:36  Preparing to start chromedriver.exe 
+10/11/2021 13:50:37  Chromedriver.exe started 
+10/11/2021 13:50:48  Preparing to start chromedriver.exe 
+10/11/2021 13:50:49  Chromedriver.exe started 
+10/11/2021 13:51:00  Preparing to start chromedriver.exe 
+10/11/2021 13:51:01  Chromedriver.exe started 
+10/11/2021 13:51:39  Preparing to start chromedriver.exe 
+10/11/2021 13:51:40  Chromedriver.exe started 
+10/11/2021 13:51:58  Preparing to start chromedriver.exe 
+10/11/2021 13:51:59  Chromedriver.exe started 
+10/11/2021 13:52:28  Preparing to start chromedriver.exe 
+10/11/2021 13:52:32  Chromedriver.exe started 
+10/11/2021 13:52:50  Preparing to start chromedriver.exe 
+10/11/2021 13:52:51  Chromedriver.exe started 
+10/11/2021 13:53:17  Preparing to start chromedriver.exe 
+10/11/2021 13:53:18  Chromedriver.exe started 
+10/11/2021 13:53:44  Preparing to start chromedriver.exe 
+10/11/2021 13:53:45  Chromedriver.exe started 
+10/11/2021 13:53:54  Preparing to start chromedriver.exe 
+10/11/2021 13:53:55  Chromedriver.exe started 
+10/11/2021 13:55:20  Preparing to start chromedriver.exe 
+10/11/2021 13:55:21  Chromedriver.exe started 
+10/11/2021 13:55:40  Preparing to start chromedriver.exe 
+10/11/2021 13:55:41  Chromedriver.exe started 
+10/11/2021 13:55:49  Preparing to start chromedriver.exe 
+10/11/2021 13:55:50  Chromedriver.exe started 
+10/11/2021 13:56:09  Preparing to start chromedriver.exe 
+10/11/2021 13:56:10  Chromedriver.exe started 
+10/11/2021 13:58:06  Preparing to start chromedriver.exe 
+10/11/2021 13:58:07  Chromedriver.exe started 
+10/11/2021 13:58:15  Started git sync on finish 
+10/11/2021 13:58:16  Finished git sync on finish 
+10/11/2021 13:58:16  Program finished 
+ 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+13/11/2021 15:04:35  Program started 
+13/11/2021 15:04:35  Started git sync on boot 
+13/11/2021 15:04:40  Finished git sync on boot 
+13/11/2021 15:04:40  Preparing to start chromedriver.exe 
+13/11/2021 15:04:42  Chromedriver.exe started 
+13/11/2021 15:04:57  Preparing to start chromedriver.exe 
+13/11/2021 15:04:58  Chromedriver.exe started 
+13/11/2021 15:05:52  Preparing to start chromedriver.exe 
+13/11/2021 15:05:53  Chromedriver.exe started 
+13/11/2021 15:06:47  Preparing to start chromedriver.exe 
+13/11/2021 15:06:48  Chromedriver.exe started 
+13/11/2021 15:06:58  Preparing to start chromedriver.exe 
+13/11/2021 15:06:59  Chromedriver.exe started 
+13/11/2021 15:07:12  Preparing to start chromedriver.exe 
+13/11/2021 15:07:13  Chromedriver.exe started 
+13/11/2021 15:09:37  Preparing to start chromedriver.exe 
+13/11/2021 15:09:38  Chromedriver.exe started 
+13/11/2021 15:09:53  Preparing to start chromedriver.exe 
+13/11/2021 15:09:54  Chromedriver.exe started 
+13/11/2021 15:10:03  Preparing to start chromedriver.exe 
+13/11/2021 15:10:04  Chromedriver.exe started 
+13/11/2021 15:10:38  Preparing to start chromedriver.exe 
+13/11/2021 15:10:39  Chromedriver.exe started 
+13/11/2021 15:11:27  Preparing to start chromedriver.exe 
+13/11/2021 15:11:28  Chromedriver.exe started 
+13/11/2021 15:11:52  Preparing to start chromedriver.exe 
+13/11/2021 15:11:53  Chromedriver.exe started 
+13/11/2021 15:12:02  Preparing to start chromedriver.exe 
+13/11/2021 15:12:03  Chromedriver.exe started 
+13/11/2021 15:12:45  Preparing to start chromedriver.exe 
+13/11/2021 15:12:46  Chromedriver.exe started 
+13/11/2021 15:13:05  Preparing to start chromedriver.exe 
+13/11/2021 15:13:06  Chromedriver.exe started 
+13/11/2021 15:13:13  Preparing to start chromedriver.exe 
+13/11/2021 15:13:14  Chromedriver.exe started 
+13/11/2021 15:14:35  Preparing to start chromedriver.exe 
+13/11/2021 15:14:36  Chromedriver.exe started 
+13/11/2021 15:18:15  Preparing to start chromedriver.exe 
+13/11/2021 15:18:17  Chromedriver.exe started 
+13/11/2021 15:18:23  Started git sync on finish 
+13/11/2021 15:18:25  Finished git sync on finish 
+13/11/2021 15:18:25  Program finished 
+ 
+=======
+12/11/2021 13:19:49  Program started 
+12/11/2021 13:19:50  Started git sync on boot 
+12/11/2021 13:19:57  Finished git sync on boot 
+12/11/2021 13:19:57  Preparing to start chromedriver.exe 
+12/11/2021 13:19:59  Chromedriver.exe started 
+12/11/2021 13:20:18  Preparing to start chromedriver.exe 
+12/11/2021 13:20:19  Chromedriver.exe started 
+12/11/2021 13:21:08  Preparing to start chromedriver.exe 
+12/11/2021 13:21:09  Chromedriver.exe started 
+12/11/2021 13:22:16  Preparing to start chromedriver.exe 
+12/11/2021 13:22:18  Chromedriver.exe started 
+12/11/2021 13:22:29  Preparing to start chromedriver.exe 
+12/11/2021 13:22:31  Chromedriver.exe started 
+12/11/2021 13:22:43  Preparing to start chromedriver.exe 
+12/11/2021 13:22:45  Chromedriver.exe started 
+12/11/2021 13:24:33  Preparing to start chromedriver.exe 
+12/11/2021 13:24:34  Chromedriver.exe started 
+12/11/2021 13:24:52  Preparing to start chromedriver.exe 
+12/11/2021 13:24:53  Chromedriver.exe started 
+12/11/2021 13:25:05  Preparing to start chromedriver.exe 
+12/11/2021 13:25:06  Chromedriver.exe started 
+12/11/2021 13:25:50  Preparing to start chromedriver.exe 
+12/11/2021 13:25:52  Chromedriver.exe started 
+12/11/2021 13:26:48  Preparing to start chromedriver.exe 
+12/11/2021 13:26:49  Chromedriver.exe started 
+12/11/2021 13:27:17  Preparing to start chromedriver.exe 
+12/11/2021 13:27:18  Chromedriver.exe started 
+12/11/2021 13:27:29  Preparing to start chromedriver.exe 
+12/11/2021 13:27:30  Chromedriver.exe started 
+12/11/2021 13:28:03  Preparing to start chromedriver.exe 
+12/11/2021 13:28:04  Chromedriver.exe started 
+12/11/2021 13:28:25  Preparing to start chromedriver.exe 
+12/11/2021 13:28:27  Chromedriver.exe started 
+12/11/2021 13:28:36  Preparing to start chromedriver.exe 
+12/11/2021 13:28:37  Chromedriver.exe started 
+12/11/2021 13:30:17  Preparing to start chromedriver.exe 
+12/11/2021 13:30:18  Chromedriver.exe started 
+12/11/2021 13:34:31  Preparing to start chromedriver.exe 
+12/11/2021 13:34:33  Chromedriver.exe started 
+12/11/2021 13:34:39  Started git sync on finish 
+12/11/2021 13:34:43  Finished git sync on finish 
+12/11/2021 13:34:43  Program finished 
+ 
+=======
+06/11/2021 14:09:06  Program started 
+06/11/2021 14:11:39  Program started 
+06/11/2021 14:44:53  Program started 
+07/11/2021 22:25:15  Program started 
+07/11/2021 22:25:15  Started git sync on boot 
+07/11/2021 22:25:19  Finished git sync on boot 
+07/11/2021 22:25:19  Preparing to start chromedriver.exe 
+07/11/2021 22:25:21  Chromedriver.exe started 
+07/11/2021 22:25:35  Preparing to start chromedriver.exe 
+07/11/2021 22:25:36  Chromedriver.exe started 
+07/11/2021 22:26:31  Preparing to start chromedriver.exe 
+07/11/2021 22:26:32  Chromedriver.exe started 
+07/11/2021 22:27:03  Preparing to start chromedriver.exe 
+07/11/2021 22:27:04  Chromedriver.exe started 
+07/11/2021 22:27:15  Preparing to start chromedriver.exe 
+07/11/2021 22:27:16  Chromedriver.exe started 
+07/11/2021 22:27:28  Preparing to start chromedriver.exe 
+07/11/2021 22:27:29  Chromedriver.exe started 
+07/11/2021 22:28:55  Preparing to start chromedriver.exe 
+07/11/2021 22:28:56  Chromedriver.exe started 
+07/11/2021 22:29:12  Preparing to start chromedriver.exe 
+07/11/2021 22:29:13  Chromedriver.exe started 
+07/11/2021 22:29:21  Preparing to start chromedriver.exe 
+07/11/2021 22:29:22  Chromedriver.exe started 
+07/11/2021 22:29:31  Preparing to start chromedriver.exe 
+07/11/2021 22:29:32  Chromedriver.exe started 
+07/11/2021 22:29:58  Preparing to start chromedriver.exe 
+07/11/2021 22:29:59  Chromedriver.exe started 
+07/11/2021 22:30:24  Preparing to start chromedriver.exe 
+07/11/2021 22:30:25  Chromedriver.exe started 
+07/11/2021 22:31:29  Preparing to start chromedriver.exe 
+07/11/2021 22:31:30  Chromedriver.exe started 
+07/11/2021 22:32:06  Preparing to start chromedriver.exe 
+07/11/2021 22:32:07  Chromedriver.exe started 
+07/11/2021 22:32:27  Preparing to start chromedriver.exe 
+07/11/2021 22:32:28  Chromedriver.exe started 
+07/11/2021 22:32:35  Preparing to start chromedriver.exe 
+07/11/2021 22:32:36  Chromedriver.exe started 
+07/11/2021 22:32:45  Preparing to start chromedriver.exe 
+07/11/2021 22:32:46  Chromedriver.exe started 
+07/11/2021 22:36:47  Preparing to start chromedriver.exe 
+07/11/2021 22:36:49  Chromedriver.exe started 
+07/11/2021 22:37:06  Started git sync on finish 
+07/11/2021 22:37:11  Finished git sync on finish 
+07/11/2021 22:37:11  Program finished 
+ 
+08/11/2021 14:33:30  Program started 
+08/11/2021 14:33:30  Started git sync on boot 
+08/11/2021 14:33:34  Finished git sync on boot 
+08/11/2021 14:33:34  Preparing to start chromedriver.exe 
+08/11/2021 14:33:35  Chromedriver.exe started 
+08/11/2021 14:33:50  Preparing to start chromedriver.exe 
+08/11/2021 14:33:52  Chromedriver.exe started 
+08/11/2021 14:34:34  Preparing to start chromedriver.exe 
+08/11/2021 14:34:36  Chromedriver.exe started 
+08/11/2021 14:35:23  Preparing to start chromedriver.exe 
+08/11/2021 14:35:24  Chromedriver.exe started 
+08/11/2021 14:35:35  Preparing to start chromedriver.exe 
+08/11/2021 14:35:36  Chromedriver.exe started 
+08/11/2021 14:35:49  Preparing to start chromedriver.exe 
+08/11/2021 14:35:50  Chromedriver.exe started 
+08/11/2021 14:36:32  Preparing to start chromedriver.exe 
+08/11/2021 14:36:33  Chromedriver.exe started 
+08/11/2021 14:36:50  Preparing to start chromedriver.exe 
+08/11/2021 14:36:51  Chromedriver.exe started 
+08/11/2021 14:37:01  Preparing to start chromedriver.exe 
+08/11/2021 14:37:02  Chromedriver.exe started 
+08/11/2021 14:37:12  Preparing to start chromedriver.exe 
+08/11/2021 14:37:13  Chromedriver.exe started 
+08/11/2021 14:38:29  Preparing to start chromedriver.exe 
+08/11/2021 14:38:30  Chromedriver.exe started 
+08/11/2021 14:38:58  Preparing to start chromedriver.exe 
+08/11/2021 14:38:59  Chromedriver.exe started 
+08/11/2021 14:39:10  Preparing to start chromedriver.exe 
+08/11/2021 14:39:12  Chromedriver.exe started 
+08/11/2021 14:39:59  Preparing to start chromedriver.exe 
+08/11/2021 14:40:00  Chromedriver.exe started 
+08/11/2021 14:40:22  Preparing to start chromedriver.exe 
+08/11/2021 14:40:24  Chromedriver.exe started 
+08/11/2021 14:40:32  Preparing to start chromedriver.exe 
+08/11/2021 14:40:33  Chromedriver.exe started 
+08/11/2021 14:40:55  Preparing to start chromedriver.exe 
+08/11/2021 14:40:56  Chromedriver.exe started 
+08/11/2021 14:42:23  Preparing to start chromedriver.exe 
+08/11/2021 14:42:24  Chromedriver.exe started 
+08/11/2021 14:42:30  Started git sync on finish 
+08/11/2021 14:42:35  Finished git sync on finish 
+08/11/2021 14:42:35  Program finished 
+ 
+11/11/2021 23:10:08  Program started 
+11/11/2021 23:10:08  Started git sync on boot 
+11/11/2021 23:10:13  Finished git sync on boot 
+11/11/2021 23:10:14  Preparing to start chromedriver.exe 
+11/11/2021 23:10:15  Chromedriver.exe started 
+11/11/2021 23:10:29  Preparing to start chromedriver.exe 
+11/11/2021 23:10:30  Chromedriver.exe started 
+11/11/2021 23:11:13  Preparing to start chromedriver.exe 
+11/11/2021 23:11:14  Chromedriver.exe started 
+11/11/2021 23:12:41  Preparing to start chromedriver.exe 
+11/11/2021 23:12:42  Chromedriver.exe started 
+11/11/2021 23:12:52  Preparing to start chromedriver.exe 
+11/11/2021 23:12:53  Chromedriver.exe started 
+11/11/2021 23:14:32  Preparing to start chromedriver.exe 
+11/11/2021 23:14:33  Chromedriver.exe started 
+11/11/2021 23:16:15  Preparing to start chromedriver.exe 
+11/11/2021 23:16:16  Chromedriver.exe started 
+11/11/2021 23:16:41  Preparing to start chromedriver.exe 
+11/11/2021 23:16:42  Chromedriver.exe started 
+11/11/2021 23:16:50  Preparing to start chromedriver.exe 
+11/11/2021 23:16:52  Chromedriver.exe started 
+11/11/2021 23:17:29  Preparing to start chromedriver.exe 
+11/11/2021 23:17:30  Chromedriver.exe started 
+11/11/2021 23:17:54  Preparing to start chromedriver.exe 
+11/11/2021 23:17:55  Chromedriver.exe started 
+11/11/2021 23:18:20  Preparing to start chromedriver.exe 
+11/11/2021 23:18:21  Chromedriver.exe started 
+11/11/2021 23:18:32  Preparing to start chromedriver.exe 
+11/11/2021 23:18:33  Chromedriver.exe started 
+11/11/2021 23:20:07  Preparing to start chromedriver.exe 
+11/11/2021 23:20:08  Chromedriver.exe started 
+11/11/2021 23:20:29  Preparing to start chromedriver.exe 
+11/11/2021 23:20:30  Chromedriver.exe started 
+11/11/2021 23:20:39  Preparing to start chromedriver.exe 
+11/11/2021 23:20:40  Chromedriver.exe started 
+11/11/2021 23:22:04  Preparing to start chromedriver.exe 
+11/11/2021 23:22:05  Chromedriver.exe started 
+11/11/2021 23:26:22  Preparing to start chromedriver.exe 
+11/11/2021 23:26:24  Chromedriver.exe started 
+11/11/2021 23:26:30  Started git sync on finish 
+11/11/2021 23:26:33  Finished git sync on finish 
+11/11/2021 23:26:33  Program finished 
+ 
+11/11/2021 23:31:43  Program started 
+11/11/2021 23:31:43  Program finished, everything was ap tu date 
+ 
+11/11/2021 23:32:15  Program started 
+11/11/2021 23:32:15  Started git sync on boot 
+11/11/2021 23:32:20  Finished git sync on boot 
+11/11/2021 23:32:21  Preparing to start chromedriver.exe 
+11/11/2021 23:32:22  Chromedriver.exe started 
+11/11/2021 23:32:34  Preparing to start chromedriver.exe 
+11/11/2021 23:32:35  Chromedriver.exe started 
+11/11/2021 23:33:24  Preparing to start chromedriver.exe 
+11/11/2021 23:33:25  Chromedriver.exe started 
+11/11/2021 23:33:43  Preparing to start chromedriver.exe 
+11/11/2021 23:33:45  Chromedriver.exe started 
+11/11/2021 23:33:56  Preparing to start chromedriver.exe 
+11/11/2021 23:33:57  Chromedriver.exe started 
+11/11/2021 23:34:10  Preparing to start chromedriver.exe 
+11/11/2021 23:34:11  Chromedriver.exe started 
+11/11/2021 23:34:51  Preparing to start chromedriver.exe 
+11/11/2021 23:34:52  Chromedriver.exe started 
+11/11/2021 23:35:09  Preparing to start chromedriver.exe 
+11/11/2021 23:35:10  Chromedriver.exe started 
+11/11/2021 23:35:20  Preparing to start chromedriver.exe 
+11/11/2021 23:35:21  Chromedriver.exe started 
+11/11/2021 23:35:32  Preparing to start chromedriver.exe 
+11/11/2021 23:35:33  Chromedriver.exe started 
+11/11/2021 23:35:58  Preparing to start chromedriver.exe 
+11/11/2021 23:35:59  Chromedriver.exe started 
+11/11/2021 23:36:25  Preparing to start chromedriver.exe 
+11/11/2021 23:36:26  Chromedriver.exe started 
+11/11/2021 23:36:35  Preparing to start chromedriver.exe 
+11/11/2021 23:36:36  Chromedriver.exe started 
+11/11/2021 23:36:45  Preparing to start chromedriver.exe 
+11/11/2021 23:36:46  Chromedriver.exe started 
+11/11/2021 23:37:07  Preparing to start chromedriver.exe 
+11/11/2021 23:37:08  Chromedriver.exe started 
+11/11/2021 23:37:16  Preparing to start chromedriver.exe 
+11/11/2021 23:37:17  Chromedriver.exe started 
+11/11/2021 23:37:27  Preparing to start chromedriver.exe 
+11/11/2021 23:37:29  Chromedriver.exe started 
+11/11/2021 23:37:45  Preparing to start chromedriver.exe 
+11/11/2021 23:37:46  Chromedriver.exe started 
+11/11/2021 23:37:52  Started git sync on finish 
+>>>>>>> 831aaf05cb68ef6c4b50754b2a1eefe8ba4f1143
+>>>>>>> 8ce02496a15e71e19db7c22c2caae390cb3b48d6
+14/11/2021 13:14:17  Program started 
+14/11/2021 13:14:35  Program started 
+14/11/2021 13:14:35  Started git sync on boot 
+14/11/2021 13:14:40  Finished git sync on boot 
+14/11/2021 13:14:40  Preparing to start chromedriver.exe 
+14/11/2021 13:14:41  Chromedriver.exe started 
+14/11/2021 13:14:58  Preparing to start chromedriver.exe 
+14/11/2021 13:14:59  Chromedriver.exe started 
+14/11/2021 13:15:53  Preparing to start chromedriver.exe 
+14/11/2021 13:15:54  Chromedriver.exe started 
+14/11/2021 13:16:12  Preparing to start chromedriver.exe 
+14/11/2021 13:16:13  Chromedriver.exe started 
+14/11/2021 13:16:24  Preparing to start chromedriver.exe 
+14/11/2021 13:16:25  Chromedriver.exe started 
+14/11/2021 13:16:38  Preparing to start chromedriver.exe 
+14/11/2021 13:16:39  Chromedriver.exe started 
+14/11/2021 13:17:18  Preparing to start chromedriver.exe 
+14/11/2021 13:17:19  Chromedriver.exe started 
+14/11/2021 13:17:36  Preparing to start chromedriver.exe 
+14/11/2021 13:17:37  Chromedriver.exe started 
+14/11/2021 13:17:47  Preparing to start chromedriver.exe 
+14/11/2021 13:17:48  Chromedriver.exe started 
+14/11/2021 23:17:16  Program started 
+14/11/2021 23:17:16  Started git sync on boot 
+14/11/2021 23:17:23  Finished git sync on boot 
+14/11/2021 23:17:24  Preparing to start chromedriver.exe 
+14/11/2021 23:17:26  Chromedriver.exe started 
+14/11/2021 23:17:40  Preparing to start chromedriver.exe 
+14/11/2021 23:17:41  Chromedriver.exe started 
+14/11/2021 23:18:27  Preparing to start chromedriver.exe 
+14/11/2021 23:18:28  Chromedriver.exe started 
+14/11/2021 23:18:46  Preparing to start chromedriver.exe 
+14/11/2021 23:18:48  Chromedriver.exe started 
+14/11/2021 23:18:58  Preparing to start chromedriver.exe 
+14/11/2021 23:18:59  Chromedriver.exe started 
+14/11/2021 23:19:13  Preparing to start chromedriver.exe 
+14/11/2021 23:19:14  Chromedriver.exe started 
+14/11/2021 23:20:53  Preparing to start chromedriver.exe 
+14/11/2021 23:20:54  Chromedriver.exe started 
+14/11/2021 23:21:11  Preparing to start chromedriver.exe 
+14/11/2021 23:21:12  Chromedriver.exe started 
+14/11/2021 23:21:21  Preparing to start chromedriver.exe 
+14/11/2021 23:21:22  Chromedriver.exe started 
+14/11/2021 23:21:33  Preparing to start chromedriver.exe 
+14/11/2021 23:21:34  Chromedriver.exe started 
+14/11/2021 23:22:01  Preparing to start chromedriver.exe 
+14/11/2021 23:22:02  Chromedriver.exe started 
+14/11/2021 23:22:31  Preparing to start chromedriver.exe 
+14/11/2021 23:22:32  Chromedriver.exe started 
+14/11/2021 23:22:42  Preparing to start chromedriver.exe 
+14/11/2021 23:22:43  Chromedriver.exe started 
+14/11/2021 23:23:18  Preparing to start chromedriver.exe 
+14/11/2021 23:23:19  Chromedriver.exe started 
+14/11/2021 23:23:39  Preparing to start chromedriver.exe 
+14/11/2021 23:23:40  Chromedriver.exe started 
+14/11/2021 23:23:50  Preparing to start chromedriver.exe 
+14/11/2021 23:23:51  Chromedriver.exe started 
+14/11/2021 23:24:08  Preparing to start chromedriver.exe 
+14/11/2021 23:24:10  Chromedriver.exe started 
+14/11/2021 23:27:26  Preparing to start chromedriver.exe 
+14/11/2021 23:27:27  Chromedriver.exe started 
+14/11/2021 23:27:34  Started git sync on finish 
+<<<<<<< HEAD
+14/11/2021 23:27:38  Finished git sync on finish 
+14/11/2021 23:27:38  Program finished 
+ 
+21/11/2021 15:03:38  Program started 
+21/11/2021 15:03:38  Started git sync on boot 
+21/11/2021 15:03:42  Finished git sync on boot 
+21/11/2021 15:03:42  Preparing to start chromedriver.exe 
+=======
+>>>>>>> 939a3af01d942946b8f3cfcb296641d068202454
+16/11/2021 12:56:24  Program started 
+16/11/2021 12:56:25  Started git sync on boot 
+16/11/2021 12:56:26  Finished git sync on boot 
+16/11/2021 13:55:17  Preparing to start chromedriver.exe 
+16/11/2021 13:55:20  Chromedriver.exe started 
+16/11/2021 13:55:33  Preparing to start chromedriver.exe 
+16/11/2021 13:55:34  Chromedriver.exe started 
+16/11/2021 13:59:07  Preparing to start chromedriver.exe 
+16/11/2021 13:59:08  Chromedriver.exe started 
+16/11/2021 14:00:57  Preparing to start chromedriver.exe 
+16/11/2021 14:00:58  Chromedriver.exe started 
+16/11/2021 14:01:08  Preparing to start chromedriver.exe 
+16/11/2021 14:01:09  Chromedriver.exe started 
+16/11/2021 14:01:50  Preparing to start chromedriver.exe 
+16/11/2021 14:01:51  Chromedriver.exe started 
+16/11/2021 14:04:55  Preparing to start chromedriver.exe 
+16/11/2021 14:04:56  Chromedriver.exe started 
+16/11/2021 14:05:11  Preparing to start chromedriver.exe 
+16/11/2021 14:05:12  Chromedriver.exe started 
+16/11/2021 14:05:21  Preparing to start chromedriver.exe 
+16/11/2021 14:05:22  Chromedriver.exe started 
+16/11/2021 14:05:55  Preparing to start chromedriver.exe 
+16/11/2021 14:05:56  Chromedriver.exe started 
+16/11/2021 14:07:08  Preparing to start chromedriver.exe 
+16/11/2021 14:07:09  Chromedriver.exe started 
+16/11/2021 14:07:37  Preparing to start chromedriver.exe 
+16/11/2021 14:07:38  Chromedriver.exe started 
+16/11/2021 14:07:49  Preparing to start chromedriver.exe 
+16/11/2021 14:07:50  Chromedriver.exe started 
+16/11/2021 14:08:49  Preparing to start chromedriver.exe 
+16/11/2021 14:08:50  Chromedriver.exe started 
+16/11/2021 14:09:08  Preparing to start chromedriver.exe 
+16/11/2021 14:09:09  Chromedriver.exe started 
+16/11/2021 14:09:17  Preparing to start chromedriver.exe 
+16/11/2021 14:09:18  Chromedriver.exe started 
+16/11/2021 14:10:45  Preparing to start chromedriver.exe 
+16/11/2021 14:10:46  Chromedriver.exe started 
+16/11/2021 14:14:57  Preparing to start chromedriver.exe 
+16/11/2021 14:14:58  Chromedriver.exe started 
+16/11/2021 14:15:04  Started git sync on finish 
+16/11/2021 14:15:05  Finished git sync on finish 
+16/11/2021 14:15:05  Program finished 
+ 
+17/11/2021 08:37:44  Program started 
+17/11/2021 08:37:44  Started git sync on boot 
+17/11/2021 08:37:46  Finished git sync on boot 
+17/11/2021 08:37:47  Preparing to start chromedriver.exe 
+17/11/2021 08:37:48  Chromedriver.exe started 
+17/11/2021 08:38:01  Preparing to start chromedriver.exe 
+17/11/2021 08:38:02  Chromedriver.exe started 
+17/11/2021 08:38:51  Preparing to start chromedriver.exe 
+17/11/2021 08:38:52  Chromedriver.exe started 
+17/11/2021 08:40:42  Preparing to start chromedriver.exe 
+17/11/2021 08:40:43  Chromedriver.exe started 
+17/11/2021 08:40:53  Preparing to start chromedriver.exe 
+17/11/2021 08:40:54  Chromedriver.exe started 
+17/11/2021 08:41:33  Preparing to start chromedriver.exe 
+17/11/2021 08:41:34  Chromedriver.exe started 
+17/11/2021 08:59:15  Program started 
+17/11/2021 08:59:15  Started git sync on boot 
+17/11/2021 08:59:17  Finished git sync on boot 
+17/11/2021 08:59:18  Preparing to start chromedriver.exe 
+17/11/2021 08:59:19  Chromedriver.exe started 
+17/11/2021 08:59:30  Preparing to start chromedriver.exe 
+17/11/2021 08:59:31  Chromedriver.exe started 
+17/11/2021 09:00:17  Preparing to start chromedriver.exe 
+17/11/2021 09:00:18  Chromedriver.exe started 
+17/11/2021 09:00:35  Preparing to start chromedriver.exe 
+17/11/2021 09:00:36  Chromedriver.exe started 
+17/11/2021 09:00:45  Preparing to start chromedriver.exe 
+17/11/2021 09:00:46  Chromedriver.exe started 
+17/11/2021 09:00:57  Preparing to start chromedriver.exe 
+17/11/2021 09:00:58  Chromedriver.exe started 
+17/11/2021 09:01:37  Preparing to start chromedriver.exe 
+17/11/2021 09:01:38  Chromedriver.exe started 
+17/11/2021 09:01:54  Preparing to start chromedriver.exe 
+17/11/2021 09:01:55  Chromedriver.exe started 
+17/11/2021 09:02:06  Preparing to start chromedriver.exe 
+17/11/2021 09:02:07  Chromedriver.exe started 
+17/11/2021 09:02:16  Preparing to start chromedriver.exe 
+17/11/2021 09:02:17  Chromedriver.exe started 
+17/11/2021 09:02:41  Preparing to start chromedriver.exe 
+17/11/2021 09:02:42  Chromedriver.exe started 
+17/11/2021 09:03:11  Preparing to start chromedriver.exe 
+17/11/2021 09:03:12  Chromedriver.exe started 
+17/11/2021 09:04:23  Preparing to start chromedriver.exe 
+17/11/2021 09:04:24  Chromedriver.exe started 
+17/11/2021 09:04:44  Preparing to start chromedriver.exe 
+17/11/2021 09:04:45  Chromedriver.exe started 
+17/11/2021 09:05:05  Preparing to start chromedriver.exe 
+17/11/2021 09:05:06  Chromedriver.exe started 
+17/11/2021 09:05:14  Preparing to start chromedriver.exe 
+17/11/2021 09:05:15  Chromedriver.exe started 
+17/11/2021 09:05:56  Preparing to start chromedriver.exe 
+17/11/2021 09:05:57  Chromedriver.exe started 
+17/11/2021 09:08:18  Preparing to start chromedriver.exe 
+17/11/2021 09:08:19  Chromedriver.exe started 
+17/11/2021 09:08:26  Started git sync on finish 
+17/11/2021 09:08:27  Finished git sync on finish 
+17/11/2021 09:08:27  Program finished 
+ 
+<<<<<<< HEAD
+23/11/2021 15:39:57  Program started 
+23/11/2021 15:39:57  Started git sync on boot 
+23/11/2021 15:39:58  Finished git sync on boot 
+23/11/2021 15:39:59  Preparing to start chromedriver.exe 
+23/11/2021 15:42:45  Program started 
+23/11/2021 15:42:45  Started git sync on boot 
+23/11/2021 15:42:47  Finished git sync on boot 
+23/11/2021 15:42:47  Preparing to start chromedriver.exe 
+=======
+>>>>>>> d86bafbe0b78da131bf2b20c9b6e21a1d18c4cd4
+25/11/2021 05:04:23  Program started 
+25/11/2021 05:04:24  Started git sync on boot 
+25/11/2021 05:04:27  Finished git sync on boot 
+25/11/2021 05:04:28  Preparing to start chromedriver.exe 
+25/11/2021 17:41:14  Program started 
+25/11/2021 17:41:14  Started git sync on boot 
+25/11/2021 17:41:18  Finished git sync on boot 
+25/11/2021 17:41:19  Preparing to start chromedriver.exe 
+25/11/2021 17:42:45  Program started 
+25/11/2021 17:42:45  Started git sync on boot 
+25/11/2021 17:42:49  Finished git sync on boot 
+25/11/2021 17:42:49  Preparing to start chromedriver.exe 
+25/11/2021 17:42:53  Chromedriver.exe failed to start 
+25/11/2021 17:44:16  Program started 
+25/11/2021 17:44:16  Started git sync on boot 
+25/11/2021 17:44:20  Finished git sync on boot 
+25/11/2021 17:44:21  Preparing to start chromedriver.exe 
+25/11/2021 17:44:22  Chromedriver.exe started 
+25/11/2021 17:44:31  Preparing to start chromedriver.exe 
+25/11/2021 17:44:32  Chromedriver.exe started 
+25/11/2021 17:45:17  Preparing to start chromedriver.exe 
+25/11/2021 17:45:18  Chromedriver.exe started 
+25/11/2021 17:46:23  Preparing to start chromedriver.exe 
+25/11/2021 17:46:25  Chromedriver.exe started 
+25/11/2021 17:46:35  Preparing to start chromedriver.exe 
+25/11/2021 17:46:37  Chromedriver.exe started 
+25/11/2021 17:48:16  Preparing to start chromedriver.exe 
+25/11/2021 17:48:17  Chromedriver.exe started 
+25/11/2021 17:57:58  Preparing to start chromedriver.exe 
+25/11/2021 17:57:59  Chromedriver.exe started 
+25/11/2021 17:58:16  Preparing to start chromedriver.exe 
+25/11/2021 17:58:17  Chromedriver.exe started 
+25/11/2021 17:58:25  Preparing to start chromedriver.exe 
+25/11/2021 17:58:26  Chromedriver.exe started 
+25/11/2021 17:58:37  Preparing to start chromedriver.exe 
+25/11/2021 17:58:38  Chromedriver.exe started 
+25/11/2021 18:00:12  Preparing to start chromedriver.exe 
+25/11/2021 18:00:13  Chromedriver.exe started 
+25/11/2021 18:00:40  Preparing to start chromedriver.exe 
+25/11/2021 18:00:41  Chromedriver.exe started 
+25/11/2021 18:01:43  Preparing to start chromedriver.exe 
+25/11/2021 18:01:44  Chromedriver.exe started 
+25/11/2021 18:15:02  Preparing to start chromedriver.exe 
+25/11/2021 18:15:03  Chromedriver.exe started 
+25/11/2021 18:15:26  Preparing to start chromedriver.exe 
+25/11/2021 18:15:27  Chromedriver.exe started 
+25/11/2021 18:15:35  Preparing to start chromedriver.exe 
+25/11/2021 18:15:36  Chromedriver.exe started 
+25/11/2021 18:17:27  Preparing to start chromedriver.exe 
+25/11/2021 18:17:28  Chromedriver.exe started 
+25/11/2021 18:22:02  Preparing to start chromedriver.exe 
+25/11/2021 18:22:03  Chromedriver.exe started 
+25/11/2021 18:22:23  Started git sync on finish 
+25/11/2021 18:22:31  Finished git sync on finish 
+25/11/2021 18:22:31  Program finished 
+ 
+26/11/2021 17:23:59  Program started 
+26/11/2021 17:23:59  Started git sync on boot 
+26/11/2021 17:24:09  Finished git sync on boot 
+26/11/2021 17:24:10  Preparing to start chromedriver.exe 
+26/11/2021 17:24:17  Chromedriver.exe started 
+26/11/2021 17:24:31  Preparing to start chromedriver.exe 
+26/11/2021 17:24:32  Chromedriver.exe started 
+26/11/2021 17:26:44  Preparing to start chromedriver.exe 
+26/11/2021 17:26:46  Chromedriver.exe started 
+26/11/2021 17:27:09  Preparing to start chromedriver.exe 
+26/11/2021 17:27:10  Chromedriver.exe started 
+26/11/2021 17:27:21  Preparing to start chromedriver.exe 
+26/11/2021 17:27:22  Chromedriver.exe started 
+26/11/2021 17:28:20  Preparing to start chromedriver.exe 
+26/11/2021 17:28:21  Chromedriver.exe started 
+26/11/2021 17:31:33  Preparing to start chromedriver.exe 
+26/11/2021 17:31:34  Chromedriver.exe started 
+26/11/2021 17:31:50  Preparing to start chromedriver.exe 
+26/11/2021 17:31:51  Chromedriver.exe started 
+26/11/2021 17:32:00  Preparing to start chromedriver.exe 
+26/11/2021 17:32:01  Chromedriver.exe started 
+26/11/2021 17:32:37  Preparing to start chromedriver.exe 
+26/11/2021 17:32:38  Chromedriver.exe started 
+26/11/2021 17:33:01  Preparing to start chromedriver.exe 
+26/11/2021 17:33:02  Chromedriver.exe started 
+26/11/2021 17:33:27  Preparing to start chromedriver.exe 
+26/11/2021 17:33:28  Chromedriver.exe started 
+26/11/2021 17:34:26  Preparing to start chromedriver.exe 
+26/11/2021 17:34:26  Chromedriver.exe started 
+26/11/2021 17:39:50  Preparing to start chromedriver.exe 
+26/11/2021 17:39:51  Chromedriver.exe started 
+26/11/2021 17:40:10  Preparing to start chromedriver.exe 
+26/11/2021 17:40:11  Chromedriver.exe started 
+26/11/2021 17:40:18  Preparing to start chromedriver.exe 
+26/11/2021 17:40:20  Chromedriver.exe started 
+26/11/2021 17:40:38  Preparing to start chromedriver.exe 
+26/11/2021 17:40:39  Chromedriver.exe started 
+26/11/2021 17:43:48  Preparing to start chromedriver.exe 
+26/11/2021 17:43:50  Chromedriver.exe started 
+26/11/2021 17:43:56  Started git sync on finish 
+26/11/2021 17:43:59  Finished git sync on finish 
+26/11/2021 17:43:59  Program finished 
+ 
+30/11/2021 11:04:52  Program started 
+30/11/2021 11:04:52  Started git sync on boot 
+30/11/2021 11:04:58  Finished git sync on boot 
+30/11/2021 11:04:58  Preparing to start chromedriver.exe 
+30/11/2021 11:04:59  Chromedriver.exe started 
+30/11/2021 11:05:11  Preparing to start chromedriver.exe 
+30/11/2021 11:05:12  Chromedriver.exe started 
+30/11/2021 11:06:02  Preparing to start chromedriver.exe 
+30/11/2021 11:06:03  Chromedriver.exe started 
+30/11/2021 11:07:46  Preparing to start chromedriver.exe 
+30/11/2021 11:07:47  Chromedriver.exe started 
+30/11/2021 11:07:58  Preparing to start chromedriver.exe 
+30/11/2021 11:07:59  Chromedriver.exe started 
+30/11/2021 11:08:11  Preparing to start chromedriver.exe 
+30/11/2021 11:08:12  Chromedriver.exe started 
+30/11/2021 11:10:32  Preparing to start chromedriver.exe 
+30/11/2021 11:10:33  Chromedriver.exe started 
+30/11/2021 11:10:49  Preparing to start chromedriver.exe 
+30/11/2021 11:10:50  Chromedriver.exe started 
+30/11/2021 11:10:59  Preparing to start chromedriver.exe 
+30/11/2021 11:11:00  Chromedriver.exe started 
+30/11/2021 11:11:10  Preparing to start chromedriver.exe 
+30/11/2021 11:11:12  Chromedriver.exe started 
+30/11/2021 11:12:07  Preparing to start chromedriver.exe 
+30/11/2021 11:12:08  Chromedriver.exe started 
+30/11/2021 11:12:34  Preparing to start chromedriver.exe 
+30/11/2021 11:12:35  Chromedriver.exe started 
+30/11/2021 11:12:49  Preparing to start chromedriver.exe 
+30/11/2021 11:12:50  Chromedriver.exe started 
+30/11/2021 11:15:03  Preparing to start chromedriver.exe 
+30/11/2021 11:15:04  Chromedriver.exe started 
+30/11/2021 11:15:24  Preparing to start chromedriver.exe 
+30/11/2021 11:15:25  Chromedriver.exe started 
+30/11/2021 11:15:33  Preparing to start chromedriver.exe 
+30/11/2021 11:15:34  Chromedriver.exe started 
+30/11/2021 11:16:54  Preparing to start chromedriver.exe 
+30/11/2021 11:16:55  Chromedriver.exe started 
+30/11/2021 11:21:04  Preparing to start chromedriver.exe 
+30/11/2021 11:21:05  Chromedriver.exe started 
+30/11/2021 11:21:16  Preparing to start chromedriver.exe 
+30/11/2021 11:21:17  Chromedriver.exe started 
+30/11/2021 11:29:44  Started git sync on finish 
+<<<<<<< HEAD
+30/11/2021 11:29:48  Finished git sync on finish 
+30/11/2021 11:29:48  Program finished 
+ 
+04/12/2021 18:14:20  Program started 
+04/12/2021 18:14:20  Started git sync on boot 
+04/12/2021 18:14:26  Finished git sync on boot 
+04/12/2021 18:14:27  Preparing to start chromedriver.exe 
+04/12/2021 18:14:31  Chromedriver.exe started 
+04/12/2021 18:14:31  Chromedriver.exe failed to start 
+=======
+>>>>>>> fe807327ebc008985db098cfe19163b1237d5c96
+30/11/2021 12:50:26  Program started 
+30/11/2021 12:50:26  Program finished, everything was ap tu date 
+ 
+30/11/2021 12:52:25  Program started 
+30/11/2021 12:52:25  Started git sync on boot 
+30/11/2021 12:52:27  Finished git sync on boot 
+30/11/2021 12:52:27  Preparing to start chromedriver.exe 
+30/11/2021 12:52:30  Chromedriver.exe started 
+30/11/2021 12:52:44  Preparing to start chromedriver.exe 
+30/11/2021 12:52:45  Chromedriver.exe started 
+30/11/2021 12:53:31  Preparing to start chromedriver.exe 
+30/11/2021 12:53:32  Chromedriver.exe started 
+30/11/2021 12:55:50  Preparing to start chromedriver.exe 
+30/11/2021 12:55:51  Chromedriver.exe started 
+30/11/2021 12:56:02  Preparing to start chromedriver.exe 
+30/11/2021 12:56:03  Chromedriver.exe started 
+30/11/2021 12:57:53  Preparing to start chromedriver.exe 
+30/11/2021 12:57:54  Chromedriver.exe started 
+30/11/2021 13:03:47  Preparing to start chromedriver.exe 
+30/11/2021 13:03:48  Chromedriver.exe started 
+30/11/2021 13:04:04  Preparing to start chromedriver.exe 
+30/11/2021 13:04:05  Chromedriver.exe started 
+30/11/2021 13:04:12  Preparing to start chromedriver.exe 
+30/11/2021 13:04:13  Chromedriver.exe started 
+30/11/2021 13:04:50  Preparing to start chromedriver.exe 
+30/11/2021 13:04:51  Chromedriver.exe started 
+30/11/2021 13:06:52  Preparing to start chromedriver.exe 
+30/11/2021 13:06:53  Chromedriver.exe started 
+30/11/2021 13:07:17  Preparing to start chromedriver.exe 
+30/11/2021 13:07:18  Chromedriver.exe started 
+30/11/2021 13:08:21  Preparing to start chromedriver.exe 
+30/11/2021 13:08:22  Chromedriver.exe started 
+30/11/2021 13:10:31  Preparing to start chromedriver.exe 
+30/11/2021 13:10:32  Chromedriver.exe started 
+30/11/2021 13:10:47  Preparing to start chromedriver.exe 
+30/11/2021 13:10:48  Chromedriver.exe started 
+30/11/2021 13:10:56  Preparing to start chromedriver.exe 
+30/11/2021 13:10:57  Chromedriver.exe started 
+30/11/2021 13:12:25  Preparing to start chromedriver.exe 
+30/11/2021 13:12:26  Chromedriver.exe started 
+30/11/2021 13:16:43  Preparing to start chromedriver.exe 
+30/11/2021 13:16:44  Chromedriver.exe started 
+30/11/2021 13:17:10  Preparing to start chromedriver.exe 
+30/11/2021 13:17:11  Chromedriver.exe started 
+30/11/2021 13:25:04  Started git sync on finish 
+30/11/2021 13:25:05  Program finished 
+ 
+>>>>>>> 2ea8c84ad0d6f0043f91e4016b9a2880ef6b62af
+04/12/2021 18:19:16  Program started 
+04/12/2021 18:19:17  Started git sync on boot 
+04/12/2021 18:19:20  Finished git sync on boot 
+04/12/2021 18:19:21  Preparing to start chromedriver.exe 
+04/12/2021 18:19:22  Chromedriver.exe started 
+04/12/2021 18:19:37  Preparing to start chromedriver.exe 
+04/12/2021 18:19:38  Chromedriver.exe started 
+04/12/2021 19:58:24  Program started 
+04/12/2021 19:58:24  Started git sync on boot 
+04/12/2021 19:58:29  Finished git sync on boot 
+04/12/2021 19:58:30  Preparing to start chromedriver.exe 
+04/12/2021 19:58:31  Chromedriver.exe started 
+04/12/2021 19:58:44  Preparing to start chromedriver.exe 
+04/12/2021 19:58:45  Chromedriver.exe started 
+04/12/2021 20:01:39  Preparing to start chromedriver.exe 
+04/12/2021 20:01:40  Chromedriver.exe started 
+04/12/2021 20:03:27  Preparing to start chromedriver.exe 
+04/12/2021 20:03:28  Chromedriver.exe started 
+04/12/2021 20:03:39  Preparing to start chromedriver.exe 
+04/12/2021 20:03:40  Chromedriver.exe started 
+04/12/2021 20:05:20  Preparing to start chromedriver.exe 
+04/12/2021 20:05:21  Chromedriver.exe started 
+04/12/2021 20:12:13  Preparing to start chromedriver.exe 
+04/12/2021 20:12:15  Chromedriver.exe started 
+04/12/2021 20:12:31  Preparing to start chromedriver.exe 
+04/12/2021 20:12:32  Chromedriver.exe started 
+04/12/2021 20:12:41  Preparing to start chromedriver.exe 
+04/12/2021 20:12:43  Chromedriver.exe started 
+04/12/2021 20:12:52  Preparing to start chromedriver.exe 
+04/12/2021 20:12:53  Chromedriver.exe started 
+04/12/2021 20:13:19  Preparing to start chromedriver.exe 
+04/12/2021 20:13:20  Chromedriver.exe started 
+04/12/2021 20:13:51  Preparing to start chromedriver.exe 
+04/12/2021 20:13:52  Chromedriver.exe started 
+04/12/2021 20:14:00  Preparing to start chromedriver.exe 
+04/12/2021 20:14:01  Chromedriver.exe started 
+04/12/2021 20:16:07  Preparing to start chromedriver.exe 
+04/12/2021 20:16:08  Chromedriver.exe started 
+04/12/2021 20:16:29  Preparing to start chromedriver.exe 
+04/12/2021 20:16:30  Chromedriver.exe started 
+04/12/2021 20:16:38  Preparing to start chromedriver.exe 
+04/12/2021 20:16:39  Chromedriver.exe started 
+04/12/2021 20:17:59  Preparing to start chromedriver.exe 
+04/12/2021 20:18:00  Chromedriver.exe started 
+04/12/2021 20:22:23  Preparing to start chromedriver.exe 
+04/12/2021 20:22:24  Chromedriver.exe started 
+04/12/2021 20:22:36  Preparing to start chromedriver.exe 
+04/12/2021 20:22:37  Chromedriver.exe started 
+04/12/2021 20:22:41  Started git sync on finish 
+04/12/2021 20:22:45  Program finished 
+ 
+04/12/2021 20:35:31  Program started 
+04/12/2021 20:35:31  Program finished, everything was ap tu date 
+ 
+08/12/2021 19:04:38  Program started 
+08/12/2021 19:05:02  Started git sync on boot 
+08/12/2021 19:05:04  Finished git sync on boot 
+08/12/2021 19:06:32  Program started 
+08/12/2021 19:06:32  Started git sync on boot 
+08/12/2021 19:06:33  Finished git sync on boot 
+08/12/2021 19:06:34  Preparing to start chromedriver.exe 
+08/12/2021 19:06:35  Chromedriver.exe started 
+08/12/2021 19:07:52  Preparing to start chromedriver.exe 
+08/12/2021 19:07:53  Chromedriver.exe started 
+08/12/2021 19:11:05  Preparing to start chromedriver.exe 
+08/12/2021 19:11:06  Chromedriver.exe started 
+08/12/2021 20:43:37  Program started 
+08/12/2021 20:43:37  Started git sync on boot 
+08/12/2021 20:43:37  Finished git sync on boot 
+08/12/2021 20:43:38  Preparing to start chromedriver.exe 
+08/12/2021 20:43:39  Chromedriver.exe started 
+08/12/2021 20:43:49  Preparing to start chromedriver.exe 
+08/12/2021 20:43:50  Chromedriver.exe started 
+08/12/2021 20:44:27  Program started 
+08/12/2021 20:44:27  Started git sync on boot 
+08/12/2021 20:44:27  Finished git sync on boot 
+08/12/2021 20:44:27  Preparing to start chromedriver.exe 
+08/12/2021 20:44:28  Chromedriver.exe started 
+08/12/2021 20:44:36  Preparing to start chromedriver.exe 
+08/12/2021 20:44:37  Chromedriver.exe started 
+08/12/2021 20:46:06  Program started 
+08/12/2021 20:46:06  Started git sync on boot 
+08/12/2021 20:46:06  Finished git sync on boot 
+08/12/2021 20:46:07  Preparing to start chromedriver.exe 
+08/12/2021 20:46:08  Chromedriver.exe started 
+08/12/2021 20:46:16  Preparing to start chromedriver.exe 
+08/12/2021 20:46:17  Chromedriver.exe started 
+08/12/2021 20:46:20  Started git sync on finish 
+08/12/2021 20:47:39  Program started 
+08/12/2021 20:47:39  Program finished, everything was ap tu date 
+ 
+08/12/2021 20:47:50  Program started 
+08/12/2021 20:47:50  Started git sync on boot 
+08/12/2021 20:47:50  Finished git sync on boot 
+08/12/2021 20:47:50  Preparing to start chromedriver.exe 
+08/12/2021 20:47:51  Chromedriver.exe started 
+08/12/2021 20:48:00  Preparing to start chromedriver.exe 
+08/12/2021 20:48:01  Chromedriver.exe started 
+08/12/2021 20:48:05  Started git sync on finish 
+08/12/2021 20:50:51  Program started 
+08/12/2021 20:50:51  Program finished, everything was ap tu date 
+ 
+08/12/2021 20:51:33  Program started 
+08/12/2021 20:51:33  Started git sync on boot 
+08/12/2021 20:51:33  Finished git sync on boot 
+08/12/2021 20:51:40  Preparing to start chromedriver.exe 
+08/12/2021 20:51:41  Chromedriver.exe started 
+08/12/2021 20:52:11  Preparing to start chromedriver.exe 
+08/12/2021 20:52:12  Chromedriver.exe started 
+08/12/2021 20:52:39  Started git sync on finish 
+08/12/2021 20:54:18  Program started 
+08/12/2021 20:54:18  Started git sync on boot 
+08/12/2021 20:54:18  Finished git sync on boot 
+08/12/2021 20:54:19  Preparing to start chromedriver.exe 
+08/12/2021 20:54:20  Chromedriver.exe started 
+08/12/2021 20:54:33  Preparing to start chromedriver.exe 
+08/12/2021 20:54:34  Chromedriver.exe started 
+08/12/2021 20:54:54  Started git sync on finish 
+08/12/2021 20:56:27  Program started 
+08/12/2021 20:56:28  Program finished, everything was ap tu date 
+ 
+08/12/2021 20:59:45  Program started 
+08/12/2021 20:59:45  Program finished, everything was ap tu date 
+ 
+08/12/2021 20:59:56  Program started 
+08/12/2021 20:59:56  Started git sync on boot 
+08/12/2021 20:59:56  Finished git sync on boot 
+08/12/2021 20:59:57  Preparing to start chromedriver.exe 
+08/12/2021 20:59:58  Chromedriver.exe started 
+08/12/2021 21:00:18  Preparing to start chromedriver.exe 
+08/12/2021 21:00:19  Chromedriver.exe started 
+08/12/2021 21:03:17  Program started 
+08/12/2021 21:03:18  Started git sync on boot 
+08/12/2021 21:03:18  Finished git sync on boot 
+08/12/2021 21:03:18  Preparing to start chromedriver.exe 
+08/12/2021 21:03:19  Chromedriver.exe started 
+08/12/2021 21:03:50  Preparing to start chromedriver.exe 
+08/12/2021 21:03:51  Chromedriver.exe started 
+08/12/2021 21:06:25  Program started 
+08/12/2021 21:06:25  Started git sync on boot 
+08/12/2021 21:06:25  Finished git sync on boot 
+08/12/2021 21:06:30  Preparing to start chromedriver.exe 
+08/12/2021 21:06:32  Chromedriver.exe started 
+08/12/2021 21:06:57  Preparing to start chromedriver.exe 
+08/12/2021 21:06:58  Chromedriver.exe started 
+08/12/2021 21:07:14  Program started 
+08/12/2021 21:07:14  Started git sync on boot 
+08/12/2021 21:07:14  Finished git sync on boot 
+08/12/2021 21:07:15  Preparing to start chromedriver.exe 
+08/12/2021 21:07:16  Chromedriver.exe started 
+08/12/2021 21:07:36  Preparing to start chromedriver.exe 
+08/12/2021 21:07:37  Chromedriver.exe started 
+08/12/2021 21:19:06  Program started 
+08/12/2021 21:19:06  Started git sync on boot 
+08/12/2021 21:19:06  Finished git sync on boot 
+08/12/2021 21:19:07  Preparing to start chromedriver.exe 
+08/12/2021 21:19:08  Chromedriver.exe started 
+08/12/2021 21:19:23  Preparing to start chromedriver.exe 
+08/12/2021 21:19:24  Chromedriver.exe started 
+08/12/2021 21:20:47  Started git sync on finish 
+08/12/2021 21:22:50  Program started 
+08/12/2021 21:22:50  Program finished, everything was ap tu date 
+ 
+08/12/2021 21:23:01  Program started 
+08/12/2021 21:23:01  Started git sync on boot 
+08/12/2021 21:23:01  Finished git sync on boot 
+08/12/2021 21:23:02  Preparing to start chromedriver.exe 
+08/12/2021 21:23:03  Chromedriver.exe started 
+08/12/2021 21:23:11  Preparing to start chromedriver.exe 
+08/12/2021 21:23:12  Chromedriver.exe started 
+08/12/2021 21:23:16  Started git sync on finish 
+08/12/2021 21:27:09  Program started 
+08/12/2021 21:27:09  Started git sync on boot 
+08/12/2021 21:27:09  Finished git sync on boot 
+08/12/2021 21:27:10  Preparing to start chromedriver.exe 
+08/12/2021 21:27:11  Chromedriver.exe started 
+08/12/2021 21:27:23  Preparing to start chromedriver.exe 
+08/12/2021 21:27:24  Chromedriver.exe started 
+08/12/2021 21:28:57  Program started 
+08/12/2021 21:28:57  Started git sync on boot 
+08/12/2021 21:28:57  Finished git sync on boot 
+08/12/2021 21:28:58  Preparing to start chromedriver.exe 
+08/12/2021 21:28:59  Chromedriver.exe started 
+08/12/2021 21:29:36  Preparing to start chromedriver.exe 
+08/12/2021 21:29:37  Chromedriver.exe started 
+09/12/2021 13:07:44  Program started 
+09/12/2021 13:07:44  Started git sync on boot 
+09/12/2021 13:07:44  Finished git sync on boot 
+09/12/2021 13:07:45  Preparing to start chromedriver.exe 
+09/12/2021 13:07:46  Chromedriver.exe started 
+09/12/2021 13:07:57  Preparing to start chromedriver.exe 
+09/12/2021 13:07:58  Chromedriver.exe started 
+09/12/2021 13:08:02  Started git sync on finish 
+09/12/2021 13:11:18  Program started 
+09/12/2021 13:11:18  Program finished, everything was ap tu date 
+ 
+09/12/2021 13:11:30  Program started 
+09/12/2021 13:11:30  Started git sync on boot 
+09/12/2021 13:11:30  Finished git sync on boot 
+09/12/2021 13:11:30  Preparing to start chromedriver.exe 
+09/12/2021 13:11:31  Chromedriver.exe started 
+09/12/2021 13:11:41  Preparing to start chromedriver.exe 
+09/12/2021 13:11:42  Chromedriver.exe started 
+09/12/2021 13:14:12  Program started 
+09/12/2021 13:14:12  Started git sync on boot 
+09/12/2021 13:14:12  Finished git sync on boot 
+09/12/2021 13:14:12  Preparing to start chromedriver.exe 
+09/12/2021 13:14:13  Chromedriver.exe started 
+09/12/2021 13:14:22  Preparing to start chromedriver.exe 
+09/12/2021 13:14:23  Chromedriver.exe started 
+09/12/2021 13:14:27  Started git sync on finish 
+09/12/2021 13:15:17  Program started 
+09/12/2021 13:15:17  Program finished, everything was ap tu date 
+ 
+09/12/2021 13:16:11  Program started 
+09/12/2021 13:16:11  Started git sync on boot 
+09/12/2021 13:16:11  Finished git sync on boot 
+09/12/2021 13:16:11  Preparing to start chromedriver.exe 
+09/12/2021 13:16:12  Chromedriver.exe started 
+09/12/2021 13:16:21  Preparing to start chromedriver.exe 
+09/12/2021 13:16:22  Chromedriver.exe started 
+09/12/2021 13:17:14  Started git sync on finish 
+09/12/2021 13:20:28  Program started 
+09/12/2021 13:20:28  Program finished, everything was ap tu date 
+ 
+09/12/2021 13:21:04  Program started 
+09/12/2021 13:21:04  Started git sync on boot 
+09/12/2021 13:21:04  Finished git sync on boot 
+09/12/2021 13:21:04  Preparing to start chromedriver.exe 
+09/12/2021 13:21:05  Chromedriver.exe started 
+09/12/2021 13:21:13  Preparing to start chromedriver.exe 
+09/12/2021 13:21:14  Chromedriver.exe started 
+09/12/2021 13:22:07  Started git sync on finish 
+09/12/2021 13:39:39  Program started 
+09/12/2021 13:39:39  Program finished, everything was ap tu date 
+ 
+09/12/2021 13:39:58  Program started 
+09/12/2021 13:39:58  Program finished, everything was ap tu date 
+ 
+09/12/2021 13:40:10  Program started 
+09/12/2021 13:40:10  Started git sync on boot 
+09/12/2021 13:40:10  Finished git sync on boot 
+09/12/2021 13:40:11  Preparing to start chromedriver.exe 
+09/12/2021 13:40:12  Chromedriver.exe started 
+09/12/2021 13:40:23  Preparing to start chromedriver.exe 
+09/12/2021 13:40:24  Chromedriver.exe started 
+09/12/2021 13:41:47  Program started 
+09/12/2021 13:41:47  Started git sync on boot 
+09/12/2021 13:41:47  Finished git sync on boot 
+09/12/2021 13:42:04  Program started 
+09/12/2021 13:42:04  Started git sync on boot 
+09/12/2021 13:42:04  Finished git sync on boot 
+09/12/2021 13:42:04  Preparing to start chromedriver.exe 
+09/12/2021 13:42:05  Chromedriver.exe started 
+09/12/2021 13:42:08  Started git sync on finish 
+09/12/2021 13:43:00  Program started 
+09/12/2021 13:43:00  Started git sync on boot 
+09/12/2021 13:43:00  Finished git sync on boot 
+09/12/2021 13:43:00  Preparing to start chromedriver.exe 
+09/12/2021 13:43:01  Chromedriver.exe started 
+09/12/2021 13:43:48  Program started 
+09/12/2021 13:43:48  Started git sync on boot 
+09/12/2021 13:43:48  Finished git sync on boot 
+09/12/2021 13:43:49  Preparing to start chromedriver.exe 
+09/12/2021 13:43:50  Chromedriver.exe started 
+09/12/2021 13:44:40  Program started 
+09/12/2021 13:44:40  Started git sync on boot 
+09/12/2021 13:44:40  Finished git sync on boot 
+09/12/2021 13:44:40  Preparing to start chromedriver.exe 
+09/12/2021 13:44:41  Chromedriver.exe started 
+09/12/2021 13:46:03  Program started 
+09/12/2021 13:46:03  Started git sync on boot 
+09/12/2021 13:46:03  Finished git sync on boot 
+09/12/2021 13:46:03  Preparing to start chromedriver.exe 
+09/12/2021 13:46:04  Chromedriver.exe started 
+09/12/2021 13:49:40  Program started 
+09/12/2021 13:49:40  Started git sync on boot 
+09/12/2021 13:49:40  Finished git sync on boot 
+09/12/2021 13:49:40  Preparing to start chromedriver.exe 
+09/12/2021 13:49:41  Chromedriver.exe started 
+09/12/2021 13:50:05  Program started 
+09/12/2021 13:50:05  Started git sync on boot 
+09/12/2021 13:50:05  Finished git sync on boot 
+09/12/2021 13:50:05  Preparing to start chromedriver.exe 
+09/12/2021 13:50:06  Chromedriver.exe started 
+09/12/2021 13:50:15  Program started 
+09/12/2021 13:50:15  Started git sync on boot 
+09/12/2021 13:50:15  Finished git sync on boot 
+09/12/2021 13:50:15  Preparing to start chromedriver.exe 
+09/12/2021 13:50:16  Chromedriver.exe started 
+09/12/2021 13:51:00  Program started 
+09/12/2021 13:51:00  Started git sync on boot 
+09/12/2021 13:51:00  Finished git sync on boot 
+09/12/2021 13:51:00  Preparing to start chromedriver.exe 
+09/12/2021 13:51:01  Chromedriver.exe started 
+09/12/2021 13:51:23  Program started 
+09/12/2021 13:51:23  Started git sync on boot 
+09/12/2021 13:51:23  Finished git sync on boot 
+09/12/2021 13:51:23  Preparing to start chromedriver.exe 
+09/12/2021 13:51:24  Chromedriver.exe started 
+09/12/2021 13:51:27  Started git sync on finish 
+09/12/2021 13:52:32  Program started 
+09/12/2021 13:52:32  Started git sync on boot 
+09/12/2021 13:52:32  Finished git sync on boot 
+09/12/2021 13:52:32  Preparing to start chromedriver.exe 
+09/12/2021 13:52:33  Chromedriver.exe started 
+09/12/2021 13:52:36  Started git sync on finish 
+09/12/2021 13:53:48  Program started 
+09/12/2021 13:53:48  Started git sync on boot 
+09/12/2021 13:53:48  Finished git sync on boot 
+09/12/2021 13:53:48  Preparing to start chromedriver.exe 
+09/12/2021 13:53:49  Chromedriver.exe started 
+09/12/2021 13:53:53  Started git sync on finish 
+09/12/2021 13:56:03  Program started 
+09/12/2021 13:56:03  Started git sync on boot 
+09/12/2021 13:56:03  Finished git sync on boot 
+09/12/2021 13:56:04  Preparing to start chromedriver.exe 
+09/12/2021 13:56:05  Chromedriver.exe started 
+09/12/2021 13:56:07  Started git sync on finish 
+09/12/2021 14:01:04  Program started 
+09/12/2021 14:01:04  Started git sync on boot 
+09/12/2021 14:01:04  Finished git sync on boot 
+09/12/2021 14:01:04  Preparing to start chromedriver.exe 
+09/12/2021 14:01:05  Chromedriver.exe started 
+09/12/2021 14:01:15  Preparing to start chromedriver.exe 
+09/12/2021 14:01:16  Chromedriver.exe started 
+09/12/2021 14:02:08  Started git sync on finish 
+09/12/2021 14:03:59  Program started 
+09/12/2021 14:03:59  Started git sync on boot 
+09/12/2021 14:03:59  Finished git sync on boot 
+09/12/2021 14:03:59  Preparing to start chromedriver.exe 
+09/12/2021 14:04:00  Chromedriver.exe started 
+09/12/2021 14:04:09  Preparing to start chromedriver.exe 
+09/12/2021 14:04:10  Chromedriver.exe started 
+09/12/2021 14:04:19  Preparing to start chromedriver.exe 
+09/12/2021 14:04:20  Chromedriver.exe started 
+09/12/2021 14:04:39  Preparing to start chromedriver.exe 
+09/12/2021 14:04:40  Chromedriver.exe started 
+09/12/2021 14:04:44  Started git sync on finish 
+09/12/2021 14:05:50  Program started 
+09/12/2021 14:05:50  Started git sync on boot 
+09/12/2021 14:05:50  Finished git sync on boot 
+09/12/2021 14:05:50  Preparing to start chromedriver.exe 
+09/12/2021 14:05:51  Chromedriver.exe started 
+09/12/2021 14:06:00  Preparing to start chromedriver.exe 
+09/12/2021 14:06:01  Chromedriver.exe started 
+09/12/2021 14:06:21  Preparing to start chromedriver.exe 
+09/12/2021 14:06:22  Chromedriver.exe started 
+09/12/2021 14:06:56  Preparing to start chromedriver.exe 
+09/12/2021 14:06:57  Chromedriver.exe started 
+09/12/2021 14:07:28  Started git sync on finish 
+09/12/2021 14:30:11  Program started 
+09/12/2021 14:30:11  Started git sync on boot 
+09/12/2021 14:30:11  Finished git sync on boot 
+09/12/2021 14:30:11  Preparing to start chromedriver.exe 
+09/12/2021 14:30:12  Chromedriver.exe started 
+09/12/2021 14:31:46  Program started 
+09/12/2021 14:31:46  Started git sync on boot 
+09/12/2021 14:31:46  Finished git sync on boot 
+09/12/2021 14:31:47  Preparing to start chromedriver.exe 
+09/12/2021 14:31:48  Chromedriver.exe started 
+09/12/2021 14:31:54  Preparing to start chromedriver.exe 
+09/12/2021 14:31:55  Chromedriver.exe started 
+09/12/2021 14:31:56  Preparing to start chromedriver.exe 
+09/12/2021 14:31:57  Preparing to start chromedriver.exe 
+09/12/2021 14:31:57  Chromedriver.exe started 
+09/12/2021 14:31:58  Chromedriver.exe started 
+09/12/2021 14:32:08  Started git sync on finish 
+09/12/2021 14:32:37  Program started 
+09/12/2021 14:32:37  Started git sync on boot 
+09/12/2021 14:32:37  Finished git sync on boot 
+09/12/2021 14:32:37  Preparing to start chromedriver.exe 
+09/12/2021 14:32:38  Chromedriver.exe started 
+09/12/2021 14:32:46  Preparing to start chromedriver.exe 
+09/12/2021 14:32:47  Chromedriver.exe started 
+09/12/2021 14:32:56  Preparing to start chromedriver.exe 
+09/12/2021 14:32:57  Chromedriver.exe started 
+09/12/2021 14:33:15  Preparing to start chromedriver.exe 
+09/12/2021 14:33:16  Chromedriver.exe started 
+09/12/2021 14:33:20  Started git sync on finish 
+09/12/2021 14:33:40  Program started 
+09/12/2021 14:33:40  Started git sync on boot 
+09/12/2021 14:33:40  Finished git sync on boot 
+09/12/2021 14:33:40  Preparing to start chromedriver.exe 
+09/12/2021 14:33:41  Chromedriver.exe started 
+09/12/2021 14:33:50  Preparing to start chromedriver.exe 
+09/12/2021 14:33:51  Chromedriver.exe started 
+09/12/2021 14:34:00  Preparing to start chromedriver.exe 
+09/12/2021 14:34:01  Chromedriver.exe started 
+09/12/2021 14:34:19  Preparing to start chromedriver.exe 
+09/12/2021 14:34:20  Chromedriver.exe started 
+09/12/2021 14:34:25  Started git sync on finish 
+09/12/2021 14:34:43  Program started 
+09/12/2021 14:34:43  Started git sync on boot 
+09/12/2021 14:34:43  Finished git sync on boot 
+09/12/2021 14:34:43  Preparing to start chromedriver.exe 
+09/12/2021 14:34:44  Chromedriver.exe started 
+09/12/2021 14:34:51  Preparing to start chromedriver.exe 
+09/12/2021 14:34:52  Chromedriver.exe started 
+09/12/2021 14:34:52  Preparing to start chromedriver.exe 
+09/12/2021 14:34:53  Chromedriver.exe started 
+09/12/2021 14:34:53  Preparing to start chromedriver.exe 
+09/12/2021 14:34:54  Chromedriver.exe started 
+09/12/2021 14:35:05  Started git sync on finish 
+09/12/2021 14:36:25  Program started 
+09/12/2021 14:36:25  Started git sync on boot 
+09/12/2021 14:36:25  Finished git sync on boot 
+09/12/2021 14:36:26  Preparing to start chromedriver.exe 
+09/12/2021 14:36:27  Chromedriver.exe started 
+09/12/2021 14:36:37  Preparing to start chromedriver.exe 
+09/12/2021 14:36:38  Preparing to start chromedriver.exe 
+09/12/2021 14:36:38  Preparing to start chromedriver.exe 
+09/12/2021 14:36:38  Preparing to start chromedriver.exe 
+09/12/2021 14:36:38  Preparing to start chromedriver.exe 
+09/12/2021 14:36:38  Preparing to start chromedriver.exe 
+09/12/2021 14:36:39  Chromedriver.exe started 
+09/12/2021 14:36:39  Preparing to start chromedriver.exe 
+09/12/2021 14:36:40  Chromedriver.exe started 
+09/12/2021 14:36:40  Chromedriver.exe started 
+09/12/2021 14:36:40  Chromedriver.exe started 
+09/12/2021 14:36:40  Chromedriver.exe started 
+09/12/2021 14:36:40  Chromedriver.exe started 
+09/12/2021 14:36:41  Chromedriver.exe started 
+09/12/2021 14:36:44  Preparing to start chromedriver.exe 
+09/12/2021 14:36:45  Chromedriver.exe started 
+09/12/2021 14:36:54  Preparing to start chromedriver.exe 
+09/12/2021 14:36:55  Preparing to start chromedriver.exe 
+09/12/2021 14:36:55  Preparing to start chromedriver.exe 
+09/12/2021 14:36:55  Chromedriver.exe started 
+09/12/2021 14:36:56  Chromedriver.exe started 
+09/12/2021 14:36:57  Chromedriver.exe started 
+09/12/2021 14:37:07  Preparing to start chromedriver.exe 
+09/12/2021 14:37:09  Chromedriver.exe started 
+09/12/2021 14:37:34  Preparing to start chromedriver.exe 
+09/12/2021 14:37:35  Chromedriver.exe started 
+09/12/2021 14:37:44  Preparing to start chromedriver.exe 
+09/12/2021 14:37:46  Chromedriver.exe started 
+09/12/2021 14:37:58  Preparing to start chromedriver.exe 
+09/12/2021 14:37:58  Preparing to start chromedriver.exe 
+09/12/2021 14:37:59  Chromedriver.exe started 
+09/12/2021 14:37:59  Chromedriver.exe started 
+09/12/2021 14:38:35  Preparing to start chromedriver.exe 
+09/12/2021 14:38:36  Preparing to start chromedriver.exe 
+09/12/2021 14:38:36  Chromedriver.exe started 
+09/12/2021 14:38:38  Chromedriver.exe started 
+09/12/2021 14:38:43  Preparing to start chromedriver.exe 
+09/12/2021 14:38:45  Chromedriver.exe started 
+09/12/2021 15:07:37  Program started 
+09/12/2021 15:07:37  Started git sync on boot 
+09/12/2021 15:07:37  Finished git sync on boot 
+09/12/2021 15:07:37  Preparing to start chromedriver.exe 
+09/12/2021 15:07:38  Chromedriver.exe started 
+09/12/2021 15:08:04  Program started 
+09/12/2021 15:08:04  Started git sync on boot 
+09/12/2021 15:08:04  Finished git sync on boot 
+09/12/2021 15:08:04  Preparing to start chromedriver.exe 
+09/12/2021 15:08:05  Chromedriver.exe started 
+09/12/2021 15:08:13  Preparing to start chromedriver.exe 
+09/12/2021 15:08:13  Preparing to start chromedriver.exe 
+09/12/2021 15:08:14  Preparing to start chromedriver.exe 
+09/12/2021 15:08:14  Chromedriver.exe started 
+09/12/2021 15:08:14  Chromedriver.exe started 
+09/12/2021 15:08:16  Chromedriver.exe started 
+09/12/2021 15:08:18  Preparing to start chromedriver.exe 
+09/12/2021 15:08:19  Chromedriver.exe started 
+09/12/2021 15:12:42  Started git sync on finish 
+09/12/2021 15:13:55  Program started 
+09/12/2021 15:13:55  Started git sync on boot 
+09/12/2021 15:13:55  Finished git sync on boot 
+09/12/2021 15:13:55  Preparing to start chromedriver.exe 
+09/12/2021 15:13:56  Chromedriver.exe started 
+09/12/2021 15:14:04  Preparing to start chromedriver.exe 
+09/12/2021 15:14:04  Preparing to start chromedriver.exe 
+09/12/2021 15:14:05  Preparing to start chromedriver.exe 
+09/12/2021 15:14:05  Chromedriver.exe started 
+09/12/2021 15:14:06  Chromedriver.exe started 
+09/12/2021 15:14:06  Chromedriver.exe started 
+09/12/2021 15:14:10  Preparing to start chromedriver.exe 
+09/12/2021 15:14:11  Chromedriver.exe started 
+09/12/2021 15:15:54  Started git sync on finish 
+09/12/2021 15:17:00  Program started 
+09/12/2021 15:17:00  Started git sync on boot 
+09/12/2021 15:17:00  Finished git sync on boot 
+09/12/2021 15:17:00  Preparing to start chromedriver.exe 
+09/12/2021 15:17:01  Chromedriver.exe started 
+09/12/2021 15:17:10  Preparing to start chromedriver.exe 
+09/12/2021 15:17:11  Preparing to start chromedriver.exe 
+09/12/2021 15:17:11  Chromedriver.exe started 
+09/12/2021 15:17:11  Preparing to start chromedriver.exe 
+09/12/2021 15:17:11  Preparing to start chromedriver.exe 
+09/12/2021 15:17:11  Preparing to start chromedriver.exe 
+09/12/2021 15:17:12  Chromedriver.exe started 
+09/12/2021 15:17:13  Chromedriver.exe started 
+09/12/2021 15:17:13  Chromedriver.exe started 
+09/12/2021 15:17:13  Chromedriver.exe started 
+09/12/2021 15:17:13  Preparing to start chromedriver.exe 
+09/12/2021 15:17:14  Preparing to start chromedriver.exe 
+09/12/2021 15:17:14  Chromedriver.exe started 
+09/12/2021 15:17:15  Chromedriver.exe started 
+09/12/2021 15:17:23  Preparing to start chromedriver.exe 
+09/12/2021 15:17:23  Preparing to start chromedriver.exe 
+09/12/2021 15:17:25  Chromedriver.exe started 
+09/12/2021 15:17:26  Chromedriver.exe started 
+09/12/2021 15:17:32  Preparing to start chromedriver.exe 
+09/12/2021 15:17:35  Chromedriver.exe started 
+09/12/2021 15:17:52  Preparing to start chromedriver.exe 
+09/12/2021 15:17:54  Chromedriver.exe started 
+09/12/2021 15:18:28  Preparing to start chromedriver.exe 
+09/12/2021 15:18:29  Chromedriver.exe started 
+09/12/2021 15:18:37  Preparing to start chromedriver.exe 
+09/12/2021 15:18:38  Preparing to start chromedriver.exe 
+09/12/2021 15:18:39  Chromedriver.exe started 
+09/12/2021 15:18:40  Chromedriver.exe started 
+09/12/2021 15:18:48  Preparing to start chromedriver.exe 
+09/12/2021 15:18:50  Chromedriver.exe started 
+09/12/2021 15:18:53  Preparing to start chromedriver.exe 
+09/12/2021 15:18:55  Chromedriver.exe started 
+09/12/2021 15:19:12  Preparing to start chromedriver.exe 
+09/12/2021 15:19:16  Chromedriver.exe started 
+09/12/2021 15:19:21  Preparing to start chromedriver.exe 
+09/12/2021 15:19:23  Chromedriver.exe started 
+09/12/2021 15:19:34  Preparing to start chromedriver.exe 
+09/12/2021 15:19:36  Chromedriver.exe started 
+09/12/2021 15:27:38  Started git sync on finish 
+09/12/2021 15:29:41  Program started 
+09/12/2021 15:29:41  Started git sync on boot 
+09/12/2021 15:29:41  Finished git sync on boot 
+09/12/2021 15:29:41  Preparing to start chromedriver.exe 
+09/12/2021 15:29:42  Chromedriver.exe started 
+09/12/2021 15:29:54  Preparing to start chromedriver.exe 
+09/12/2021 15:29:55  Chromedriver.exe started 
+09/12/2021 15:34:51  Preparing to start chromedriver.exe 
+09/12/2021 15:34:52  Chromedriver.exe started 
+09/12/2021 15:35:38  Preparing to start chromedriver.exe 
+09/12/2021 15:35:39  Chromedriver.exe started 
+09/12/2021 15:35:48  Preparing to start chromedriver.exe 
+09/12/2021 15:35:49  Chromedriver.exe started 
+09/12/2021 15:36:31  Preparing to start chromedriver.exe 
+09/12/2021 15:36:32  Chromedriver.exe started 
+09/12/2021 15:39:55  Preparing to start chromedriver.exe 
+09/12/2021 15:39:56  Chromedriver.exe started 
+09/12/2021 15:40:11  Preparing to start chromedriver.exe 
+09/12/2021 15:40:12  Chromedriver.exe started 
+09/12/2021 15:40:21  Preparing to start chromedriver.exe 
+09/12/2021 15:40:22  Chromedriver.exe started 
+09/12/2021 15:40:54  Preparing to start chromedriver.exe 
+09/12/2021 15:40:55  Chromedriver.exe started 
+09/12/2021 15:41:51  Preparing to start chromedriver.exe 
+09/12/2021 15:41:52  Chromedriver.exe started 
+09/12/2021 15:42:17  Preparing to start chromedriver.exe 
+09/12/2021 15:42:18  Chromedriver.exe started 
+09/12/2021 15:43:15  Preparing to start chromedriver.exe 
+09/12/2021 15:43:16  Chromedriver.exe started 
+09/12/2021 15:45:42  Preparing to start chromedriver.exe 
+09/12/2021 15:45:43  Chromedriver.exe started 
+09/12/2021 15:46:01  Preparing to start chromedriver.exe 
+09/12/2021 15:46:02  Chromedriver.exe started 
+09/12/2021 15:46:09  Preparing to start chromedriver.exe 
+09/12/2021 15:46:10  Chromedriver.exe started 
+09/12/2021 15:47:31  Preparing to start chromedriver.exe 
+09/12/2021 15:47:32  Chromedriver.exe started 
+09/12/2021 15:50:46  Preparing to start chromedriver.exe 
+09/12/2021 15:50:47  Chromedriver.exe started 
+09/12/2021 15:50:58  Preparing to start chromedriver.exe 
+09/12/2021 15:50:59  Chromedriver.exe started 
+09/12/2021 15:51:06  Preparing to start chromedriver.exe 
+09/12/2021 15:51:07  Chromedriver.exe started 
+09/12/2021 15:56:18  Started git sync on finish 
+09/12/2021 17:48:35  Program started 
+09/12/2021 17:48:36  Started git sync on boot 
+09/12/2021 17:48:36  Finished git sync on boot 
+09/12/2021 17:48:36  Preparing to start chromedriver.exe 
+09/12/2021 17:48:37  Chromedriver.exe started 
+09/12/2021 17:55:58  Program started 
+09/12/2021 17:55:58  Preparing to start chromedriver.exe 
+09/12/2021 17:56:00  Chromedriver.exe failed to start 
+09/12/2021 18:13:04  Program started 
+09/12/2021 18:13:04  Preparing to start chromedriver.exe 
+09/12/2021 18:13:05  Chromedriver.exe started 
+09/12/2021 18:13:07  Chromedriver.exe failed to start 
+09/12/2021 18:15:52  Program started 
+09/12/2021 18:15:52  Preparing to start chromedriver.exe 
+09/12/2021 18:15:53  Chromedriver.exe started 
+09/12/2021 18:16:01  Preparing to start chromedriver.exe 
+09/12/2021 18:16:02  Chromedriver.exe started 
+09/12/2021 18:16:03  Preparing to start chromedriver.exe 
+09/12/2021 18:16:04  Chromedriver.exe started 
+09/12/2021 18:16:06  Preparing to start chromedriver.exe 
+09/12/2021 18:16:07  Chromedriver.exe started 
+09/12/2021 18:21:47  Program started 
+09/12/2021 18:21:47  Preparing to start chromedriver.exe 
+09/12/2021 18:21:48  Chromedriver.exe started 
+09/12/2021 18:21:56  Preparing to start chromedriver.exe 
+09/12/2021 18:21:57  Preparing to start chromedriver.exe 
+09/12/2021 18:21:57  Chromedriver.exe started 
+09/12/2021 18:21:58  Chromedriver.exe started 
+09/12/2021 18:22:00  Preparing to start chromedriver.exe 
+09/12/2021 18:22:01  Chromedriver.exe started 
+09/12/2021 18:28:40  Program started 
+09/12/2021 18:29:32  Program started 
+09/12/2021 18:29:47  Program started 
+09/12/2021 18:29:48  Preparing to start chromedriver.exe 
+09/12/2021 18:29:48  Chromedriver.exe failed to start 
+09/12/2021 18:30:22  Program started 
+09/12/2021 18:30:22  Preparing to start chromedriver.exe 
+09/12/2021 18:30:22  Chromedriver.exe failed to start 
+09/12/2021 18:31:42  Program started 
+09/12/2021 18:31:42  Preparing to start chromedriver.exe 
+09/12/2021 18:31:42  Chromedriver.exe failed to start 
+09/12/2021 18:32:53  Program started 
+09/12/2021 18:32:54  Preparing to start chromedriver.exe 
+09/12/2021 18:32:55  Chromedriver.exe started 
+09/12/2021 18:32:58  Chromedriver.exe failed to start 
+09/12/2021 18:33:06  Program started 
+09/12/2021 18:33:06  Preparing to start chromedriver.exe 
+09/12/2021 18:33:07  Chromedriver.exe started 
+09/12/2021 18:33:30  Program started 
+09/12/2021 18:33:30  Preparing to start chromedriver.exe 
+09/12/2021 18:33:31  Chromedriver.exe started 
+09/12/2021 18:33:40  Preparing to start chromedriver.exe 
+09/12/2021 18:33:41  Preparing to start chromedriver.exe 
+09/12/2021 18:33:41  Chromedriver.exe started 
+09/12/2021 18:33:42  Chromedriver.exe started 
+09/12/2021 18:33:44  Preparing to start chromedriver.exe 
+09/12/2021 18:33:45  Chromedriver.exe started 
+09/12/2021 18:36:37  Program started 
+09/12/2021 18:36:37  Preparing to start chromedriver.exe 
+09/12/2021 18:36:38  Chromedriver.exe started 
+09/12/2021 18:36:41  Chromedriver.exe failed to start 
+09/12/2021 18:37:01  Program started 
+09/12/2021 18:37:01  Preparing to start chromedriver.exe 
+09/12/2021 18:37:02  Chromedriver.exe started 
+09/12/2021 18:37:10  Preparing to start chromedriver.exe 
+09/12/2021 18:37:11  Preparing to start chromedriver.exe 
+09/12/2021 18:37:11  Chromedriver.exe started 
+09/12/2021 18:37:12  Preparing to start chromedriver.exe 
+09/12/2021 18:37:12  Chromedriver.exe started 
+09/12/2021 18:37:13  Chromedriver.exe started 
+09/12/2021 18:56:35  Program started 
+09/12/2021 18:56:35  Preparing to start chromedriver.exe 
+09/12/2021 18:56:36  Chromedriver.exe started 
+09/12/2021 18:56:48  Preparing to start chromedriver.exe 
+09/12/2021 18:56:49  Chromedriver.exe started 
+09/12/2021 18:57:26  Program started 
+09/12/2021 18:57:27  Preparing to start chromedriver.exe 
+09/12/2021 18:57:28  Chromedriver.exe started 
+09/12/2021 18:57:36  Preparing to start chromedriver.exe 
+09/12/2021 18:57:37  Chromedriver.exe started 
+09/12/2021 19:00:15  Program started 
+09/12/2021 19:00:15  Preparing to start chromedriver.exe 
+09/12/2021 19:00:16  Chromedriver.exe started 
+09/12/2021 19:00:26  Preparing to start chromedriver.exe 
+09/12/2021 19:00:27  Chromedriver.exe started 
+09/12/2021 19:02:28  Program started 
+09/12/2021 19:02:55  Program started 
+09/12/2021 19:03:33  Program started 
+09/12/2021 19:03:50  Program started 
+09/12/2021 19:04:31  Program started 
+09/12/2021 19:04:31  Preparing to start chromedriver.exe 
+09/12/2021 19:04:31  Chromedriver.exe failed to start 
+09/12/2021 19:05:36  Program started 
+09/12/2021 19:05:36  Preparing to start chromedriver.exe 
+09/12/2021 19:05:36  Chromedriver.exe failed to start 
+09/12/2021 19:06:56  Program started 
+09/12/2021 19:06:56  Preparing to start chromedriver.exe 
+09/12/2021 19:06:58  Chromedriver.exe started 
+09/12/2021 19:07:00  Chromedriver.exe failed to start 
+09/12/2021 19:07:45  Program started 
+09/12/2021 19:07:45  Preparing to start chromedriver.exe 
+09/12/2021 19:07:45  Chromedriver.exe failed to start 
+09/12/2021 19:08:21  Program started 
+09/12/2021 19:08:21  Preparing to start chromedriver.exe 
+09/12/2021 19:08:21  Chromedriver.exe failed to start 
+09/12/2021 19:08:44  Program started 
+09/12/2021 19:08:44  Preparing to start chromedriver.exe 
+09/12/2021 19:08:45  Chromedriver.exe started 
+09/12/2021 19:08:56  Preparing to start chromedriver.exe 
+09/12/2021 19:08:57  Chromedriver.exe started 
+09/12/2021 19:09:40  Program started 
+09/12/2021 19:09:40  Preparing to start chromedriver.exe 
+09/12/2021 19:09:41  Chromedriver.exe started 
+09/12/2021 19:09:49  Preparing to start chromedriver.exe 
+09/12/2021 19:13:15  Program started 
+09/12/2021 19:13:16  Preparing to start chromedriver.exe 
+09/12/2021 19:13:17  Chromedriver.exe started 
+09/12/2021 19:13:27  Preparing to start chromedriver.exe 
+09/12/2021 19:13:28  Chromedriver.exe started 
+09/12/2021 19:16:44  Program started 
+09/12/2021 19:16:45  Preparing to start chromedriver.exe 
+09/12/2021 19:16:46  Chromedriver.exe started 
+09/12/2021 19:18:04  Program started 
+09/12/2021 19:18:04  Preparing to start chromedriver.exe 
+09/12/2021 19:18:05  Chromedriver.exe started 
+09/12/2021 19:18:14  Preparing to start chromedriver.exe 
+09/12/2021 19:18:15  Chromedriver.exe started 
+09/12/2021 20:10:54  Program started 
+09/12/2021 20:12:00  Program started 
+09/12/2021 20:12:00  Preparing to start chromedriver.exe 
+09/12/2021 20:12:01  Chromedriver.exe started 
+09/12/2021 20:12:12  Preparing to start chromedriver.exe 
+09/12/2021 20:12:13  Chromedriver.exe started 
+09/12/2021 20:27:58  Program started 
+09/12/2021 20:28:13  Program started 
+09/12/2021 20:28:59  Program started 
+09/12/2021 20:29:22  Program started 
+09/12/2021 20:29:22  Preparing to start chromedriver.exe 
+09/12/2021 20:29:22  Chromedriver.exe failed to start 
+09/12/2021 20:31:09  Program started 
+09/12/2021 20:31:09  Preparing to start chromedriver.exe 
+09/12/2021 20:31:10  Chromedriver.exe started 
+09/12/2021 20:31:22  Preparing to start chromedriver.exe 
+09/12/2021 20:31:23  Chromedriver.exe started 
+09/12/2021 20:32:00  Program started 
+09/12/2021 20:32:01  Preparing to start chromedriver.exe 
+09/12/2021 20:32:01  Chromedriver.exe started 
+09/12/2021 20:32:11  Preparing to start chromedriver.exe 
+09/12/2021 20:32:12  Chromedriver.exe started 
+09/12/2021 20:45:56  Program started 
+09/12/2021 20:45:56  Preparing to start chromedriver.exe 
+09/12/2021 20:45:57  Chromedriver.exe started 
+09/12/2021 20:46:08  Preparing to start chromedriver.exe 
+09/12/2021 20:46:09  Chromedriver.exe started 
+09/12/2021 20:47:54  Program started 
+09/12/2021 20:47:54  Preparing to start chromedriver.exe 
+09/12/2021 20:47:55  Chromedriver.exe started 
+09/12/2021 20:48:04  Preparing to start chromedriver.exe 
+09/12/2021 20:48:05  Chromedriver.exe started 
+09/12/2021 20:49:36  Program started 
+09/12/2021 20:49:36  Preparing to start chromedriver.exe 
+09/12/2021 20:49:37  Chromedriver.exe started 
+09/12/2021 20:49:46  Preparing to start chromedriver.exe 
+09/12/2021 20:49:47  Chromedriver.exe started 
+09/12/2021 20:50:18  Program started 
+09/12/2021 20:50:18  Preparing to start chromedriver.exe 
+09/12/2021 20:50:19  Chromedriver.exe started 
+09/12/2021 20:50:28  Preparing to start chromedriver.exe 
+09/12/2021 20:50:29  Chromedriver.exe started 
+09/12/2021 20:53:46  Program started 
+09/12/2021 20:53:46  Preparing to start chromedriver.exe 
+09/12/2021 20:53:47  Chromedriver.exe started 
+09/12/2021 20:53:56  Preparing to start chromedriver.exe 
+09/12/2021 20:53:57  Chromedriver.exe started 
+09/12/2021 20:54:32  Program started 
+09/12/2021 20:54:33  Preparing to start chromedriver.exe 
+09/12/2021 20:54:34  Chromedriver.exe started 
+09/12/2021 20:54:42  Preparing to start chromedriver.exe 
+09/12/2021 20:54:43  Chromedriver.exe started 
+09/12/2021 20:57:04  Program started 
+09/12/2021 20:57:04  Preparing to start chromedriver.exe 
+09/12/2021 20:57:05  Chromedriver.exe started 
+09/12/2021 20:57:15  Preparing to start chromedriver.exe 
+09/12/2021 20:57:16  Chromedriver.exe started 
+09/12/2021 21:00:18  Program started 
+09/12/2021 21:00:18  Preparing to start chromedriver.exe 
+09/12/2021 21:00:19  Chromedriver.exe started 
+09/12/2021 21:00:29  Preparing to start chromedriver.exe 
+09/12/2021 21:00:30  Chromedriver.exe started 
+09/12/2021 21:04:27  Program started 
+09/12/2021 21:04:27  Preparing to start chromedriver.exe 
+09/12/2021 21:04:28  Chromedriver.exe started 
+09/12/2021 21:04:38  Preparing to start chromedriver.exe 
+09/12/2021 21:04:39  Chromedriver.exe started 
+09/12/2021 21:06:36  Program started 
+09/12/2021 21:06:36  Preparing to start chromedriver.exe 
+09/12/2021 21:06:37  Chromedriver.exe started 
+09/12/2021 21:06:46  Preparing to start chromedriver.exe 
+09/12/2021 21:06:47  Chromedriver.exe started 
+09/12/2021 21:10:55  Program started 
+09/12/2021 21:10:55  Preparing to start chromedriver.exe 
+09/12/2021 21:10:56  Chromedriver.exe started 
+09/12/2021 21:11:05  Preparing to start chromedriver.exe 
+09/12/2021 21:11:06  Chromedriver.exe started 
+09/12/2021 21:11:06  Preparing to start chromedriver.exe 
+09/12/2021 21:11:06  Preparing to start chromedriver.exe 
+09/12/2021 21:11:07  Chromedriver.exe started 
+09/12/2021 21:11:07  Chromedriver.exe started 
+09/12/2021 21:17:31  Program started 
+09/12/2021 21:17:31  Preparing to start chromedriver.exe 
+09/12/2021 21:17:32  Chromedriver.exe started 
+09/12/2021 21:17:40  Preparing to start chromedriver.exe 
+09/12/2021 21:17:40  Preparing to start chromedriver.exe 
+09/12/2021 21:17:41  Preparing to start chromedriver.exe 
+09/12/2021 21:17:42  Chromedriver.exe started 
+09/12/2021 21:17:42  Chromedriver.exe started 
+09/12/2021 21:17:43  Chromedriver.exe started 
+09/12/2021 21:20:05  Program started 
+09/12/2021 21:20:05  Preparing to start chromedriver.exe 
+09/12/2021 21:20:06  Chromedriver.exe started 
+09/12/2021 21:20:15  Preparing to start chromedriver.exe 
+09/12/2021 21:20:15  Preparing to start chromedriver.exe 
+09/12/2021 21:20:16  Chromedriver.exe started 
+09/12/2021 21:20:16  Chromedriver.exe started 
+09/12/2021 21:20:17  Preparing to start chromedriver.exe 
+09/12/2021 21:20:18  Chromedriver.exe started 
+09/12/2021 21:22:05  Program started 
+09/12/2021 21:22:05  Preparing to start chromedriver.exe 
+09/12/2021 21:22:06  Chromedriver.exe started 
+09/12/2021 21:22:14  Preparing to start chromedriver.exe 
+09/12/2021 21:22:14  Preparing to start chromedriver.exe 
+09/12/2021 21:22:15  Chromedriver.exe started 
+09/12/2021 21:22:16  Preparing to start chromedriver.exe 
+09/12/2021 21:22:16  Chromedriver.exe started 
+09/12/2021 21:22:16  Preparing to start chromedriver.exe 
+09/12/2021 21:22:16  Preparing to start chromedriver.exe 
+09/12/2021 21:22:18  Chromedriver.exe started 
+09/12/2021 21:22:18  Preparing to start chromedriver.exe 
+09/12/2021 21:22:18  Chromedriver.exe started 
+09/12/2021 21:22:18  Chromedriver.exe started 
+09/12/2021 21:22:19  Chromedriver.exe started 
+09/12/2021 21:22:23  Preparing to start chromedriver.exe 
+09/12/2021 21:22:24  Preparing to start chromedriver.exe 
+09/12/2021 21:22:25  Chromedriver.exe started 
+09/12/2021 21:22:26  Preparing to start chromedriver.exe 
+09/12/2021 21:22:26  Chromedriver.exe started 
+09/12/2021 21:22:27  Chromedriver.exe started 
+09/12/2021 21:22:32  Preparing to start chromedriver.exe 
+09/12/2021 21:22:33  Preparing to start chromedriver.exe 
+09/12/2021 21:22:33  Chromedriver.exe started 
+09/12/2021 21:22:33  Preparing to start chromedriver.exe 
+09/12/2021 21:22:34  Chromedriver.exe started 
+09/12/2021 21:22:35  Chromedriver.exe started 
+09/12/2021 21:22:44  Preparing to start chromedriver.exe 
+09/12/2021 21:22:44  Preparing to start chromedriver.exe 
+09/12/2021 21:22:45  Preparing to start chromedriver.exe 
+09/12/2021 21:22:46  Chromedriver.exe started 
+09/12/2021 21:22:46  Chromedriver.exe started 
+09/12/2021 21:22:46  Chromedriver.exe started 
+09/12/2021 21:22:55  Preparing to start chromedriver.exe 
+09/12/2021 21:22:56  Chromedriver.exe started 
+09/12/2021 21:23:01  Preparing to start chromedriver.exe 
+09/12/2021 21:23:02  Preparing to start chromedriver.exe 
+09/12/2021 21:23:02  Preparing to start chromedriver.exe 
+09/12/2021 21:23:02  Chromedriver.exe started 
+09/12/2021 21:23:03  Chromedriver.exe started 
+09/12/2021 21:23:03  Chromedriver.exe started 
+09/12/2021 21:29:23  Program started 
+09/12/2021 21:29:23  Preparing to start chromedriver.exe 
+09/12/2021 21:29:24  Chromedriver.exe started 
+09/12/2021 21:29:33  Preparing to start chromedriver.exe 
+09/12/2021 21:29:33  Preparing to start chromedriver.exe 
+09/12/2021 21:29:33  Preparing to start chromedriver.exe 
+09/12/2021 21:29:35  Preparing to start chromedriver.exe 
+09/12/2021 21:29:36  Chromedriver.exe started 
+09/12/2021 21:29:36  Chromedriver.exe started 
+09/12/2021 21:29:36  Chromedriver.exe started 
+09/12/2021 21:29:36  Chromedriver.exe started 
+09/12/2021 21:29:40  Preparing to start chromedriver.exe 
+09/12/2021 21:29:40  Preparing to start chromedriver.exe 
+09/12/2021 21:29:40  Preparing to start chromedriver.exe 
+09/12/2021 21:29:41  Preparing to start chromedriver.exe 
+09/12/2021 21:29:42  Chromedriver.exe started 
+09/12/2021 21:29:42  Chromedriver.exe started 
+09/12/2021 21:29:42  Chromedriver.exe started 
+09/12/2021 21:29:43  Chromedriver.exe started 
+09/12/2021 21:29:47  Preparing to start chromedriver.exe 
+09/12/2021 21:29:47  Preparing to start chromedriver.exe 
+09/12/2021 21:29:50  Chromedriver.exe started 
+09/12/2021 21:29:50  Chromedriver.exe started 
+09/12/2021 21:29:50  Preparing to start chromedriver.exe 
+09/12/2021 21:29:52  Chromedriver.exe started 
+09/12/2021 21:29:55  Preparing to start chromedriver.exe 
+09/12/2021 21:29:56  Chromedriver.exe started 
+09/12/2021 21:30:06  Preparing to start chromedriver.exe 
+09/12/2021 21:30:06  Preparing to start chromedriver.exe 
+09/12/2021 21:30:06  Preparing to start chromedriver.exe 
+09/12/2021 21:30:07  Chromedriver.exe started 
+09/12/2021 21:30:07  Chromedriver.exe started 
+09/12/2021 21:30:08  Chromedriver.exe started 
+09/12/2021 21:30:17  Preparing to start chromedriver.exe 
+09/12/2021 21:30:18  Chromedriver.exe started 
+09/12/2021 21:30:23  Preparing to start chromedriver.exe 
+09/12/2021 21:30:23  Preparing to start chromedriver.exe 
+09/12/2021 21:30:24  Chromedriver.exe started 
+09/12/2021 21:30:24  Chromedriver.exe started 
+09/12/2021 21:30:24  Preparing to start chromedriver.exe 
+09/12/2021 21:30:27  Chromedriver.exe started 

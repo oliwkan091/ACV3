@@ -1,0 +1,2 @@
+block = ["/anchor.fm/","//www.linkedin.com/","//www.facebook.com/","//twitter.com/"]
+key = []

@@ -1,0 +1,14 @@
+DevTools listening on ws://127.0.0.1:55942/devtools/browser/cf2c2fa9-ccee-4a08-8664-12f2f2295f59
+Traceback (most recent call last):
+  File "C:\Users\Oliwier Kania\Desktop\Moje Pliki\Nauka\Code\Python\ARTICLES\articleCheckerV3\articleCheckerV3.py", line 434, in <module>
+    pageSourceCode = getLinksFromPage(link)
+  File "C:\Users\Oliwier Kania\Desktop\Moje Pliki\Nauka\Code\Python\ARTICLES\articleCheckerV3\articleCheckerV3.py", line 43, in getLinksFromPage
+    driver.get(pageLink)
+  File "C:\Users\Oliwier Kania\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\Oliwier Kania\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Oliwier Kania\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 298.981
+  (Session info: headless chrome=95.0.4638.69)

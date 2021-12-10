@@ -2977,3 +2977,39 @@
 09/12/2021 21:30:24  Chromedriver.exe started 
 09/12/2021 21:30:24  Preparing to start chromedriver.exe 
 09/12/2021 21:30:27  Chromedriver.exe started 
+10/12/2021 10:17:49  Program started 
+10/12/2021 10:17:49  Preparing to start chromedriver.exe 
+10/12/2021 10:18:38  Program started 
+10/12/2021 10:18:39  Preparing to start chromedriver.exe 
+10/12/2021 10:18:40  Chromedriver.exe started 
+10/12/2021 10:58:17  Program started 
+10/12/2021 10:58:17  Preparing to start chromedriver.exe 
+10/12/2021 10:58:19  Chromedriver.exe failed to start 
+10/12/2021 11:01:45  Program started 
+10/12/2021 11:01:46  Preparing to start chromedriver.exe 
+10/12/2021 11:01:47  Chromedriver.exe started 
+10/12/2021 11:01:48  Chromedriver.exe failed to start 
+10/12/2021 11:40:00  Program started 
+10/12/2021 11:40:00  Preparing to start chromedriver.exe 
+10/12/2021 11:40:01  Chromedriver.exe failed to start 
+10/12/2021 12:08:31  Program started 
+10/12/2021 12:08:31  Preparing to start chromedriver.exe 
+10/12/2021 12:08:32  Chromedriver.exe started 
+10/12/2021 12:08:55  Preparing to start chromedriver.exe 
+10/12/2021 12:08:55  Preparing to start chromedriver.exe 
+10/12/2021 12:08:56  Chromedriver.exe started 
+10/12/2021 12:08:56  Chromedriver.exe started 
+10/12/2021 12:08:59  Cannot connect to the specified link https://niebezpiecznik.pl/
+10/12/2021 12:08:59  Cannot connect to the specified link https://ukladsil.pl/biblioteka/
+10/12/2021 12:08:59  Cannot connect to the specified link https://wikileaks.org/
+10/12/2021 12:08:59  Cannot connect to the specified link https://marciniwuc.com/strona-z-wpisami/
+10/12/2021 12:09:00  Cannot connect to the specified link https://historycznyambasador.com/
+10/12/2021 12:09:00  Cannot connect to the specified link https://thegeopolitics.com/
+10/12/2021 12:09:06  Preparing to start chromedriver.exe 
+10/12/2021 12:09:06  Preparing to start chromedriver.exe 
+10/12/2021 12:10:30  Program started 
+10/12/2021 12:10:30  Preparing to start chromedriver.exe 
+10/12/2021 12:10:31  Chromedriver.exe started 
+10/12/2021 12:10:48  Program started 
+10/12/2021 12:10:48  Preparing to start chromedriver.exe 
+10/12/2021 12:10:49  Chromedriver.exe started 

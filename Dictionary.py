@@ -68,6 +68,9 @@ logLogs = {'ProgStart' : 'Program started',
            'nl': '\n'}
 
 
+switches = {"reboot": "r", "manual": "m", "finisher": "f", "checker": "c", "manual": "m", "articleCheckerV3": "acv3", "articleCheckerManager": "acm"}
+
+
 # Sprawdza czy plik istnieje
 def isFile(fileName):
     try:
@@ -426,13 +429,13 @@ def NAFileLoc():
 # i zapisuje je do jednego pliku wynikowego
 def saveNewArticlesV2(isBoot):
     import os
-    nATempDatabase = os.getcwd() + "\\tempDatabase"
+    nATempDatabase = os.getcwd() + doubleS + metaFileNames["tempDb"]  # \\tempDatabase
     if not isDir(nATempDatabase):
         if not isBoot :
             print("Brak nowych artykułów")
         return
 
-    tempDatabaseList = os.listdir(os.getcwd() + '\\tempDatabase')
+    tempDatabaseList = os.listdir(os.getcwd() + doubleS + metaFileNames["tempDb"])  # + '\\tempDatabase')
     if len(tempDatabaseList) == 0:
         if not isBoot:
             print("Brak nowych artykułów")
@@ -448,7 +451,7 @@ def saveNewArticlesV2(isBoot):
     newArticlesSaveFile.write(currentDate.strftime("%d/%m/%Y %H:%M:%S") + "\n")
 
     for file in tempDatabaseList:
-        tempFile = open("tempDatabase\\" + file, "r")
+        tempFile = open(metaFileNames["tempDb"] + doubleS + file, "r")  # "tempDatabase\\"
 
         for line in tempFile:
             newArticlesSaveFile.writelines(line)
@@ -456,11 +459,11 @@ def saveNewArticlesV2(isBoot):
         newArticlesSaveFile.writelines("")
         tempFile.close()
         if not isBoot:
-            print("tempDatabase\\" + file)
-        os.remove("tempDatabase\\" + file)
+            print(metaFileNames["tempDb"] + doubleS + file)  # "tempDatabase\\"
+        os.remove(metaFileNames["tempDb"] + doubleS + file)  # "tempDatabase\\"
 
     newArticlesSaveFile.close()
-    os.removedirs(os.getcwd() + '\\tempDatabase')
+    os.removedirs(os.getcwd() + doubleS + metaFileNames["tempDb"])  # '\\tempDatabase'
 
 
 # Jeżeli podczas poprzedniego wywołania programu wystąpił błąd to funkcja sprząta
@@ -470,6 +473,31 @@ def cleanAfterError():
     if isDir(os.getcwd() + doubleS + metaFileNames["tempDb"]):
         print("Naprawa po awarii")
         saveNewArticlesV2(True)
+
+
+# Zadaje pytanie i porównuje odpowiedz z listą, jeżeli pasuje to zwraca wynik
+def make_choice(instruction, elementList):
+    if len(elementList) != 0:
+        print(instruction)
+        i = 1
+        for element in elementList:
+            print(str(i) + '.	' + element.replace('\n', ''))
+            i += 1
+        choice = 0
+        i -= 1
+        while choice < 1 or choice > i:
+            choice = input("Wybierz: ")
+            if choice.isdigit():
+                choice = int(choice)
+                if choice < 1 or choice > i:
+                    print("Nie ma takiego wyboru")
+            else:
+                print('Nie ma takiego wyboru')
+                choice = 0
+        print()
+        return choice
+    print()
+    return 0
 
 # Ostrzeżenie przed wywołaniem
 if __name__ == "__main__":

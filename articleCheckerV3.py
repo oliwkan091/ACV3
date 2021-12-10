@@ -1,6 +1,7 @@
 '''
 Program ten scrapuje wybrane treści z interntu, sprawdza czy spełniają one kryteria, zapisuje do bazy danych i pliku wynikowego
 '''
+import sys
 
 import Dictionary as Dict
 
@@ -430,8 +431,12 @@ def mainFunc():
 
 if __name__ == '__main__':
 
-
-	mainFunc()
+	import sys
+	if len(sys.argv) > 1 and sys.argv[1] == "m":
+		print("Włączono działanie manualne, synchronizacja z git zostanie pominięta")
+		mainFunc()
+	else:
+		print("Do włącznia tego skryptu z pominięciem boota trzeba dodać przełącznik \"m\", pomijanie nie jest jednak zalecane bo omija synchronizacje z git")
 
 	'''
 	#DO WYRZUCENIA

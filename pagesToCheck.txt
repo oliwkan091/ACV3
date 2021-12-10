@@ -17,5 +17,7 @@ title = [
 "https://oko.press/",
 "https://enchantedbooklet.com/",
 "https://thedfirreport.com/",
-"https://www.osw.waw.pl/pl/publikacje"
+"https://www.osw.waw.pl/pl/publikacje",
+"https://tygodniknie.pl/",
+"https://google.pl/"
 ]

@@ -68,8 +68,18 @@ logLogs = {'ProgStart' : 'Program started',
            'nl': '\n'}
 
 
-switches = {"reboot": "r", "manual": "m", "finisher": "f", "checker": "c", "manual": "m", "articleCheckerV3": "acv3", "articleCheckerManager": "acm"}
+switches = {"moduleMode": "",
+            "gitMode": "g",
+            "rebootMode": "r",
+            "manual": "m",
+            "finisher": "f",
+            "checker": "c",
+            "manual": "m",
+            "articleCheckerV3": "acv3",
+            "articleCheckerManager": "acm"}
 
+txtEssential = {metaFileNames["pages"]: [["title"],[[]]],
+                metaFileNames["NALoc"]: [["Loc"],[{}]]}
 
 # Sprawdza czy plik istnieje
 def isFile(fileName):
@@ -102,10 +112,11 @@ def isLink(link, database):
         try:
             driver.get(link)
             driver.quit()
+            print(f"Linku {link} nie ma jeszcze w bazie")
+            driver.quit()
             return True
         except:
-            driver.quit()
-            print(f"Link {link} jest nowy")
+            print(f"{link} nie jest linkiem")
             return False
     #return False
 
@@ -146,6 +157,7 @@ def moduleInstaller():
     # Zawsze zainstalowane niezbędne do instalowanie modułów
     import subprocess
     import sys
+    wasUpdated = False
 
     #Instaluje pakiety jeżeli któregoś nie ma
 
@@ -153,54 +165,72 @@ def moduleInstaller():
         import selenium
     except :
         subprocess.check_call([sys.executable, '-m', 'pip', 'install','selenium'])
+        wasUpdated = True
     try:
         import codecs
     except :
         subprocess.check_call([sys.executable, '-m', 'pip', 'install','codecs'])
+        wasUpdated = True
     try:
         import urllib
     except :
         subprocess.check_call([sys.executable, '-m', 'pip', 'install','urllib'])
+        wasUpdated = True
     try:
         import time
     except :
         subprocess.check_call([sys.executable, '-m', 'pip', 'install','time'])
+        wasUpdated = True
     try:
         import requests
     except :
         subprocess.check_call([sys.executable, '-m', 'pip', 'install','requests'])
+        wasUpdated = True
     try:
         import lxml
     except :
         subprocess.check_call([sys.executable, '-m', 'pip', 'install','lxml'])
+        wasUpdated = True
     try:
         import bs4
     except :
         subprocess.check_call([sys.executable, '-m', 'pip', 'install','bs4'])
+        wasUpdated = True
     try:
         import re
     except :
         subprocess.check_call([sys.executable, '-m', 'pip', 'install','re'])
+        wasUpdated = True
     try:
         import pandas
     except :
         subprocess.check_call([sys.executable, '-m', 'pip', 'install','pandas'])
+        wasUpdated = True
     try:
         import os
     except :
         subprocess.check_call([sys.executable, '-m', 'pip', 'install','os'])
+        wasUpdated = True
     try:
         import openpyxl
     except :
         subprocess.check_call([sys.executable, '-m', 'pip', 'install','openpyxl'])
+        wasUpdated = True
     try:
         import git
     except:
         subprocess.check_call([sys.executable, '-m', 'pip', 'install','gitpython'])
-    try:
-        import git
-    except:
-        subprocess.check_call([sys.executable, '-m', 'pip', 'install','os'])
+        wasUpdated = True
+    # try:
+    #     import git
+    # except:
+    #     subprocess.check_call([sys.executable, '-m', 'pip', 'install','os'])
+    # try:
+    #     import date
+    # except:
+    #     subprocess.check_call([sys.executable, '-m', 'pip', 'install','date'])
+
+    return wasUpdated
 
 
 # Dodatje logi do rejestru
@@ -271,6 +301,11 @@ def recLoad(data,i):
 
 # Wstępnie przygotowuje pliki przed ich wczytanie do programu
 def loadDataFromFile(fileName):
+    essentialElement = [[], []]
+    if fileName in txtEssential.keys():
+        essentialElement = txtEssential[fileName]
+
+    diction = {}
 
     if isFile(fileName):
         dataToLoad = open(fileName, "r")
@@ -290,14 +325,36 @@ def loadDataFromFile(fileName):
 
         loadedData = loadedData.split(" ")
 
-        diction = {}
-        diction,i = recLoad(loadedData,0)
+        # diction = {}
+        diction, i = recLoad(loadedData, 0)
 
-        return diction
+        # isValid, validChecked = checkValid(essentialElement, diction)
+        # if not isValid:
+        #     print(f"Inforamcja w bazie \"{fileName}\" nie są kompletne, uzupełniono automatycznie, prosze sprawdzić po zakończeniu programu")
+        #     for val in validChecked:
+        #         if not validChecked[val]:
+        #             print(f"Brak informacji \"{val}\", uzupełniono automatycznie")
+        #             diction[val] = {}
+        # return diction
 
     else:
-        print("Baza danych nie istnieje")
-        return {}
+        print(f"Baza danych  \"{fileName}\" nie istnieje, stworzono automatycznie")
+        # return {}
+
+    isValid, validChecked = checkValid(essentialElement[0], diction)
+    if not isValid:
+        print(
+            f"Inforamcja w bazie \"{fileName}\" nie są kompletne, uzupełniono automatycznie, prosze sprawdzić po zakończeniu programu")
+        for val, type in zip(validChecked, essentialElement[1]):
+            if not validChecked[val]:
+                print(f"Brak informacji \"{val}\", uzupełniono automatycznie")
+                if type == []:
+                    diction[val] = []
+                else:
+                    diction[val] = {}
+
+                saveDataToFile(fileName, diction)
+    return diction
 
 
 # Rekurencyjnie wczytuje pliki
@@ -424,6 +481,17 @@ def NAFileLoc():
         if name == pcName:
             return data["Loc"][name]
 
+    pathToNA = input("Brak informacji o punkcie zapisu na tym urządzniu. Wklej ścierzkę do folderu:")
+    isPath = False
+    while True:
+        if Dict.isDir(pathToNA):
+            print("Ścieżka jest poprawna")
+            data["Loc"][pcName] = pathToNA
+            Dict.saveDataToFile(Dict.metaFileNames["NALoc"],data)
+            return pathToNA
+        else:
+            pathToNA = input("Ścieżka jest niepoprawna, podaj poprawną ścieżkę: ")
+
 # Nowa forma zapisu plików wynikowych
 # Zbiera pojedyncze pliki z folderu tempDatabase które zawierają wyniki z każdej sprawdzanej strony
 # i zapisuje je do jednego pliku wynikowego
@@ -498,6 +566,30 @@ def make_choice(instruction, elementList):
         return choice
     print()
     return 0
+
+
+def checkValid(validity, diction):
+    validityDick = {}
+    for val in validity:
+        validityDick[val] = False
+
+    validityDick = recValid(validityDick, diction)
+    for val in validityDick:
+        if not validityDick[val]:
+            return [False, validityDick]
+
+    return [True, []]
+
+def recValid(validityDick,diction):
+    dictType = type({})
+    if type(diction) == dictType:
+        for dict in diction:
+            if dict in validityDick.keys():
+                validityDick[dict] = True
+            if type(diction[dict]) == dictType:
+
+                validityDick = recValid(validityDick, diction[dict])
+    return validityDick
 
 # Ostrzeżenie przed wywołaniem
 if __name__ == "__main__":

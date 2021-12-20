@@ -3013,3 +3013,11 @@
 10/12/2021 12:10:48  Program started 
 10/12/2021 12:10:48  Preparing to start chromedriver.exe 
 10/12/2021 12:10:49  Chromedriver.exe started 
+20/12/2021 15:00:54  Program started 
+20/12/2021 15:00:54  Preparing to start chromedriver.exe 
+20/12/2021 15:00:56  Chromedriver.exe started 
+20/12/2021 15:00:58  Chromedriver.exe failed to start 
+20/12/2021 15:01:33  Program started 
+20/12/2021 15:01:33  Preparing to start chromedriver.exe 
+20/12/2021 15:01:34  Chromedriver.exe started 
+20/12/2021 15:01:45  Cannot connect to the specified link https://historycznyambasador.com/

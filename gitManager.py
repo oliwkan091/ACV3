@@ -11,26 +11,26 @@ def bootChecker():
     Dict.moduleInstaller()
 
 
-# if isRepo():
-# 	import git
-# 	repo =  git.Repo(os.getcwd())
-# 	print(repo.git.status())
-# 	repo.git.pull()
+    if isRepo():
+        import git
+        # repo =  git.Repo(os.getcwd())
+        # print(repo.git.status())
+        # repo.git.pull()
 
 
 # Uruchamiany na końcu prgoramu w celu wysłania zmian na serwer
 def finisher():
-    import git
     import os
 
 
-# if isRepo():
-# 	repo =  git.Repo(os.getcwd())
-# 	print(repo.git.status())
-# 	repo.git.add("--all")
-# 	repo.git.commit('-m "auto commit"')
-# 	repo.git.push()
-# 	print('Synchronizacja zakończona')
+    if isRepo():
+        import git
+        # repo =  git.Repo(os.getcwd())
+        # print(repo.git.status())
+        # repo.git.add("--all")
+        # repo.git.commit('-m "auto commit"')
+        # repo.git.push()
+        # print('Synchronizacja zakończona')
 
 
 # Sprawdza czy repoztorum już istanieje:
@@ -44,15 +44,15 @@ def isRepo():
         repo = git.Repo(os.getcwd())
         return True
     except git.exc.NoSuchPathError:
-        reso = git.Repo.clone_from(Dict.gitMetaNames['repo'], os.getcwd())
+        #reso = git.Repo.clone_from(Dict.gitMetaNames['repo'], os.getcwd())
         return False
     except git.exc.InvalidGitRepositoryError:
-        reso = git.Repo.clone_from(Dict.gitMetaNames['repo'], os.getcwd())
+        #reso = git.Repo.clone_from(Dict.gitMetaNames['repo'], os.getcwd())
         return False
 
 
 # Główna funkcja, pozwala łatow uruchomić program z innego skryptu
-def mainFunc(argu, useType):
+def mainFunc(argu):
     # Sprawdza, czy dodano przełącznik
     if argu:
         import Dictionary as Dict
@@ -69,8 +69,8 @@ def mainFunc(argu, useType):
         print('Przełącznik wymagany')
         print('c - uruchamia bootChecker')
         print('f - uruchamia finisher')
-        if useType == "boot":
-            return 0
+        # if useType == "boot":
+        #     return 0
 
 
 # Przyjmuje dwa przełączniki

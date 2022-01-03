@@ -214,7 +214,7 @@ def manageLinks(pageLink, better_web, newArticles):
         blocked = []
         print(type(data))
         print(type(data))
-        if type(data) == type({}):
+        if isinstance(data, {}):
             try:
                 print("in")
                 data["key"]

@@ -235,6 +235,7 @@ def manageLinks(pageLink, better_web, newArticles):
 
         keyed.append(tempPageLink)
         print("Keyed",keyed)
+        print("Blocked",blocked)
 
         i = 0
         while i < len(links):

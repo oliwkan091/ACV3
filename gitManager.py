@@ -10,27 +10,27 @@ def bootChecker():
     import Dictionary as Dict
     Dict.moduleInstaller()
 
-
+    #   UNCOMMENT WHEN READY
     if isRepo():
         import git
-        # repo =  git.Repo(os.getcwd())
-        # print(repo.git.status())
-        # repo.git.pull()
+        repo =  git.Repo(os.getcwd())
+        print(repo.git.status())
+        repo.git.pull()
 
 
 # Uruchamiany na końcu prgoramu w celu wysłania zmian na serwer
 def finisher():
     import os
 
-
+    #   UNCOMMENT WHEN READY
     if isRepo():
         import git
-        # repo =  git.Repo(os.getcwd())
-        # print(repo.git.status())
-        # repo.git.add("--all")
-        # repo.git.commit('-m "auto commit"')
-        # repo.git.push()
-        # print('Synchronizacja zakończona')
+        repo =  git.Repo(os.getcwd())
+        print(repo.git.status())
+        repo.git.add("--all")
+        repo.git.commit('-m "auto commit"')
+        repo.git.push()
+        print('Synchronizacja zakończona')
 
 
 # Sprawdza czy repoztorum już istanieje:

@@ -211,9 +211,24 @@ def manageLinks(pageLink, better_web, newArticles):
             data = Dict.loadDataFromFile(Dict.metaFileNames["database"] + "\\" + Dict.makeNameFromLink(pageLink, "txt"))
         keyed = []
         blocked = []
-        if data != {}:
-            keyed = data["key"]
-            blocked = data["block"]
+        if data == {}:
+            try:
+                data["key"]
+                data["block"]
+                keyed = data["key"]
+                blocked = data["block"]
+            except:
+                fileName = Dict.metaFileNames["database"] + "\\" + Dict.makeNameFromLink(pageLink, "txt")
+                print(f"Plik wykluczeń {fileName} jest uszkodzony! NAPRAW GO")
+                os.renames(Dict.metaFileNames["database"] + "\\" + Dict.makeNameFromLink(pageLink, "txt"), Dict.metaFileNames["database"] + "\\" + Dict.makeNameFromLink(pageLink + "ERROR", "txt"))
+
+
+        tempPageLink = pageLink
+        for element in Dict.repetedLinks:
+            tempPageLink = tempPageLink.replace(element, "")
+
+        keyed.append(tempPageLink)
+        print("Keyed",keyed)
 
         i = 0
         while i < len(links):

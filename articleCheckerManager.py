@@ -156,6 +156,53 @@ def remove_exception(metaFileNames):
         print("Baza danych nie istanieje")
 
 
+# Usuwa zapisane dane artykułów
+def deleteNewArticles():
+    import os
+    if(Dict.isFile(Dict.NAFileLoc() + '\\' + Dict.metaFileNames['newArticles'])):
+        os.remove(Dict.NAFileLoc() + '\\' + Dict.metaFileNames['newArticles'])
+        return True
+    else:
+        return False
+
+
+# Wczytuje do przeglądarki strony
+def open_browser(links):
+    from selenium import webdriver
+
+    driver_path = "chromedriver.exe"
+    brave_path = "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe"
+
+    option = webdriver.ChromeOptions()
+    option.binary_location = brave_path
+    # option.add_argument("--incognito") OPTIONAL
+    # option.add_argument("--headless") OPTIONAL
+
+    # Create new Instance of Chrome
+    browser = webdriver.Chrome(executable_path=driver_path, chrome_options=option)
+    #browser.get(links[0])
+    browser.get(links[0])
+    pagesNumber = range(0,len(links)-1)
+    print("Wczytywanie")
+    for link,i in zip(links,pagesNumber):
+        browser.execute_script(f"window.open('about:blank',\'{i}\');")
+        browser.switch_to.window(f"{i}")
+        browser.get(link)
+    input("Naciśnij dowolny klawisz by zamknąć przeglądarkę")
+
+
+# Wczytuje zapisane linki
+def open_saved_links():
+    open_browser(Dict.loadNewArticles())
+
+    if not Dict.make_choice("Czy chcesz usunąć plik z zakładkami", ["Tak", "Nie"]) - 1:
+        if deleteNewArticles():
+            print("Usunięto")
+        else:
+            print("Błąd usuwania")
+    else:
+        print("Nie usunięto")
+
 # Dodaje linki z innej podstrony do wyznaczonej bazy danych
 # Chwilowo nieużywane
 # def manualManageLinks():
@@ -217,7 +264,10 @@ def mainFunc():
         elif choice == 6:
             remove_exception(Dict.metaFileNames)
         elif choice == 7:
-            # os.system(Dict.gitManagerMethods['finish'])
+            open_saved_links()
+        elif choice == 8:
+            import gitManager as gm
+            gm.mainFunc("f")
             exit(0)
 
 

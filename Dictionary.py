@@ -39,7 +39,7 @@ pagesData = ('title','=','\"')
 repetedLinks = ('https:','http:')
 
 # Dane które nalezy wyświetlić w mennu głównym
-mainMenu = ('Pokaż zapisane linki','Dodaj linki','Usuń linki','Pokaż wyjątki','Dodaj wyjątek','Usuń wyjątek','Wyjdz')
+mainMenu = ('Pokaż zapisane linki','Dodaj linki','Usuń linki','Pokaż wyjątki','Dodaj wyjątek','Usuń wyjątek','Otwóz zapisane linki','Wyjdz')
 
 # mainMenu = ('Pokaż zapisane linki','Dodaj linki','Usuń linki',
 # 'Pokaż wyjątki','Dodaj wyjątek','Usuń wyjątek','Sprawdz stronę pochodną','Wyjdz')
@@ -67,6 +67,16 @@ logLogs = {'ProgStart' : 'Program started',
            'LinkErr': 'Cannot connect to the specified link',
            'nl': '\n'}
 
+# Przełączniki do włączania programu
+    #  moduleMode - Brak przełącznik, pirwsze uruchominie, system sprawdzi stan modułów, synchronizację z git
+    #       i zapyta co dalej
+    #  gitMode - uruchamia się i pomija instalację modułów
+    #  rebootMode - pomija instalacje modułów i synchronizację z git
+    #  manual - wymuszenie działania poszczególnych komponentów
+    #  finisher - Uruchamia wypchnięcie do gita
+    #  checker - uruchamia pobranie z gita
+    #  articleCheckerV3 - daje znać że po wstępnej synchronizacji będzie chcaił użyć acv3
+    #  articleCheckerManager - daje znać że po wstępnej synchronizacji będzie chcaił użyć gm
 
 switches = {"moduleMode": "",
             "gitMode": "g",
@@ -74,10 +84,10 @@ switches = {"moduleMode": "",
             "manual": "m",
             "finisher": "f",
             "checker": "c",
-            "manual": "m",
             "articleCheckerV3": "acv3",
             "articleCheckerManager": "acm"}
 
+#Podczas wcyztywanie konkretnych plików sprawdza czy nie brakuje w nich zniezbędnych danych
 txtEssential = {metaFileNames["pages"]: [["title"],[[]]],
                 metaFileNames["NALoc"]: [["Loc"],[{}]]}
 
@@ -221,14 +231,6 @@ def moduleInstaller():
     except:
         subprocess.check_call([sys.executable, '-m', 'pip', 'install','gitpython'])
         wasUpdated = True
-    # try:
-    #     import git
-    # except:
-    #     subprocess.check_call([sys.executable, '-m', 'pip', 'install','os'])
-    # try:
-    #     import date
-    # except:
-    #     subprocess.check_call([sys.executable, '-m', 'pip', 'install','date'])
 
     return wasUpdated
 
@@ -492,6 +494,19 @@ def NAFileLoc():
         else:
             pathToNA = input("Ścieżka jest niepoprawna, podaj poprawną ścieżkę: ")
 
+def loadNewArticles():
+    if isFile(NAFileLoc() + '\\' + metaFileNames['newArticles']):
+        links = []
+        # with open:
+        newArticlesLoadFile = open(NAFileLoc() + '\\' + metaFileNames['newArticles'], "r")
+        for line in newArticlesLoadFile:
+            if line.startswith(repetedLinks[0]):
+                links.append(line)
+
+        return links
+
+
+
 # Nowa forma zapisu plików wynikowych
 # Zbiera pojedyncze pliki z folderu tempDatabase które zawierają wyniki z każdej sprawdzanej strony
 # i zapisuje je do jednego pliku wynikowego
@@ -568,6 +583,7 @@ def make_choice(instruction, elementList):
     return 0
 
 
+#Sprawdza czy w pliku nie brakuje niezbędnych danych
 def checkValid(validity, diction):
     validityDick = {}
     for val in validity:
@@ -580,6 +596,7 @@ def checkValid(validity, diction):
 
     return [True, []]
 
+#Powyższa wunkcja rekurencyjnie
 def recValid(validityDick,diction):
     dictType = type({})
     if type(diction) == dictType:

@@ -55,51 +55,5 @@ if __name__ == "__main__":
             print("Zamykanie")
             exit(0)
 
-        gm.mainFunc(Dict.switches["finisher"], "boot")
+        gm.mainFunc(Dict.switches["finisher"])
         Dict.cleanAfterError()
-
-
-
-
-    # if not Dict.switches["reboot"] in sys.argv:
-    #     # Sprawdza czy niepowodzenie poprzedniego wywołania nie zostawiło śmieci
-    #     Dict.moduleInstaller()
-    #     Dict.cleanAfterError()
-    #     # Wywołuje skrypt synchronizacji z git
-    #     if gm.mainFunc(Dict.switches["checker"], "boot"):
-    #         # Dodaje przełącznik potrzebny do ponownego uruchomienia
-    #         argList = sys.argv + [Dict.switches["reboot"]]
-    #         print("Ponowne uruchamianie po synchronizacji z git")
-    #         # Restartuje program
-    #         os.execv(sys.executable, ['python'] + argList)
-    #     else:
-    #         print("Błąd podczas synchronizacji git")
-    #         print("exit")
-    #
-    # else:
-    #     choice = -1
-    #     # Jeżeli nie ma wymaganych przełączników to pozwala je wybrać
-    #     if Dict.switches["articleCheckerV3"] not in sys.argv and Dict.switches["articleCheckerManager"] not in sys.argv:
-    #         choice = Dict.make_choice("Wybierze który moduł chcesz uruchomić", ["articleCheckerV3", "articleCheckerManager", "Wyjście"])
-    #
-    #     if Dict.switches["articleCheckerV3"] in sys.argv or choice == 1:
-    #         print("Uruchamianie articleCheckerV3")
-    #         acv3.mainFunc()
-    #
-    #     elif Dict.switches["articleCheckerManager"] in sys.argv or choice == 2:
-    #         print("Uruchamianie articleCheckerManager")
-    #         acm.mainFunc()
-    #
-    #     else:
-    #         print("Zamykanie")
-    #         exit(0)
-    #
-    #     gm.mainFunc(Dict.switches["finisher"], "boot")
-    #     Dict.cleanAfterError()
-    #
-
-
-
-
-
-

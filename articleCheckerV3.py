@@ -212,7 +212,7 @@ def manageLinks(pageLink, better_web, newArticles):
         print("datta", data)
         keyed = []
         blocked = []
-        if data == {}:
+        if type(data) == {}:
             try:
                 print("in")
                 data["key"]

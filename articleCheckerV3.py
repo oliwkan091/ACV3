@@ -209,12 +209,16 @@ def manageLinks(pageLink, better_web, newArticles):
         data = ""
         if Dict.isFile(Dict.metaFileNames["database"] + "\\" + Dict.makeNameFromLink(pageLink, "txt")):
             data = Dict.loadDataFromFile(Dict.metaFileNames["database"] + "\\" + Dict.makeNameFromLink(pageLink, "txt"))
+        print("datta", data)
         keyed = []
         blocked = []
         if data == {}:
             try:
+                print("in")
                 data["key"]
+                print("key in")
                 data["block"]
+                print("block in")
                 keyed = data["key"]
                 blocked = data["block"]
             except:

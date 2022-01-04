@@ -61,7 +61,7 @@ def isRepeated(link, pageLink):
 
 # Spis treści funkcji bo jest bardzo duża :
 # 1. Sprawdzenie czy kod źródłowy strony oraz baza danych linków istanieje
-# 2. Wybranie linkó z kodu strony i sprawdzenie  czy istanieją
+# 2. Wybranie linków z kodu strony i sprawdzenie  czy istanieją
 # 3. Sortuje tablicę linków i nazw po linkach i rozdziela na mniejsze tablice
 # 4. Usuwa powtózenia linków i wybiera jeden tytuł
 # 5. Jeżeli baza danych funkcji już instanieje to pobiera wszystkie zapisane w niej linki i porównuje czy któreś z nowych nie były już wcześniej pobrane
@@ -241,14 +241,12 @@ def manageLinks(pageLink, better_web, newArticles):
         while i < len(links):
             wasBreak = False
             wasBlock = False
-            wasKey = False
             newDataToExcel[0].append(links[i])
             newDataToExcel[1].append(names[i])
             if keyed != []:
                 for key in keyed:
                     if key in links[i]:
-                        wasKey = True
-                        if wasKey and blocked != []:
+                        if blocked != []:
                             for block in blocked:
                                 if block in links[i]:
                                     wasBlock = True
@@ -444,12 +442,11 @@ def mainFunc():
 
         Dict.makeDatabase()
         import concurrent.futures
-        #with concurrent.futures.ThreadPoolExecutor() as thread:
+        with concurrent.futures.ThreadPoolExecutor() as thread:
 
-        for i, link in enumerate(pageslinks["title"]):
-            if link:
-                #thread.submit(threadCheeck, link)
-                threadCheeck(link)
+            for i, link in enumerate(pageslinks["title"]):
+                if link:
+                    thread.submit(threadCheeck, link)
 
         Dict.saveNewArticlesV2(False)
     # Miernik czasu

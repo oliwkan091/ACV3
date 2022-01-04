@@ -68,15 +68,15 @@ logLogs = {'ProgStart' : 'Program started',
            'nl': '\n'}
 
 # Przełączniki do włączania programu
-    #  moduleMode - Brak przełącznik, pirwsze uruchominie, system sprawdzi stan modułów, synchronizację z git
-    #       i zapyta co dalej
-    #  gitMode - uruchamia się i pomija instalację modułów
-    #  rebootMode - pomija instalacje modułów i synchronizację z git
-    #  manual - wymuszenie działania poszczególnych komponentów
-    #  finisher - Uruchamia wypchnięcie do gita
-    #  checker - uruchamia pobranie z gita
-    #  articleCheckerV3 - daje znać że po wstępnej synchronizacji będzie chcaił użyć acv3
-    #  articleCheckerManager - daje znać że po wstępnej synchronizacji będzie chcaił użyć gm
+#       moduleMode - Brak przełącznik, pirwsze uruchominie, system sprawdzi stan modułów, synchronizację z git
+#           i zapyta co dalej
+#       gitMode - uruchamia się i pomija instalację modułów
+#       rebootMode - pomija instalacje modułów i synchronizację z git
+#       manual - wymuszenie działania poszczególnych komponentów
+#       finisher - Uruchamia wypchnięcie do gita
+#       checker - uruchamia pobranie z gita
+#       articleCheckerV3 - daje znać że po wstępnej synchronizacji będzie chcaił użyć acv3
+#       articleCheckerManager - daje znać że po wstępnej synchronizacji będzie chcaił użyć gm
 
 switches = {"moduleMode": "",
             "gitMode": "g",
@@ -87,9 +87,13 @@ switches = {"moduleMode": "",
             "articleCheckerV3": "acv3",
             "articleCheckerManager": "acm"}
 
-#Podczas wcyztywanie konkretnych plików sprawdza czy nie brakuje w nich zniezbędnych danych
+# Podczas wcyztywanie konkretnych plików sprawdza czy nie brakuje w nich zniezbędnych danych
 txtEssential = {metaFileNames["pages"]: [["title"],[[]]],
                 metaFileNames["NALoc"]: [["Loc"],[{}]]}
+
+notTitleElemnts = [
+
+]
 
 # Sprawdza czy plik istnieje
 def isFile(fileName):
@@ -608,6 +612,7 @@ def recValid(validityDick,diction):
                 validityDick = recValid(validityDick, diction[dict])
     return validityDick
 
+# Sprawdza czy wszystkie pliki danych (xlsx) nie są uszkodzone lub otwarte, jeżeli napotka problem zwraca true
 def checkIfExcelFileIsOpen():
     import os
     import pandas

@@ -279,6 +279,7 @@ if __name__ == '__main__':
     import sys
     import Dictionary as Dict
 
+    # Usuwa "-" sprzed przełącznika
     argList = [sys.argv[0]] + [element.replace("-", "") for element in sys.argv[1:]]
 
     if len(sys.argv) > 1 and Dict.switches["manual"] in argList:

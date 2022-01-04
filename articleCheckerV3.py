@@ -122,16 +122,18 @@ def manageLinks(pageLink, better_web, newArticles):
 
             if Dict.isLink(tempLink, excelData[0]):
                 for name in tempName:
-                    print(name)
                     linkAndName.append(tempLink + Dict.comma + name)
-            # Na dynamicznych stronach nie ma adresu głównego są tylko adresy wewnętrze które zaczynają się od '/', należy do nich dodać adres główny
+            # Na dynamicznych stronach nie ma adresu głównego są tylko adresy wewnętrze które zaczynają się od '/',
+            #   należy do nich dodać adres główny
             elif not tempLink.startswith('http'):
                 if tempLink.startswith('/'):
                     if Dict.isLink(makeTheMainLink(pageLink) + tempLink, excelData[0]):
-                        linkAndName.append(makeTheMainLink(pageLink) + tempLink + Dict.comma + tempName)
+                        for name in tempName:
+                            linkAndName.append(makeTheMainLink(pageLink) + tempLink + Dict.comma + name)
                 else:
                     if Dict.isLink(makeTheMainLink(pageLink) + '/' + tempLink, excelData[0]):
-                        linkAndName.append(makeTheMainLink(pageLink) + '/' + tempLink + Dict.comma + tempName)
+                        for name in tempName:
+                            linkAndName.append(makeTheMainLink(pageLink) + '/' + tempLink + Dict.comma + name)
     # 3
     linkAndName = sorted(linkAndName)
 
@@ -156,19 +158,21 @@ def manageLinks(pageLink, better_web, newArticles):
         # Jeżeli obecny element nie jest ostatnim to sprawdza czy kolejny link nie jest taki sam
         if i < len(sortedDataFromPage[0]) - 1 and sortedDataFromPage[0][i] == sortedDataFromPage[0][i + 1]:
 
-            # Jeżeli link i oraz i+1 są takie same to oznazca że rozpoczęła się seria identycznych linków z któryvh należy zostawić tlyko jeden
+            # Jeżeli link i oraz i+1 są takie same to oznazca że rozpoczęła się seria identycznych linków z których
+            #   należy zostawić tylko jeden
             if startSeries == False:
                 startSeries = True
                 starSeriesPosition = i
 
-        # Jeżeli link i jest różny od i+1 i startSeries == True to oznacza że skńczyła się seria i trzeba wybrać jeden z linków
+        # Jeżeli link i jest różny od i+1 i startSeries == True to oznacza że skńczyła się seria i
+        #   trzeba wybrać jeden z linków
         elif startSeries == True:
             startSeries = False
             bestToTitle = sortedDataFromPage[1][starSeriesPosition]
             bestToLink = sortedDataFromPage[0][starSeriesPosition]
             bestTitleLocation = starSeriesPosition
             j = starSeriesPosition
-            while j < i:
+            while j < i + 1:
                 if not Dict.isLink(sortedDataFromPage[1][j], excelData[0]) and len(bestToTitle) < len(
                         sortedDataFromPage[1][j]):
                     bestToTitle = sortedDataFromPage[1][j]
@@ -438,11 +442,12 @@ def mainFunc():
 
         Dict.makeDatabase()
         import concurrent.futures
-        with concurrent.futures.ThreadPoolExecutor() as thread:
+        #with concurrent.futures.ThreadPoolExecutor() as thread:
 
-            for i, link in enumerate(pageslinks["title"]):
-                if link:
-                    thread.submit(threadCheeck, link)
+        for i, link in enumerate(pageslinks["title"]):
+            if link:
+                #thread.submit(threadCheeck, link)
+                threadCheeck(link)
 
         Dict.saveNewArticlesV2(False)
     # Miernik czasu

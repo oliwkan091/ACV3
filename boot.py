@@ -25,6 +25,11 @@ if __name__ == "__main__":
 
     # Synchronizujee z githubem, zawsze restartuje
     if Dict.switches["gitMode"] in argList:
+        # Sprawdza czy jakieś pliki nie są uszkodzone/otwarte
+        if Dict.checkIfExcelFileIsOpen():
+            exit(0)
+
+            exit(0)
         Dict.cleanAfterError()
         # Wywołuje skrypt synchronizacji z git
         gm.mainFunc(Dict.switches["checker"])

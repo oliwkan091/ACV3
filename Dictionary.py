@@ -608,6 +608,28 @@ def recValid(validityDick,diction):
                 validityDick = recValid(validityDick, diction[dict])
     return validityDick
 
+def checkIfExcelFileIsOpen():
+    import os
+    import pandas
+    exceptList = []
+    wasException = False
+    xlsxList = os.listdir(metaFileNames['database'] + doubleS)
+    for file in xlsxList:
+        if "xlsx" in file:
+            try:
+                pandas.read_excel(metaFileNames['database'] + doubleS + file)
+            except:
+                exceptList.append(file)
+                wasException = True
+
+    if wasException:
+        print("Niektórych plików nie da się otworzyć, mogą być otwarte, napraw to i uruchom ponownie")
+        print("Błędne pliki")
+        for file in exceptList:
+            print(file)
+
+    return wasException
+
 # Ostrzeżenie przed wywołaniem
 if __name__ == "__main__":
     print("Biblioteka Dictionary nie została stworzona do samodzielnego uruchamiania,"

@@ -245,6 +245,9 @@ def open_saved_links():
 def mainFunc():
     import Dictionary as Dict
 
+    if Dict.checkIfExcelFileIsOpen():
+        exit(0)
+
     # os.system(Dict.gitManagerMethods['boot'])
 
     choice = 0
@@ -276,7 +279,9 @@ if __name__ == '__main__':
     import sys
     import Dictionary as Dict
 
-    if len(sys.argv) > 1 and Dict.switches["manual"] in sys.argv:
+    argList = [sys.argv[0]] + [element.replace("-", "") for element in sys.argv[1:]]
+
+    if len(sys.argv) > 1 and Dict.switches["manual"] in argList:
         print("Włączono działanie manualne, synchronizacja z git zostanie pominięta")
         mainFunc()
     else:

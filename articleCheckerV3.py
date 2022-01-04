@@ -209,18 +209,10 @@ def manageLinks(pageLink, better_web, newArticles):
         data = ""
         if Dict.isFile(Dict.metaFileNames["database"] + "\\" + Dict.makeNameFromLink(pageLink, "txt")):
             data = Dict.loadDataFromFile(Dict.metaFileNames["database"] + "\\" + Dict.makeNameFromLink(pageLink, "txt"))
-        print("datta", data)
         keyed = []
         blocked = []
-        print(type(data))
-        print(type(data))
         if isinstance(data, dict):
             try:
-                print("in")
-                data["key"]
-                print("key in")
-                data["block"]
-                print("block in")
                 keyed = data["key"]
                 blocked = data["block"]
             except:
@@ -234,8 +226,6 @@ def manageLinks(pageLink, better_web, newArticles):
             tempPageLink = tempPageLink.replace(element, "")
 
         keyed.append(tempPageLink)
-        print("Keyed",keyed)
-        print("Blocked",blocked)
 
         i = 0
         while i < len(links):
@@ -387,9 +377,7 @@ def threadCheeck(link):
 
     pageSourceCode = getLinksFromPage(link)
     newArticles = []
-    print("po łącze")
     manageLinks(link, pageSourceCode, newArticles)
-    print("po manage")
 
     if len(newArticles) > 0:
         nATempDatabase = os.getcwd() + "\\tempDatabase"
@@ -463,9 +451,12 @@ def mainFunc():
 if __name__ == '__main__':
 
     import sys
+    argList = [sys.argv[0]] + [element.replace("-", "") for element in sys.argv[1:]]
 
-    if len(sys.argv) > 1 and sys.argv[1] == "m":
+    if len(sys.argv) > 1 and argList[1] == "m":
         print("Włączono działanie manualne, synchronizacja z git zostanie pominięta")
+        if Dict.checkIfExcelFileIsOpen():
+            exit(0)
         mainFunc()
     else:
         print(

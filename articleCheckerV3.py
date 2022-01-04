@@ -1,8 +1,10 @@
 '''
 Program ten scrapuje wybrane treści z interntu, sprawdza czy spełniają one kryteria, zapisuje do bazy danych i pliku wynikowego
 '''
+import sys
 
 import Dictionary as Dict
+
 
 # Pobiera wsszystkie linki ze stron
 def getLinksFromPage(pageLink):
@@ -59,11 +61,10 @@ def isRepeated(link, pageLink):
 
 # Spis treści funkcji bo jest bardzo duża :
 # 1. Sprawdzenie czy kod źródłowy strony oraz baza danych linków istanieje
-# 2. Wybranie linków z kodu strony i sprawdzenie  czy istanieją
+# 2. Wybranie linkó z kodu strony i sprawdzenie  czy istanieją
 # 3. Sortuje tablicę linków i nazw po linkach i rozdziela na mniejsze tablice
-# 4. Usuwa powtórzenia linków i wybiera jeden tytuł
-# 5. Jeżeli baza danych funkcji już instanieje to pobiera wszystkie zapisane w niej linki
-#    i porównuje czy któreś z nowych nie były już wcześniej pobrane
+# 4. Usuwa powtózenia linków i wybiera jeden tytuł
+# 5. Jeżeli baza danych funkcji już instanieje to pobiera wszystkie zapisane w niej linki i porównuje czy któreś z nowych nie były już wcześniej pobrane
 # 6. Sprawdza czy linki nie są wykluczone lub wymagane
 # 7. Zapisuje dane do excela wzbogacone o świeżo poprane linki
 # 8. Jeżeli baza danych nie istanieje to zapisuje wszytkie linki do excela i nie zwraca newArticles
@@ -97,8 +98,7 @@ def manageLinks(pageLink, better_web, newArticles):
 
     # 2
 
-    # Nie potrafiłem przesortować tablicy po dwóch elementach więc trzeba go połączyć
-    #   w jeden i przesortować, Dict.comma rodziela link od nazwy
+    # Nie potrafiłem przesortować tablicy po dwóch elementach więc trzeba go połączyć w jeden i przesortować, Dict.comma rodziela link od nazwy
     linkAndName = []
 
     # Szuka linków w kodzie strony (linki to "a")
@@ -107,7 +107,7 @@ def manageLinks(pageLink, better_web, newArticles):
 
         # Sprawdza czy jest to link
         tempLink = re.findall('href=\".[^\"]*\"', str(link))
-        tempName = re.findall('>.*?<', str(link))
+        tempName = re.findall('>.*<', str(link))
 
         # Sprawdza czy link i nazwa istanieje
         if tempName and tempLink:
@@ -118,13 +118,9 @@ def manageLinks(pageLink, better_web, newArticles):
 
             tempLink = tempLink[0].replace('href="', '').replace('"', '').strip()
 
-            print(tempLink)
-            print(tempName)
             if Dict.isLink(tempLink, excelData[0]):
-                for name in tempName:
-                    linkAndName.append(tempLink + Dict.comma + name)
-            # Na dynamicznych stronach nie ma adresu głównego są tylko adresy wewnętrzne które
-            #   zaczynają się od '/', należy do nich dodać adres główny
+                linkAndName.append(tempLink + Dict.comma + tempName)
+            # Na dynamicznych stronach nie ma adresu głównego są tylko adresy wewnętrze które zaczynają się od '/', należy do nich dodać adres główny
             elif not tempLink.startswith('http'):
                 if tempLink.startswith('/'):
                     if Dict.isLink(makeTheMainLink(pageLink) + tempLink, excelData[0]):
@@ -156,29 +152,25 @@ def manageLinks(pageLink, better_web, newArticles):
         # Jeżeli obecny element nie jest ostatnim to sprawdza czy kolejny link nie jest taki sam
         if i < len(sortedDataFromPage[0]) - 1 and sortedDataFromPage[0][i] == sortedDataFromPage[0][i + 1]:
 
-            # Jeżeli link i oraz i+1 są takie same to oznacza że rozpoczęła się seria
-            #   identycznych linków z których należy zostawić tylko jeden
+            # Jeżeli link i oraz i+1 są takie same to oznazca że rozpoczęła się seria identycznych linków z któryvh należy zostawić tlyko jeden
             if startSeries == False:
                 startSeries = True
                 starSeriesPosition = i
 
-        # Jeżeli link i jest różny od i+1 i startSeries == True to oznacza że
-        #   skńczyła się seria i trzeba wybrać jeden z linków
+        # Jeżeli link i jest różny od i+1 i startSeries == True to oznacza że skńczyła się seria i trzeba wybrać jeden z linków
         elif startSeries == True:
             startSeries = False
             bestToTitle = sortedDataFromPage[1][starSeriesPosition]
             bestToLink = sortedDataFromPage[0][starSeriesPosition]
             bestTitleLocation = starSeriesPosition
             j = starSeriesPosition
-            while j < i+1:
+            while j < i:
                 if not Dict.isLink(sortedDataFromPage[1][j], excelData[0]) and len(bestToTitle) < len(
                         sortedDataFromPage[1][j]):
                     bestToTitle = sortedDataFromPage[1][j]
                     bestToLink = sortedDataFromPage[0][j]
                     bestTitleLocation = j
                 j += 1
-            print(sortedDataFromPage[0][i])
-            print(sortedDataFromPage[1][i])
             links.append(bestToLink)
             names.append(bestToTitle)
 
@@ -282,7 +274,7 @@ def manageLinks(pageLink, better_web, newArticles):
 
     # 8
 
-    # Jeżeli meta plik danej strony jeszcze nie istnieje
+    # Jeżeli meta plik danej strony jeszcze nie istanieje
     else:
         excelWriter = pandas.ExcelWriter(Dict.metaFileNames['database'] + '\\' + fileName)
         dataF = pandas.DataFrame({'Links': links, 'Names': names})

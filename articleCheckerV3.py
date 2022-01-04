@@ -180,6 +180,8 @@ def manageLinks(pageLink, better_web, newArticles):
 
         # Jeżeli nie ma żadnej serii linków ale jest to ostatni element to dodaje ostatni link
         else:
+            print(sortedDataFromPage[0][i])
+            print(sortedDataFromPage[1][i])
             links.append(sortedDataFromPage[0][i])
             names.append(sortedDataFromPage[1][i])
 

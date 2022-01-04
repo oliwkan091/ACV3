@@ -113,12 +113,13 @@ def manageLinks(pageLink, better_web, newArticles):
         if tempName and tempLink:
 
             tempNameA = []
-            [tempNameA.append(element.replace('<', '').replace('>', '')) for element in tempName]
+            [tempNameA.append(element.replace('<', '').replace('>', '').strip()) for element in tempName]
+            tempName = tempNameA
+            tempNameA = []
+            [tempNameA.append(element) for element in tempName if element and len(element) != 0]
             tempName = tempNameA
 
             tempLink = tempLink[0].replace('href="', '').replace('"', '').strip()
-
-            #tempName = tempName[-1]
 
             if Dict.isLink(tempLink, excelData[0]):
                 for name in tempName:
@@ -239,6 +240,7 @@ def manageLinks(pageLink, better_web, newArticles):
         i = 0
         while i < len(links):
             wasBreak = False
+            wasBlock = False
             wasKey = False
             newDataToExcel[0].append(links[i])
             newDataToExcel[1].append(names[i])

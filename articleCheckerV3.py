@@ -107,7 +107,7 @@ def manageLinks(pageLink, better_web, newArticles):
 
         # Sprawdza czy jest to link
         tempLink = re.findall('href=\".[^\"]*\"', str(link))
-        tempName = re.findall('>.*<', str(link))
+        tempName = re.findall('>.*?<', str(link))
 
         # Sprawdza czy link i nazwa istanieje
         if tempName and tempLink:

@@ -107,7 +107,7 @@ def manageLinks(pageLink, better_web, newArticles):
 
         # Sprawdza czy jest to link
         tempLink = re.findall('href=\".[^\"]*\"', str(link))
-        tempName = re.findall('>.*<', str(link))
+        tempName = re.findall('>.*?<', str(link))
 
         # Sprawdza czy link i nazwa istanieje
         if tempName and tempLink:
@@ -120,7 +120,9 @@ def manageLinks(pageLink, better_web, newArticles):
 
             print("tempName")
             print(tempName)
+            print("isLinkPre")
             if Dict.isLink(tempLink, excelData[0]):
+                print("isLink")
                 for name in tempName:
                     linkAndName.append(tempLink + Dict.comma + name)
             # Na dynamicznych stronach nie ma adresu głównego są tylko adresy wewnętrzne które

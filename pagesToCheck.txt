@@ -1,3 +1,21 @@
 title = [
-"https://klubjagiellonski.pl/"
+"https://historycznyambasador.com/",
+"https://niebezpiecznik.pl/",
+"https://wikileaks.org/",
+"https://marciniwuc.com/strona-z-wpisami/",
+"https://thegeopolitics.com/",
+"https://www.mojbar.pl/artykuly/",
+"https://kerstengallery.com.pl/roch_urbaniak.html",
+"https://ukladsil.pl/biblioteka/",
+"https://ine.org.pl/en/category/publications/",
+"https://www.czajnikowy.com.pl/tematy/herbata/",
+"https://tygodniknie.pl/",
+"https://klubjagiellonski.pl/",
+"https://klubjagiellonski.pl/kategoria_publikacji/pressje/",
+"https://klubjagiellonski.pl/kategoria_publikacji/raporty/",
+"https://sekurak.pl/teksty/",
+"https://oko.press/",
+"https://enchantedbooklet.com/",
+"https://thedfirreport.com/",
+"https://www.osw.waw.pl/pl/publikacje"
 ]

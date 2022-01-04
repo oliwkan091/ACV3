@@ -3356,3 +3356,13 @@
 04/01/2022 18:36:48  Chromedriver.exe started 
 04/01/2022 18:37:11  Preparing to start chromedriver.exe 
 04/01/2022 18:37:12  Chromedriver.exe started 
+04/01/2022 18:39:35  Program started 
+04/01/2022 18:39:36  Preparing to start chromedriver.exe 
+04/01/2022 18:39:37  Chromedriver.exe started 
+04/01/2022 18:39:59  Preparing to start chromedriver.exe 
+04/01/2022 18:40:00  Chromedriver.exe started 
+04/01/2022 18:41:36  Program started 
+04/01/2022 18:41:36  Preparing to start chromedriver.exe 
+04/01/2022 18:41:37  Chromedriver.exe started 
+04/01/2022 18:42:00  Preparing to start chromedriver.exe 
+04/01/2022 18:42:01  Chromedriver.exe started 

@@ -118,22 +118,22 @@ def manageLinks(pageLink, better_web, newArticles):
 
             tempLink = tempLink[0].replace('href="', '').replace('"', '').strip()
 
-            # print("tempName")
-            # print(tempName)
-            # print("isLinkPre")
-            # if Dict.isLink(tempLink, excelData[0]):
-            #     print("isLink")
-            for name in tempName:
-                linkAndName.append(tempLink + Dict.comma + name)
+            print("tempName")
+            print(tempName)
+            print("isLinkPre")
+            if Dict.isLink(tempLink, excelData[0]):
+                print("isLink")
+                for name in tempName:
+                    linkAndName.append(tempLink + Dict.comma + name)
             # Na dynamicznych stronach nie ma adresu głównego są tylko adresy wewnętrzne które
             #   zaczynają się od '/', należy do nich dodać adres główny
-            # elif not tempLink.startswith('http'):
-            #     if tempLink.startswith('/'):
-            #         if Dict.isLink(makeTheMainLink(pageLink) + tempLink, excelData[0]):
-            #             linkAndName.append(makeTheMainLink(pageLink) + tempLink + Dict.comma + tempName)
-            #     else:
-            #         if Dict.isLink(makeTheMainLink(pageLink) + '/' + tempLink, excelData[0]):
-            #             linkAndName.append(makeTheMainLink(pageLink) + '/' + tempLink + Dict.comma + tempName)
+            elif not tempLink.startswith('http'):
+                if tempLink.startswith('/'):
+                    if Dict.isLink(makeTheMainLink(pageLink) + tempLink, excelData[0]):
+                        linkAndName.append(makeTheMainLink(pageLink) + tempLink + Dict.comma + tempName)
+                else:
+                    if Dict.isLink(makeTheMainLink(pageLink) + '/' + tempLink, excelData[0]):
+                        linkAndName.append(makeTheMainLink(pageLink) + '/' + tempLink + Dict.comma + tempName)
     # 3
     linkAndName = sorted(linkAndName)
 

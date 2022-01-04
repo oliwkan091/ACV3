@@ -21,15 +21,13 @@ if __name__ == "__main__":
         if Dict.moduleInstaller():
             print("Ponowne uruchamianie po instalacji modułów")
             # Restartuje program
+            if Dict.checkIfExcelFileIsOpen():
+                exit(0)
             os.execv(sys.executable, ['python'] + argList)
 
     # Synchronizujee z githubem, zawsze restartuje
     if Dict.switches["gitMode"] in argList:
         # Sprawdza czy jakieś pliki nie są uszkodzone/otwarte
-        if Dict.checkIfExcelFileIsOpen():
-            exit(0)
-
-            exit(0)
         Dict.cleanAfterError()
         # Wywołuje skrypt synchronizacji z git
         gm.mainFunc(Dict.switches["checker"])

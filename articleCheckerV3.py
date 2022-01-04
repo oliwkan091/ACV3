@@ -118,6 +118,8 @@ def manageLinks(pageLink, better_web, newArticles):
 
             tempLink = tempLink[0].replace('href="', '').replace('"', '').strip()
 
+            print(tempLink)
+            print(tempName)
             if Dict.isLink(tempLink, excelData[0]):
                 for name in tempName:
                     linkAndName.append(tempLink + Dict.comma + name)

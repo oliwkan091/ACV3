@@ -122,6 +122,7 @@ def manageLinks(pageLink, better_web, newArticles):
 
             if Dict.isLink(tempLink, excelData[0]):
                 for name in tempName:
+                    print(name)
                     linkAndName.append(tempLink + Dict.comma + name)
             # Na dynamicznych stronach nie ma adresu głównego są tylko adresy wewnętrze które zaczynają się od '/', należy do nich dodać adres główny
             elif not tempLink.startswith('http'):

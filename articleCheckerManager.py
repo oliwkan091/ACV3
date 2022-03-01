@@ -204,7 +204,37 @@ def open_saved_links():
         print("Nie usunięto")
 
 def edit_groups():
-    pass
+    import Dictionary as Dict
+
+    if not Dict.isFile(Dict.metaFileNames["groupFile"]):
+        baseGroup = []
+        baseData = {"g1": baseGroup, "g2": baseGroup, "g3": baseGroup}
+        Dict.saveDataToFile(Dict.metaFileNames["groupFile"], baseData)
+
+    fileData = Dict.loadDataFromFile(Dict.metaFileNames["groupFile"])
+
+    groupChoice = Dict.make_choice("Co którą grupę chcesz edytować ?", list(fileData))
+    groupChoiceName = "g" + str(groupChoice)
+
+    action = -1
+    while action != 3:
+        action = Dict.make_choice("Co chcesz zrobić ?", ["Dodać do grupy", "Usunąć z grupy", "Wyjść"])
+
+        if action == 1:
+            linkuNumber = Dict.make_choice("Wybierz który link chcesz dodać do grupy: ",
+                                           Dict.loadDataFromFile(Dict.metaFileNames["pages"])["title"])
+            if linkuNumber in fileData[groupChoiceName]:
+                print("Link jest już w gtupie")
+            else:
+                fileData[groupChoiceName].append(linkuNumber)
+        elif action == 2:
+            pass
+        print(fileData[groupChoiceName])
+
+
+    # print(fileData)
+
+
 
 # Dodaje linki z innej podstrony do wyznaczonej bazy danych
 # Chwilowo nieużywane

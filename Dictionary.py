@@ -10,13 +10,14 @@ Zawiera niezbędne bazy oraz funkcjie wspólne dla reszty plików
     # 'logs' - plik z danymi logów
     # NALoc - plik z lokalizacjami zpaisu newArticles.txt na róznych urządzeniach
 metaFileNames = {'newArticles': 'newArticles.txt',
-                 'pages' : 'pagesToCheck.txt',
+                 'pages': 'pagesToCheck.txt',
                  'database': 'database',
                  "tempDb": "tempDatabase",
                  'chrome': 'chromedriver.exe',
-                 'logIn':'data.txt',
-                 'logs' : 'logs.txt',
-                 'NALoc' : 'NALocFile.txt'}
+                 'logIn': 'data.txt',
+                 'logs': 'logs.txt',
+                 'NALoc': 'NALocFile.txt',
+                 'groupFile': 'groups.txt'}
 
 # Pamięta lokalizacje wynikwą wszystkich synchronizowanych urządzeń, podczas zapisywania
 # pliku iteruje i jak trafi na istniejącą baze to zapisuje
@@ -411,10 +412,10 @@ def checkGrandSpaces(data):
 
 
 # Przygotowywuje dane przed ich zapisaniem
-def saveDataToFile(fileName,dataToSave):
+def saveDataToFile(fileName, dataToSave):
 
-    file = open(fileName,"w+")
-    recSave(file,dataToSave)
+    file = open(fileName, "w+")
+    recSave(file, dataToSave)
 
 
 # Rekurencyjnie przetwarza dane przed ich zapisaniem do pliku a'al json
@@ -424,7 +425,7 @@ def recSave(saveFile, dataToSave):
             saveFile.write(name + " = \"" + checkGrandSpaces(dataToSave[name]) + "\",\n")
         elif type(dataToSave[name]) == dict:
             saveFile.write(name + " = {\n")
-            recSave(saveFile,dataToSave[name])
+            recSave(saveFile, dataToSave[name])
             saveFile.write("}\n")
         else:
             saveFile.write(name + " = [\n")
@@ -490,7 +491,7 @@ def NAFileLoc():
         if Dict.isDir(pathToNA):
             print("Ścieżka jest poprawna")
             data["Loc"][pcName] = pathToNA
-            Dict.saveDataToFile(Dict.metaFileNames["NALoc"],data)
+            Dict.saveDataToFile(Dict.metaFileNames["NALoc"], data)
             return pathToNA
         else:
             pathToNA = input("Ścieżka jest niepoprawna, podaj poprawną ścieżkę: ")

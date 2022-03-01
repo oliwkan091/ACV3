@@ -39,7 +39,8 @@ pagesData = ('title','=','\"')
 repetedLinks = ('https:','http:')
 
 # Dane które nalezy wyświetlić w mennu głównym
-mainMenu = ('Pokaż zapisane linki','Dodaj linki','Usuń linki','Pokaż wyjątki','Dodaj wyjątek','Usuń wyjątek','Otwóz zapisane linki','Wyjdz')
+mainMenu = ('Pokaż zapisane linki', 'Dodaj linki', 'Usuń linki', 'Pokaż wyjątki', 'Dodaj wyjątek', 'Usuń wyjątek',
+            'Otwóz zapisane linki', 'Edytuj grupy', 'Wyjdz')
 
 # mainMenu = ('Pokaż zapisane linki','Dodaj linki','Usuń linki',
 # 'Pokaż wyjątki','Dodaj wyjątek','Usuń wyjątek','Sprawdz stronę pochodną','Wyjdz')
@@ -90,10 +91,6 @@ switches = {"moduleMode": "",
 # Podczas wcyztywanie konkretnych plików sprawdza czy nie brakuje w nich zniezbędnych danych
 txtEssential = {metaFileNames["pages"]: [["title"],[[]]],
                 metaFileNames["NALoc"]: [["Loc"],[{}]]}
-
-notTitleElemnts = [
-
-]
 
 # Sprawdza czy plik istnieje
 def isFile(fileName):
@@ -498,16 +495,16 @@ def NAFileLoc():
         else:
             pathToNA = input("Ścieżka jest niepoprawna, podaj poprawną ścieżkę: ")
 
-def loadNewArticles():
-    if isFile(NAFileLoc() + '\\' + metaFileNames['newArticles']):
-        links = []
-        # with open:
-        newArticlesLoadFile = open(NAFileLoc() + '\\' + metaFileNames['newArticles'], "r")
-        for line in newArticlesLoadFile:
-            if line.startswith(repetedLinks[0]):
-                links.append(line)
-
-        return links
+# def loadNewArticles():
+#     if isFile(NAFileLoc() + '\\' + metaFileNames['newArticles']):
+#         links = []
+#         # with open:
+#         newArticlesLoadFile = open(NAFileLoc() + '\\' + metaFileNames['newArticles'], "r")
+#         for line in newArticlesLoadFile:
+#             if line.startswith(repetedLinks[0]):
+#                 links.append(line)
+#
+#         return links
 
 
 
@@ -535,7 +532,7 @@ def saveNewArticlesV2(isBoot):
 
     from datetime import datetime
     currentDate = datetime.now()
-    newArticlesSaveFile.write(currentDate.strftime("%d/%m/%Y %H:%M:%S") + "\n")
+    newArticlesSaveFile.write("\n" + currentDate.strftime("%d/%m/%Y %H:%M:%S") + "\n")
 
     for file in tempDatabaseList:
         tempFile = open(metaFileNames["tempDb"] + doubleS + file, "r")  # "tempDatabase\\"

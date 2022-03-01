@@ -203,6 +203,9 @@ def open_saved_links():
     else:
         print("Nie usunięto")
 
+def edit_groups():
+    pass
+
 # Dodaje linki z innej podstrony do wyznaczonej bazy danych
 # Chwilowo nieużywane
 # def manualManageLinks():
@@ -269,6 +272,8 @@ def mainFunc():
         elif choice == 7:
             open_saved_links()
         elif choice == 8:
+            edit_groups()
+        elif choice == 9:
             import gitManager as gm
             gm.mainFunc("f")
             exit(0)

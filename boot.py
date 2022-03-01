@@ -15,7 +15,7 @@ if __name__ == "__main__":
     argList = [sys.argv[0]] + [element.replace("-", "") for element in sys.argv[1:]]
 
     # Sprawdza czy nie ma modułów do zainstalowania, jeżeli tak to instaluje i restartuje program,
-    #  jeżeli nie to przechodzi dalej pomijaąc restart
+    #  jeżeli nie to przechodzi dalej pomijając restart
     if not (Dict.switches["gitMode"] in argList or Dict.switches["rebootMode"] in argList):
         argList = argList + [Dict.switches["gitMode"]]
         if Dict.moduleInstaller():

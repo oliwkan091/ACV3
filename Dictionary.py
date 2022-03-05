@@ -496,16 +496,16 @@ def NAFileLoc():
         else:
             pathToNA = input("Ścieżka jest niepoprawna, podaj poprawną ścieżkę: ")
 
-# def loadNewArticles():
-#     if isFile(NAFileLoc() + '\\' + metaFileNames['newArticles']):
-#         links = []
-#         # with open:
-#         newArticlesLoadFile = open(NAFileLoc() + '\\' + metaFileNames['newArticles'], "r")
-#         for line in newArticlesLoadFile:
-#             if line.startswith(repetedLinks[0]):
-#                 links.append(line)
-#
-#         return links
+def loadNewArticles():
+    if isFile(NAFileLoc() + '\\' + metaFileNames['newArticles']):
+        links = []
+        # with open:
+        newArticlesLoadFile = open(NAFileLoc() + '\\' + metaFileNames['newArticles'], "r")
+        for line in newArticlesLoadFile:
+            if line.startswith(repetedLinks[0]):
+                links.append(line)
+
+        return links
 
 
 

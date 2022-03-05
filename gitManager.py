@@ -29,10 +29,14 @@ def finisher():
         print(repo.git.status())
 
         repo.git.add("--all")
-        print(repo.head.commit.diff())
-        repo.git.commit('-m "auto commit"')
-        repo.git.push()
-        print('Synchronizacja zakończona')
+        if repo.head.commit.diff() != []:
+            repo.git.commit('-m "auto commit"')
+            repo.git.push()
+            print("Dodano zmiany")
+        else:
+            print("Brak nowych zmian")
+
+        print("Synchronizacja z git zakońona")
 
 
 # Sprawdza czy repoztorum już istanieje:

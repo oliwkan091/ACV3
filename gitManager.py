@@ -80,8 +80,9 @@ if __name__ == "__main__":
     import Dictionary as Dict
     argList = [sys.argv[0]] + [element.replace("-", "") for element in sys.argv[1:]]
     # [expression for item in list if conditional]
-
+    actionSwitch = ""
     actionSwitch = [element for element in argList if element == "c" or element == "f"][0]
+    print(actionSwitch)
     # action = [if elenment.equals("c") or elenment.equals("f") for element in argList]
 
     if len(sys.argv) > 1 and argList[1] == Dict.switches["manual"]:

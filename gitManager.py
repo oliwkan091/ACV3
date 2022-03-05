@@ -10,9 +10,6 @@ def bootChecker():
     import Dictionary as Dict
     Dict.moduleInstaller()
 
-
-    print("bootChecker")
-
     #   UNCOMMENT WHEN READY
     if isRepo():
         import git
@@ -24,8 +21,6 @@ def bootChecker():
 # Uruchamiany na końcu prgoramu w celu wysłania zmian na serwer
 def finisher():
     import os
-
-    print("bootChecker")
 
     #   UNCOMMENT WHEN READY
     if isRepo():

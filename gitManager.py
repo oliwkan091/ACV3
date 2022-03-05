@@ -27,8 +27,9 @@ def finisher():
         import git
         repo =  git.Repo(os.getcwd())
         print(repo.git.status())
-        print(repo.head.commit.diff())
+
         repo.git.add("--all")
+        print(repo.head.commit.diff())
         repo.git.commit('-m "auto commit"')
         repo.git.push()
         print('Synchronizacja zakończona')

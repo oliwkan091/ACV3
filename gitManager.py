@@ -14,11 +14,11 @@ def bootChecker():
     print("bootChecker")
 
     #   UNCOMMENT WHEN READY
-    # if isRepo():
-    #     import git
-    #     repo =  git.Repo(os.getcwd())
-    #     print(repo.git.status())
-    #     repo.git.pull()
+    if isRepo():
+        import git
+        repo =  git.Repo(os.getcwd())
+        print(repo.git.status())
+        repo.git.pull()
 
 
 # Uruchamiany na końcu prgoramu w celu wysłania zmian na serwer

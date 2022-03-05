@@ -11,7 +11,7 @@ def bootChecker():
     Dict.moduleInstaller()
 
 
-    print('Synchronizacja z git "bootChecker"')
+    print("bootChecker")
 
     #   UNCOMMENT WHEN READY
     if isRepo():
@@ -25,7 +25,7 @@ def bootChecker():
 def finisher():
     import os
 
-    print('Synchronizacja z git "finisher"')
+    print("bootChecker")
 
     #   UNCOMMENT WHEN READY
     if isRepo():

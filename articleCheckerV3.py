@@ -410,9 +410,25 @@ def threadCheeck(link):
 
         newArticlesTempFile.close()
 
+#Jeżeli została wywołana grupa to filtruje i zostawia tylko linki w niej zawarte
+def filterForGroup(pageslinks, gGroup):
+    fileData = Dict.loadDataFromFile(Dict.metaFileNames["groupFile"])[gGroup]
+    filteredPageslinks = []
+
+    # print(fileData)
+    pageslinks = pageslinks["title"]
+
+    for number in fileData:
+        # print(number)
+        filteredPageslinks.append(pageslinks[int(number)-1])
+
+    filteredPageslinksInDictionary = {"title": filteredPageslinks}
+    return filteredPageslinksInDictionary
+
 
 # Główna funkcja, pozwala na uruchomienie z innego skryptu
-def mainFunc():
+    # gGroup - nazwa grupy, jeżeli pusty to grupa nie została wywołana
+def mainFunc(gGroup):
     # Miernik czasu
     # import time
     # t_start = time.perf_counter()
@@ -439,6 +455,9 @@ def mainFunc():
             exit(0)
 
         pageslinks = getLinks()
+
+        if gGroup != "":
+            pageslinks = filterForGroup(pageslinks,gGroup)
 
         Dict.makeDatabase()
         import concurrent.futures

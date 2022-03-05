@@ -203,37 +203,62 @@ def open_saved_links():
     else:
         print("Nie usunięto")
 
+# Odpowiada za edycję grup
 def edit_groups():
     import Dictionary as Dict
 
+    # Jeżeli plik z grupami nie istnieje to go tworzy
     if not Dict.isFile(Dict.metaFileNames["groupFile"]):
         baseGroup = []
         baseData = {"g1": baseGroup, "g2": baseGroup, "g3": baseGroup}
         Dict.saveDataToFile(Dict.metaFileNames["groupFile"], baseData)
-
+    # Wczytuje zawartość grupy
     fileData = Dict.loadDataFromFile(Dict.metaFileNames["groupFile"])
 
     groupChoice = Dict.make_choice("Co którą grupę chcesz edytować ?", list(fileData))
     groupChoiceName = "g" + str(groupChoice)
 
+    linksFromFile = Dict.loadDataFromFile(Dict.metaFileNames["pages"])["title"]
+
     action = -1
-    while action != 3:
-        action = Dict.make_choice("Co chcesz zrobić ?", ["Dodać do grupy", "Usunąć z grupy", "Wyjść"])
+    # Działa tak długo dopóki nie zostanie wybrane wyjście
+    while action != 4:
+        action = Dict.make_choice("Co chcesz zrobić ?", ["Zobaczyć zawartość grupy", "Dodać do grupy", "Usunąć z grupy", "Wyjść"])
 
+        # Pokazuje linki przypisane do konkretnej grupy
         if action == 1:
-            linkuNumber = Dict.make_choice("Wybierz który link chcesz dodać do grupy: ",
-                                           Dict.loadDataFromFile(Dict.metaFileNames["pages"])["title"])
-            if linkuNumber in fileData[groupChoiceName]:
-                print("Link jest już w gtupie")
+            if len(fileData[groupChoiceName]) == 0:
+                print("Brak elementów w grupie")
             else:
-                fileData[groupChoiceName].append(linkuNumber)
+                for link in fileData[groupChoiceName]:
+                    print(linksFromFile[int(link)-1])
+
+        # Pozwala dodać nowe linki do grupy
         elif action == 2:
-            pass
-        print(fileData[groupChoiceName])
+            linkuNumber = Dict.make_choice("Wybierz który link chcesz dodać do grupy: ", linksFromFile + ["Wyjście"])
+            if linkuNumber != len(linksFromFile + ["Wyjście"]):
+                if str(linkuNumber) in fileData[groupChoiceName]:
+                    print("Link jest już w grupie")
+                else:
+                    fileData[groupChoiceName].append(str(linkuNumber))
 
+        # POzwala usunąć linki z grup
+        elif action == 3:
 
-    # print(fileData)
+            if len(fileData[groupChoiceName]) == 0:
+                print("Nie ma linków do usunięcia")
+            else:
+                # Ponieważ w pliku z grupami zapisane jest tylko położenie linków to by je wyświetlić trzeba je najpierw wczytać
+                # OVE Comprehensions
+                listWithLinks = []
+                listWithLinks = listWithLinks + [(linksFromFile[int(element) - 1]) for element in
+                                                fileData[groupChoiceName]]
+                linkuNumber = Dict.make_choice("Wybierz który link chcesz usunąć do grupy: ", listWithLinks + ["Wyjście"])
 
+                if linkuNumber != len(listWithLinks + ["Wyjście"]):
+                    fileData[groupChoiceName].pop(linkuNumber-1)
+
+    Dict.saveDataToFile(Dict.metaFileNames["groupFile"], fileData)
 
 
 # Dodaje linki z innej podstrony do wyznaczonej bazy danych

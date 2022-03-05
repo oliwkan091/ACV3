@@ -3,12 +3,15 @@ Zawiera niezbędne bazy oraz funkcjie wspólne dla reszty plików
 """
 
 # Posiada nazwy plików kontrolowanych przez program
+    # 'newArticles' - nazwa pliku zapisu noewych artykułów
     # 'pages' - to baza stron obsługiwanych przez program
     # 'database' - to nazwa bazy danych programu
+    # "tempDb" - tymczasowy folder zapisu noewych artykułów poszczególnych stron
     # 'chrome' - lokalizacja pliku chrome
     # 'logIn' - plik z datą
     # 'logs' - plik z danymi logów
-    # NALoc - plik z lokalizacjami zpaisu newArticles.txt na róznych urządzeniach
+    # 'NALoc' - plik z lokalizacjami zpaisu newArticles.txt na róznych urządzeniach
+    # 'groupFile' - nazwa pliku zapisu z danymi grup
 metaFileNames = {'newArticles': 'newArticles.txt',
                  'pages': 'pagesToCheck.txt',
                  'database': 'database',
@@ -504,7 +507,6 @@ def loadNewArticles():
         for line in newArticlesLoadFile:
             if line.startswith(repetedLinks[0]):
                 links.append(line)
-
         return links
 
 
@@ -540,6 +542,8 @@ def saveNewArticlesV2(isBoot):
 
         for line in tempFile:
             newArticlesSaveFile.writelines(line)
+        #Rozdziela pustą linią różne strony
+        newArticlesSaveFile.writelines("\n")
 
         newArticlesSaveFile.writelines("")
         tempFile.close()

@@ -21,12 +21,13 @@ if __name__ == "__main__":
         if Dict.moduleInstaller():
             print("Ponowne uruchamianie po instalacji modułów")
             # Restartuje program
-            if Dict.checkIfExcelFileIsOpen():
-                exit(0)
             os.execv(sys.executable, ['python'] + argList)
 
-    # Synchronizujee z githubem, zawsze restartuje
+    # Synchronizuje z githubem, zawsze restartuje
     if Dict.switches["gitMode"] in argList:
+        #Sprawdza czy wszystkie pliki xsml są poprawne, musi byc po restarcie programu
+        if Dict.checkIfExcelFileIsOpen():
+            exit(0)
         # Sprawdza czy jakieś pliki nie są uszkodzone/otwarte
         Dict.cleanAfterError()
         # Wywołuje skrypt synchronizacji z git
@@ -47,8 +48,21 @@ if __name__ == "__main__":
                                       ["articleCheckerV3", "articleCheckerManager", "Wyjście"])
 
         if Dict.switches["articleCheckerV3"] in sys.argv or choice == 1:
+
+            fileData = list(Dict.loadDataFromFile(Dict.metaFileNames["groupFile"]))
+            # print(fileData)
+
+            #Jezeli w przełączniku jest jakaś grupa to ją znajduje
+            gGroup = ""
+            for group in fileData:
+                if group in sys.argv:
+                    # print("JEST")
+                    gGroup = group;
+                    print("Włącznie wybranej grupy")
+                    break
+
             print("Uruchamianie articleCheckerV3")
-            acv3.mainFunc()
+            acv3.mainFunc(gGroup)
 
         elif Dict.switches["articleCheckerManager"] in sys.argv or choice == 2:
             print("Uruchamianie articleCheckerManager")

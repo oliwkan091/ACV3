@@ -1,3 +1,5 @@
 title = [
-"https://klubjagiellonski.pl/"
+"https://klubjagiellonski.pl/",
+"https://sekurak.pl/teksty/",
+"https://thedfirreport.com/"
 ]

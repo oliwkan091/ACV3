@@ -47,8 +47,17 @@ if __name__ == "__main__":
                                       ["articleCheckerV3", "articleCheckerManager", "Wyjście"])
 
         if Dict.switches["articleCheckerV3"] in sys.argv or choice == 1:
-            print("Uruchamianie articleCheckerV3")
-            acv3.mainFunc()
+
+            groupsData = Dict.loadDataFromFile(Dict.metaFileNames["groupFile"])
+
+            gGroup = ""
+            for key, value in groupsData.items():
+                if key in sys.argv:
+                    gGroup = key
+                    break
+
+
+            acv3.mainFunc(gGroup)
 
         elif Dict.switches["articleCheckerManager"] in sys.argv or choice == 2:
             print("Uruchamianie articleCheckerManager")

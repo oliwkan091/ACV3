@@ -249,7 +249,7 @@ def edit_groups():
                 print("Nie ma linków do usunięcia")
             else:
                 # Ponieważ w pliku z grupami zapisane jest tylko położenie linków to by je wyświetlić trzeba je najpierw wczytać
-                # OVE Comprehensions
+                # LOVE Comprehensions
                 listWithLinks = []
                 listWithLinks = listWithLinks + [(linksFromFile[int(element) - 1]) for element in
                                                 fileData[groupChoiceName]]

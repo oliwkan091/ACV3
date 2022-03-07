@@ -457,7 +457,7 @@ def mainFunc(gGroup):
         pageslinks = getLinks()
 
         if gGroup != "":
-            pageslinks = filterForGroup(pageslinks,gGroup)
+            pageslinks = filterForGroup(pageslinks, gGroup)
 
         Dict.makeDatabase()
         import concurrent.futures
@@ -487,8 +487,8 @@ if __name__ == '__main__':
             exit(0)
         mainFunc()
     else:
-        print(
-            "Do włącznia tego skryptu z pominięciem boota trzeba dodać przełącznik \"m\", pomijanie nie jest jednak zalecane bo omija synchronizacje z git")
+        print("Do włącznia tego skryptu z pominięciem boota trzeba dodać przełącznik \"m\", "
+              "pomijanie nie jest jednak zalecane bo omija synchronizacje z git")
 
     '''
     #DO WYRZUCENIA

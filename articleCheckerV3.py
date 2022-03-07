@@ -468,9 +468,9 @@ def mainFunc(gGroup):
                     thread.submit(threadCheeck, link)
 
         from time import sleep
-        print("Start sleep")
+        print("Czekam na zamknięcie wątków")
         sleep(30)
-        print("Stop sleep")
+        print("Wątki zamknięte")
         Dict.saveNewArticlesV2(False)
     # Miernik czasu
     # t_stop = time.perf_counter()

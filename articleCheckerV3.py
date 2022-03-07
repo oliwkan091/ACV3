@@ -468,7 +468,9 @@ def mainFunc(gGroup):
         #             thread.submit(threadCheeck, link)
 
         from time import sleep
+        print("Start sleep")
         sleep(5)
+        print("Stop sleep")
         Dict.saveNewArticlesV2(False)
     # Miernik czasu
     # t_stop = time.perf_counter()

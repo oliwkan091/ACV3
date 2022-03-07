@@ -461,12 +461,14 @@ def mainFunc(gGroup):
 
         Dict.makeDatabase()
         import concurrent.futures
-        with concurrent.futures.ThreadPoolExecutor() as thread:
+        # with concurrent.futures.ThreadPoolExecutor() as thread:
+        #
+        #     for i, link in enumerate(pageslinks["title"]):
+        #         if link:
+        #             thread.submit(threadCheeck, link)
 
-            for i, link in enumerate(pageslinks["title"]):
-                if link:
-                    thread.submit(threadCheeck, link)
-
+        from time import sleep
+        sleep(5)
         Dict.saveNewArticlesV2(False)
     # Miernik czasu
     # t_stop = time.perf_counter()

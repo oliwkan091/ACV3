@@ -1,4 +1,5 @@
 Loc = {
 DESKTOP-17H1DCO = "C:\Users\Oliwier_Kania\Documents\Google_Drive\Schengen",
 DESKTOP-JAOAOQP = "D:\Dokumenty\Dysk_Google\Dysk\Schengen",
+DESKTOP-GGK3G94 = "C:\Users\Oliwier_Kania\Documents\GoogleDrive\Schengen",
 }

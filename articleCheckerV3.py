@@ -278,6 +278,7 @@ def manageLinks(pageLink, better_web, newArticles):
         dataF = pandas.DataFrame({'Links': newDataToExcel[0], 'Names': newDataToExcel[1]})
         dataF.to_excel(excelWriter, '1', index=False)
         excelWriter.save()
+        excelWriter.close()
         return newArticles
 
     # 8
@@ -288,6 +289,7 @@ def manageLinks(pageLink, better_web, newArticles):
         dataF = pandas.DataFrame({'Links': links, 'Names': names})
         dataF.to_excel(excelWriter, '1', index=False)
         excelWriter.save()
+        excelWriter.close()
         return newArticles
 
 

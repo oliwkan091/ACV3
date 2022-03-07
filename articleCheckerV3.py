@@ -471,7 +471,7 @@ def mainFunc(gGroup):
 
         from time import sleep
         print("Czekam na zamknięcie wątków")
-        sleep(30)
+        sleep(5)
         print("Wątki zamknięte")
         Dict.saveNewArticlesV2(False)
     # Miernik czasu

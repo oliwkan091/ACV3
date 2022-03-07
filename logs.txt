@@ -3515,3 +3515,13 @@
 07/03/2022 22:04:39  Chromedriver.exe started 
 07/03/2022 22:05:03  Preparing to start chromedriver.exe 
 07/03/2022 22:05:04  Chromedriver.exe started 
+07/03/2022 22:07:05  Program started 
+07/03/2022 22:07:05  Preparing to start chromedriver.exe 
+07/03/2022 22:07:06  Chromedriver.exe started 
+07/03/2022 22:07:11  Cannot connect to the specified link https://klubjagiellonski.pl/
+07/03/2022 22:07:20  Program started 
+07/03/2022 22:07:20  Preparing to start chromedriver.exe 
+07/03/2022 22:07:21  Chromedriver.exe started 
+07/03/2022 22:07:54  Program started 
+07/03/2022 22:07:55  Preparing to start chromedriver.exe 
+07/03/2022 22:07:56  Chromedriver.exe started 

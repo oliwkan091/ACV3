@@ -471,6 +471,7 @@ def mainFunc(gGroup):
         print("Czekam na zamknięcie wątków")
         sleep(5)
         print("Wątki zamknięte")
+
         Dict.saveNewArticlesV2(False)
     # Miernik czasu
     # t_stop = time.perf_counter()

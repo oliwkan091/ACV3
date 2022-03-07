@@ -52,7 +52,6 @@ if __name__ == "__main__":
 
             gGroup = ""
             for key, value in groupsData.items():
-                print()
                 if key in sys.argv:
                     gGroup = key
                     print("Włącznie grupy " + gGroup)

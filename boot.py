@@ -54,6 +54,7 @@ if __name__ == "__main__":
             for key, value in groupsData.items():
                 if key in sys.argv:
                     gGroup = key
+                    print("Włącznie grupy " + gGroup)
                     break
 
 

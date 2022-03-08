@@ -12,6 +12,11 @@ Zawiera niezbędne bazy oraz funkcjie wspólne dla reszty plików
     # 'logs' - plik z danymi logów
     # 'NALoc' - plik z lokalizacjami zpaisu newArticles.txt na róznych urządzeniach
     # 'groupFile' - nazwa pliku zapisu z danymi grup
+    # 'boot' -  nazwa pliku skryptu
+    # 'gm' -  nazwa pliku skryptu
+    # 'acm' -  nazwa pliku skryptu
+    # 'Dict' -  nazwa pliku skryptu
+    # 'acv3' -  nazwa pliku skryptu
 metaFileNames = {'newArticles': 'newArticles.txt',
                  'pages': 'pagesToCheck.txt',
                  'database': 'database',
@@ -21,7 +26,11 @@ metaFileNames = {'newArticles': 'newArticles.txt',
                  'logs': 'logs.txt',
                  'NALoc': 'NALocFile.txt',
                  'groupFile': 'groups.txt',
-                 "boot": "boot.py"}
+                 "boot": "boot.py",
+                 "gm": "gitManager.py",
+                 "acm": "articleCheckerManager.py",
+                 "Dict": "Dictionary.py",
+                 "acv3": "articleCheckerV3.py"}
 
 # Pamięta lokalizacje wynikwą wszystkich synchronizowanych urządzeń, podczas zapisywania
 # pliku iteruje i jak trafi na istniejącą baze to zapisuje

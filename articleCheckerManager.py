@@ -328,6 +328,8 @@ def mainFunc():
             open_saved_links()
         elif choice == 8:
             edit_groups()
+
+        # Wykonywane jest teraz w boocie
         # elif choice == 9:
             # import gitManager as gm
             # gm.mainFunc("f")

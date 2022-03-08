@@ -11,10 +11,8 @@ if __name__ == "__main__":
     import os
 
     # LOVE Comprehensions
-    # Usuwa ogonik przed przełacznikami o ile istnieją
-    # print(sys.argv)
+    # Usuwa ogonki przed przetacznikami o ile istnieją
     argList = [sys.argv[0]] + [element.replace("-", "") for element in sys.argv[1:]]
-    # print(argList)
 
     # Sprawdza czy nie ma modułów do zainstalowania, jeżeli tak to instaluje i restartuje program,
     #  jeżeli nie to przechodzi dalej pomijając restart
@@ -27,7 +25,7 @@ if __name__ == "__main__":
                 exit(0)
             os.execv(sys.executable, ['python'] + argList)
 
-    # Synchronizujee z githubem, zawsze restartuje
+    # Synchronize z githubem, zawsze restartuje
     if Dict.switches["gitMode"] in argList:
         # Sprawdza czy jakieś pliki nie są uszkodzone/otwarte
         Dict.cleanAfterError()
@@ -41,6 +39,7 @@ if __name__ == "__main__":
         # Restartuje program
         os.execv(sys.executable, ['python'] + argList)
 
+    # Po synchronizacji z githubem i restarcie, główna część
     if Dict.switches["rebootMode"] in argList:
         choice = -1
         # Jeżeli nie ma wymaganych przełączników to pozwala je wybrać
@@ -69,12 +68,12 @@ if __name__ == "__main__":
             print("Zamykanie")
             exit(0)
 
-        # print(['python'] + [Dict.metaFileNames["boot"]] + [Dict.switches["finisher"]])
+        # Restartuje program po zakończeniu zdania przed synchronizacją z git
         print("Ponowne uruchamianie przed synchronizacją z git")
         os.execv(sys.executable, ['python'] + [Dict.metaFileNames["boot"]] + [Dict.switches["finisher"]])
 
+    # Zawsze synchronizuje z githubem, po zakończeniu działania programu i restarcie
     if Dict.switches["finisher"] in sys.argv:
-        # print("In finisher")
         gm.mainFunc(Dict.switches["finisher"])
         Dict.cleanAfterError()
 

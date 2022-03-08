@@ -76,3 +76,5 @@ if __name__ == "__main__":
         print("In finisher")
         gm.mainFunc(Dict.switches["finisher"])
         Dict.cleanAfterError()
+
+    exit(0)

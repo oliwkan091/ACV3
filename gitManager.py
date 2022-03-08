@@ -13,7 +13,7 @@ def bootChecker():
     #   UNCOMMENT WHEN READY
     if isRepo():
         import git
-        repo =  git.Repo(os.getcwd())
+        repo = git.Repo(os.getcwd())
         print(repo.git.status())
         repo.git.pull()
 
@@ -25,7 +25,7 @@ def finisher():
     #   UNCOMMENT WHEN READY
     if isRepo():
         import git
-        repo =  git.Repo(os.getcwd())
+        repo = git.Repo(os.getcwd())
         print(repo.git.status())
 
         repo.git.add("--all")

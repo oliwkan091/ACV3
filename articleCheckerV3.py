@@ -2,9 +2,7 @@
 Program ten scrapuje wybrane treści z interntu, sprawdza czy spełniają one kryteria, zapisuje do bazy danych i pliku wynikowego
 '''
 import sys
-
 import Dictionary as Dict
-
 
 # Pobiera wsszystkie linki ze stron
 def getLinksFromPage(pageLink):
@@ -410,7 +408,7 @@ def threadCheeck(link):
 
         newArticlesTempFile.close()
 
-#Jeżeli została wywołana grupa to filtruje i zostawia tylko linki w niej zawarte
+# Jeżeli została wywołana grupa to filtruje i zostawia tylko linki w niej zawarte
 def filterForGroup(pageslinks, gGroup):
     fileData = Dict.loadDataFromFile(Dict.metaFileNames["groupFile"])[gGroup]
     filteredPageslinks = []

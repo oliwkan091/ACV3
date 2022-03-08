@@ -57,7 +57,6 @@ if __name__ == "__main__":
                     print("Włącznie grupy " + gGroup)
                     break
 
-
             acv3.mainFunc(gGroup)
 
         elif Dict.switches["articleCheckerManager"] in sys.argv or choice == 2:
@@ -68,5 +67,8 @@ if __name__ == "__main__":
             print("Zamykanie")
             exit(0)
 
-        gm.mainFunc(Dict.switches["finisher"])
-        Dict.cleanAfterError()
+        os.execv(sys.executable, ['python'] + Dict.switches["finisher"])
+
+        if Dict.switches["finisher"] in sys.argv:
+            gm.mainFunc(Dict.switches["finisher"])
+            Dict.cleanAfterError()

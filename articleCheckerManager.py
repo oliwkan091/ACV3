@@ -309,7 +309,7 @@ def mainFunc():
     # os.system(Dict.gitManagerMethods['boot'])
 
     choice = 0
-    while True:
+    while choice != 9:
         choice = Dict.make_choice('Wybierz co chcesz zrobić', Dict.mainMenu)
 
         if choice == 1:
@@ -328,10 +328,10 @@ def mainFunc():
             open_saved_links()
         elif choice == 8:
             edit_groups()
-        elif choice == 9:
-            import gitManager as gm
-            gm.mainFunc("f")
-            exit(0)
+        # elif choice == 9:
+            # import gitManager as gm
+            # gm.mainFunc("f")
+            # exit(0)
 
 
 if __name__ == '__main__':

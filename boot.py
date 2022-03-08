@@ -12,9 +12,9 @@ if __name__ == "__main__":
 
     # LOVE Comprehensions
     # Usuwa ogonik przed przełacznikami o ile istnieją
-    print(sys.argv)
+    # print(sys.argv)
     argList = [sys.argv[0]] + [element.replace("-", "") for element in sys.argv[1:]]
-    print(argList)
+    # print(argList)
 
     # Sprawdza czy nie ma modułów do zainstalowania, jeżeli tak to instaluje i restartuje program,
     #  jeżeli nie to przechodzi dalej pomijając restart
@@ -69,11 +69,12 @@ if __name__ == "__main__":
             print("Zamykanie")
             exit(0)
 
-        print(['python'] + [Dict.metaFileNames["boot"]] + [Dict.switches["finisher"]])
+        # print(['python'] + [Dict.metaFileNames["boot"]] + [Dict.switches["finisher"]])
+        print("Ponowne uruchamianie przed synchronizacją z git")
         os.execv(sys.executable, ['python'] + [Dict.metaFileNames["boot"]] + [Dict.switches["finisher"]])
 
     if Dict.switches["finisher"] in sys.argv:
-        print("In finisher")
+        # print("In finisher")
         gm.mainFunc(Dict.switches["finisher"])
         Dict.cleanAfterError()
 

@@ -20,7 +20,8 @@ metaFileNames = {'newArticles': 'newArticles.txt',
                  'logIn': 'data.txt',
                  'logs': 'logs.txt',
                  'NALoc': 'NALocFile.txt',
-                 'groupFile': 'groups.txt'}
+                 'groupFile': 'groups.txt',
+                 "boot": "boot.py"}
 
 # Pamięta lokalizacje wynikwą wszystkich synchronizowanych urządzeń, podczas zapisywania
 # pliku iteruje i jak trafi na istniejącą baze to zapisuje

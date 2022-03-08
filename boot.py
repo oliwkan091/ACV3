@@ -12,11 +12,13 @@ if __name__ == "__main__":
 
     # LOVE Comprehensions
     # Usuwa ogonik przed przełacznikami o ile istnieją
+    print(sys.argv)
     argList = [sys.argv[0]] + [element.replace("-", "") for element in sys.argv[1:]]
+    print(argList)
 
     # Sprawdza czy nie ma modułów do zainstalowania, jeżeli tak to instaluje i restartuje program,
     #  jeżeli nie to przechodzi dalej pomijając restart
-    if not (Dict.switches["gitMode"] in argList or Dict.switches["rebootMode"] in argList):
+    if not (Dict.switches["gitMode"] in argList or Dict.switches["rebootMode"] in argList or Dict.switches["finisher"] in argList):
         argList = argList + [Dict.switches["gitMode"]]
         if Dict.moduleInstaller():
             print("Ponowne uruchamianie po instalacji modułów")
@@ -67,8 +69,10 @@ if __name__ == "__main__":
             print("Zamykanie")
             exit(0)
 
-        os.execv(sys.executable, ['python'] + Dict.switches["finisher"])
+        print(['python'] + [Dict.metaFileNames["boot"]] + [Dict.switches["finisher"]])
+        os.execv(sys.executable, ['python'] + [Dict.metaFileNames["boot"]] + [Dict.switches["finisher"]])
 
-        if Dict.switches["finisher"] in sys.argv:
-            gm.mainFunc(Dict.switches["finisher"])
-            Dict.cleanAfterError()
+    if Dict.switches["finisher"] in sys.argv:
+        print("In finisher")
+        gm.mainFunc(Dict.switches["finisher"])
+        Dict.cleanAfterError()

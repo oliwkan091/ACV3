@@ -10,6 +10,7 @@ def getLinksFromPage(pageLink):
     from selenium.webdriver.chrome.options import Options
     import Dictionary as Dict
     import bs4
+    from time import sleep
 
     print('Łączę z: ' + pageLink)
     if Dict.isLink(pageLink, []):
@@ -22,6 +23,8 @@ def getLinksFromPage(pageLink):
         Dict.addLog('ChromStarted', '')
 
         driver.get(pageLink)
+        sleep(10)
+        driver.execute_script("return document.getElementsByTagName('html')[0].innerHTML")
         better_web = bs4.BeautifulSoup(driver.page_source, 'lxml')
         driver.quit()
         return better_web

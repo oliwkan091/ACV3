@@ -18,5 +18,6 @@ title = [
 "https://enchantedbooklet.com/",
 "https://thedfirreport.com/",
 "https://www.osw.waw.pl/pl/publikacje",
-"https://security.szurek.pl/"
+"https://security.szurek.pl/",
+"https://www.instagram.com/stephenellcock/"
 ]

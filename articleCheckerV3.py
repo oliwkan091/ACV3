@@ -19,7 +19,7 @@ def getLinksFromPage(pageLink):
         Dict.addLog('PrepChrom', '')
         # Jeżeli system ma działać w tle to trzeba zainportować options i dodać headless
         chrome_options = Options()
-        chrome_options.add_argument("--headless")
+        # chrome_options.add_argument("--headless")
         driver = webdriver.Chrome(options=chrome_options)
         Dict.addLog('ChromStarted', '')
 

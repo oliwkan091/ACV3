@@ -19,5 +19,6 @@ title = [
 "https://thedfirreport.com/",
 "https://www.osw.waw.pl/pl/publikacje",
 "https://security.szurek.pl/",
-"https://www.instagram.com/stephenellcock/"
+"https://www.instagram.com/stephenellcock/",
+"https://www.instagram.com/rochurbaniak/"
 ]

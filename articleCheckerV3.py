@@ -11,9 +11,10 @@ def getLinksFromPage(pageLink):
     import Dictionary as Dict
     import bs4
     from time import sleep
+    import os
 
     print('Łączę z: ' + pageLink)
-    if Dict.isLink(pageLink, []):
+    if Dict.isLink(pageLink, [], ""):
 
         Dict.addLog('PrepChrom', '')
         # Jeżeli system ma działać w tle to trzeba zainportować options i dodać headless
@@ -22,19 +23,33 @@ def getLinksFromPage(pageLink):
         driver = webdriver.Chrome(options=chrome_options)
         Dict.addLog('ChromStarted', '')
 
+        # Sprawdza czy dla wybranej strony nie trzba się zalogować
+        # Jeżeli skrypt logowania jest dostępny to wywołuje
+        # print(Dict.makeNameFromLink(pageLink, "py"))
+        if Dict.metaFileNames["logIn"] in os.listdir():
+            if Dict.makeNameFromLink(pageLink, "py") in os.listdir(Dict.metaFileNames["logIn"]):
+                execImportFile = Dict.makeNameFromLink(pageLink, "")
+                # Ponieważ importowany jest zawsze skrypt dla konkretnego linku to musi być on wywołyaany za pomocą "exec"
+                exec(f"from logIn import {execImportFile} as scr")
+                exec("driver = scr.logIn(driver, pageLink)")
+        else:
+            print("nie ma folderu")
+
         driver.get(pageLink)
-        sleep(10)
+        sleep(5)
         driver.execute_script("return document.getElementsByTagName('html')[0].innerHTML")
+        sleep(5)
         better_web = bs4.BeautifulSoup(driver.page_source, 'lxml')
         driver.quit()
         return better_web
     else:
+        print(pageLink, " nie jest linkiem")
         Dict.addLog('LinkErr', pageLink)
 
 
 # Kod z managedlinks który sprawdza czy wyjątki nie zatrzymują niktórych danych
-def isDataBlockedOrKeyed():
-    pass
+# def isDataBlockedOrKeyed():
+#     pass
 
 
 # Pobiera linki do sprawdzenia z pliku txt
@@ -75,12 +90,18 @@ def manageLinks(pageLink, better_web, newArticles):
     import os
     import pandas
     import re
+    from selenium import webdriver
+    from selenium.webdriver.chrome.options import Options
 
     # 1
 
     # Jeżeli strona nie odpowiedziała i jej kod źródłowy nie istnieje to program się nie wykona
     if not better_web:
         return
+
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    driver = webdriver.Chrome(options=chrome_options)
 
     # Sprawdza czy baza danych istnieje i ją otwiera
     fileList = os.listdir(os.getcwd() + '\\' + Dict.metaFileNames['database'])
@@ -94,7 +115,6 @@ def manageLinks(pageLink, better_web, newArticles):
         while i < excelLen:
             excelData[0].append(dataFromExcel['Links'][i])
             excelData[1].append(dataFromExcel['Names'][i])
-            print(dataFromExcel['Links'][i])
             i += 1
 
     # 2
@@ -122,21 +142,32 @@ def manageLinks(pageLink, better_web, newArticles):
 
             tempLink = tempLink[0].replace('href="', '').replace('"', '').strip()
 
-            if Dict.isLink(tempLink, excelData[0]):
-                for name in tempName:
-                    linkAndName.append(tempLink + Dict.comma + name)
+            if Dict.isLink(tempLink, excelData[0], driver):
+                if len(tempName) != 0:
+                    for name in tempName:
+                        linkAndName.append(tempLink + Dict.comma + name)
+                else:
+                    linkAndName.append(tempLink + Dict.comma + "")
             # Na dynamicznych stronach nie ma adresu głównego są tylko adresy wewnętrze które zaczynają się od '/',
             #   należy do nich dodać adres główny
+
             elif not tempLink.startswith('http'):
                 if tempLink.startswith('/'):
-                    if Dict.isLink(makeTheMainLink(pageLink) + tempLink, excelData[0]):
-                        for name in tempName:
-                            linkAndName.append(makeTheMainLink(pageLink) + tempLink + Dict.comma + name)
+                    if Dict.isLink(makeTheMainLink(pageLink) + tempLink, excelData[0], driver):
+                        if len(tempName) != 0:
+                            for name in tempName:
+                                linkAndName.append(makeTheMainLink(pageLink) + tempLink + Dict.comma + name)
+                        else:
+                            linkAndName.append(makeTheMainLink(pageLink) + tempLink + Dict.comma + "")
                 else:
-                    if Dict.isLink(makeTheMainLink(pageLink) + '/' + tempLink, excelData[0]):
-                        for name in tempName:
-                            linkAndName.append(makeTheMainLink(pageLink) + '/' + tempLink + Dict.comma + name)
-    # 3
+                    if Dict.isLink(makeTheMainLink(pageLink) + '/' + tempLink, excelData[0], driver):
+                        if len(tempName) != 0:
+                            for name in tempName:
+                                linkAndName.append(makeTheMainLink(pageLink) + '/' + tempLink + Dict.comma + name)
+                        else:
+                            linkAndName.append(makeTheMainLink(pageLink) + '/' + tempLink + Dict.comma + "")
+
+        # 3
     linkAndName = sorted(linkAndName)
 
     sortedDataFromPage = [[], []]
@@ -175,7 +206,7 @@ def manageLinks(pageLink, better_web, newArticles):
             bestTitleLocation = starSeriesPosition
             j = starSeriesPosition
             while j < i + 1:
-                if not Dict.isLink(sortedDataFromPage[1][j], excelData[0]) and len(bestToTitle) < len(
+                if not Dict.isLink(sortedDataFromPage[1][j], excelData[0], driver) and len(bestToTitle) < len(
                         sortedDataFromPage[1][j]):
                     bestToTitle = sortedDataFromPage[1][j]
                     bestToLink = sortedDataFromPage[0][j]
@@ -190,6 +221,9 @@ def manageLinks(pageLink, better_web, newArticles):
             names.append(sortedDataFromPage[1][i])
 
         i += 1
+
+    #Driver nie będzie już więcej potrzebny bo nie będzie sprawdzania linku
+    driver.quit()
 
     # 5
     # Jeżeli plik danej strony już istnieje
@@ -231,8 +265,7 @@ def manageLinks(pageLink, better_web, newArticles):
                 print(f"Plik wykluczeń {fileName} jest uszkodzony! NAPRAW GO")
                 os.renames(Dict.metaFileNames["database"] + "\\" + Dict.makeNameFromLink(pageLink, "txt"), Dict.metaFileNames["database"] + "\\" + Dict.makeNameFromLink(pageLink + "ERROR", "txt"))
 
-
-        tempPageLink = pageLink
+        tempPageLink = makeTheMainLink(pageLink)
         for element in Dict.repetedLinks:
             tempPageLink = tempPageLink.replace(element, "")
 
@@ -416,11 +449,9 @@ def filterForGroup(pageslinks, gGroup):
     fileData = Dict.loadDataFromFile(Dict.metaFileNames["groupFile"])[gGroup]
     filteredPageslinks = []
 
-    # print(fileData)
     pageslinks = pageslinks["title"]
 
     for number in fileData:
-        # print(number)
         filteredPageslinks.append(pageslinks[int(number)-1])
 
     filteredPageslinksInDictionary = {"title": filteredPageslinks}
@@ -434,6 +465,7 @@ def mainFunc(gGroup):
     # import time
     # t_start = time.perf_counter()
     import Dictionary as Dict
+    from time import sleep
     Dict.moduleInstaller()
     Dict.addLog('ProgStart', '')
 
@@ -465,6 +497,7 @@ def mainFunc(gGroup):
         with concurrent.futures.ThreadPoolExecutor() as thread:
 
             for i, link in enumerate(pageslinks["title"]):
+                sleep(5)
                 if link:
                     thread.submit(threadCheeck, link)
 

@@ -36,7 +36,7 @@ def finisher():
         else:
             print("Brak nowych zmian")
 
-        print("Synchronizacja z git zakońona")
+    print("Synchronizacja z git zakońona")
 
 
 # Sprawdza czy repoztorum już istanieje:

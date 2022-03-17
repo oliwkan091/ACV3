@@ -299,6 +299,13 @@ def edit_groups():
 #     else:
 #         print('Nie ma stron do sprawdzenia')
 
+# Wyświetla nazwę stworzoną z linku
+def genereate_name_from_link():
+
+    pages = Dict.loadDataFromFile(Dict.metaFileNames["pages"])["title"]
+    choice = Dict.make_choice("Z którego linku chcesz wygenerować nazwę: ", pages)
+
+    print(Dict.makeNameFromLink(pages[choice-1], ""))
 
 def mainFunc():
     import Dictionary as Dict
@@ -309,7 +316,7 @@ def mainFunc():
     # os.system(Dict.gitManagerMethods['boot'])
 
     choice = 0
-    while choice != 9:
+    while choice != 10:
         choice = Dict.make_choice('Wybierz co chcesz zrobić', Dict.mainMenu)
 
         if choice == 1:
@@ -328,6 +335,8 @@ def mainFunc():
             open_saved_links()
         elif choice == 8:
             edit_groups()
+        elif choice == 9:
+            genereate_name_from_link()
 
         # Wykonywane jest teraz w boocie
         # elif choice == 9:

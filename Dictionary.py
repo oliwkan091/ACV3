@@ -17,6 +17,7 @@ Zawiera niezbędne bazy oraz funkcjie wspólne dla reszty plików
     # 'acm' -  nazwa pliku skryptu
     # 'Dict' -  nazwa pliku skryptu
     # 'acv3' -  nazwa pliku skryptu
+    # 'logIn' - folder ze skryptami do logwania
 metaFileNames = {'newArticles': 'newArticles.txt',
                  'pages': 'pagesToCheck.txt',
                  'database': 'database',
@@ -30,7 +31,8 @@ metaFileNames = {'newArticles': 'newArticles.txt',
                  "gm": "gitManager.py",
                  "acm": "articleCheckerManager.py",
                  "Dict": "Dictionary.py",
-                 "acv3": "articleCheckerV3.py"}
+                 "acv3": "articleCheckerV3.py",
+                 "logIn": "logIn"}
 
 # Pamięta lokalizacje wynikwą wszystkich synchronizowanych urządzeń, podczas zapisywania
 # pliku iteruje i jak trafi na istniejącą baze to zapisuje
@@ -54,7 +56,7 @@ repetedLinks = ('https:','http:')
 
 # Dane które nalezy wyświetlić w mennu głównym
 mainMenu = ('Pokaż zapisane linki', 'Dodaj linki', 'Usuń linki', 'Pokaż wyjątki', 'Dodaj wyjątek', 'Usuń wyjątek',
-            'Otwóz zapisane linki', 'Edytuj grupy', 'Wyjdz')
+            'Otwóz zapisane linki', 'Edytuj grupy','Wygeneruj nazwę pliku z wybranego linku', 'Wyjdz')
 
 # mainMenu = ('Pokaż zapisane linki','Dodaj linki','Usuń linki',
 # 'Pokaż wyjątki','Dodaj wyjątek','Usuń wyjątek','Sprawdz stronę pochodną','Wyjdz')
@@ -115,33 +117,51 @@ def isFile(fileName):
     except:
         return False
 
-
 # Sprawdza czy dana fraza to link
-def isLink(link, database):
+def isLink(link, database, driver):
+    from selenium import webdriver
+    from selenium.webdriver.chrome.options import Options
 
-    # Jeżeli link jest w bazie to nie ma po co łączyć się ze stroną
-    for element in database:
-        if link == element:
-            print(f"Link {link} jest już w bazie")
-            return True
-    # Jeżeli w linku nie ma elemntów charakterystycznych dla linku to nie ma sensu go sprawdzać
-    if repetedLinks[0] in link or repetedLinks[1] in link:
-        from selenium import webdriver
-        from selenium.webdriver.chrome.options import Options
+    # Jeżeli driver nie będzie będzie obiektem selenium to taki zostanie utworzony
+    isRealDriver = True;
+    if type(driver) != webdriver.Chrome:
 
         chrome_options = Options()
         chrome_options.add_argument("--headless")
         driver = webdriver.Chrome(options=chrome_options)
 
+        isRealDriver = False
+
+    # Jeżeli link jest w bazie to nie ma po co łączyć się ze stroną
+    for element in database:
+        if link == element:
+            print(f"Link {link} jest już w bazie")
+            if not isRealDriver:
+                driver.quit()
+            return True
+    # Jeżeli w linku nie ma elemntów charakterystycznych dla linku to nie ma sensu go sprawdzać
+    if repetedLinks[0] in link or repetedLinks[1] in link:
+
+        # from selenium import webdriver
+        # from selenium.webdriver.chrome.options import Options
+
+        # chrome_options = Options()
+        # chrome_options.add_argument("--headless")
+        # driver = webdriver.Chrome(options=chrome_options)
+
         # Jeżeli link się nie wysypie to ozancza że istnieje
         try:
             driver.get(link)
-            driver.quit()
+            # driver.quit()
             print(f"Linku {link} nie ma jeszcze w bazie")
-            driver.quit()
+            # driver.quit()
+            if not isRealDriver:
+                driver.quit()
             return True
         except:
             print(f"{link} nie jest linkiem")
+            if not isRealDriver:
+                driver.quit()
             return False
     #return False
 
@@ -173,8 +193,20 @@ def makeNameFromLink(pageLink,type):
         if letter.isdigit() or letter.isalpha():
             fileName = fileName + letter
 
-    return (fileName + '.' + type)
+    if type != "":
+        return (fileName + '.' + type)
+    else:
+        return fileName
 
+
+# def makeNameFromLink(pageLink):
+#     #Tworzona jest nazwa pliku bazy danych na podstawie linku
+#     fileName = ''
+#     for letter in pageLink:
+#         if letter.isdigit() or letter.isalpha():
+#             fileName = fileName + letter
+#
+#     return (fileName)
 
 # Instaluje dodatkowe pakiety
 def moduleInstaller():

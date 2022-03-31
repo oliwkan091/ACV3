@@ -1,9 +1,0 @@
-Zapisywanie img alt="" class="entry-thumb td-animation-stack-type0-1" data-img-url="https://thegeopolitics.com/wp-content/uploads/2021/11/Capture-décran-2021-11-16-à-11.36.48-100x70.png" data-type="image_tag" height="70" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABGAQMAAAAASKMqAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABBJREFUKM9jGAWjYBQMKwAAA9QAAQWBn6cAAAAASUVORK5CYII=" title="Cambodia Is Being Turned Into a Political Advert for Chinese Vaccines" width="100"/
-Traceback (most recent call last):
-  File "D:\Pulpit\Moje Pliki\Nauka\Code\Python\ARTICLES\articleCheckerV3\articleCheckerV3.py", line 436, in <module>
-    newArticles, wasDataSavedToNA = saveNewArticles(newArticles,wasDataSavedToNA,nASaveLoc,link)
-  File "D:\Pulpit\Moje Pliki\Nauka\Code\Python\ARTICLES\articleCheckerV3\articleCheckerV3.py", line 304, in saveNewArticles
-    newArticlesFile.write(newArticles[i] + '\n')
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\encodings\cp1250.py", line 19, in encode
-    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
-UnicodeEncodeError: 'charmap' codec can't encode character '\u0301' in position 136: character maps to <undefined>

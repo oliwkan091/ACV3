@@ -1,5 +1,0 @@
-articles = "pagesToCheck.txt"
-resoults = "New Articles V3.txt"
-resoultsLocation = "D:\Documents\Dysk Google\Schengen"
-articlesLocation = ""
-databaseLocation = "Database"

@@ -4308,3 +4308,52 @@
 04/04/2022 19:18:16  Chromedriver.exe started 
 04/04/2022 19:18:18  Preparing to start chromedriver.exe 
 04/04/2022 19:18:19  Chromedriver.exe started 
+04/04/2022 19:36:48  Program started 
+04/04/2022 19:36:48  Preparing to start chromedriver.exe 
+04/04/2022 19:36:49  Chromedriver.exe started 
+04/04/2022 19:37:04  Preparing to start chromedriver.exe 
+04/04/2022 19:37:05  Chromedriver.exe started 
+04/04/2022 19:37:07  Preparing to start chromedriver.exe 
+04/04/2022 19:37:08  Chromedriver.exe started 
+04/04/2022 19:37:13  Preparing to start chromedriver.exe 
+04/04/2022 19:37:14  Chromedriver.exe started 
+04/04/2022 19:37:16  Preparing to start chromedriver.exe 
+04/04/2022 19:37:17  Chromedriver.exe started 
+04/04/2022 19:37:23  Preparing to start chromedriver.exe 
+04/04/2022 19:37:24  Chromedriver.exe started 
+04/04/2022 19:37:26  Preparing to start chromedriver.exe 
+04/04/2022 19:37:27  Chromedriver.exe started 
+04/04/2022 19:37:33  Preparing to start chromedriver.exe 
+04/04/2022 19:37:34  Chromedriver.exe started 
+04/04/2022 19:37:37  Preparing to start chromedriver.exe 
+04/04/2022 19:37:38  Chromedriver.exe started 
+04/04/2022 19:37:41  Preparing to start chromedriver.exe 
+04/04/2022 19:37:42  Chromedriver.exe started 
+04/04/2022 19:37:47  Preparing to start chromedriver.exe 
+04/04/2022 19:37:48  Chromedriver.exe started 
+04/04/2022 19:37:52  Preparing to start chromedriver.exe 
+04/04/2022 19:37:53  Chromedriver.exe started 
+04/04/2022 19:37:56  Preparing to start chromedriver.exe 
+04/04/2022 19:37:57  Chromedriver.exe started 
+04/04/2022 19:38:01  Preparing to start chromedriver.exe 
+04/04/2022 19:38:02  Chromedriver.exe started 
+04/04/2022 19:38:07  Preparing to start chromedriver.exe 
+04/04/2022 19:38:08  Chromedriver.exe started 
+04/04/2022 19:38:13  Preparing to start chromedriver.exe 
+04/04/2022 19:38:14  Chromedriver.exe started 
+04/04/2022 19:38:19  Preparing to start chromedriver.exe 
+04/04/2022 19:38:20  Chromedriver.exe started 
+04/04/2022 19:38:22  Preparing to start chromedriver.exe 
+04/04/2022 19:38:23  Chromedriver.exe started 
+04/04/2022 19:38:27  Preparing to start chromedriver.exe 
+04/04/2022 19:38:28  Chromedriver.exe started 
+04/04/2022 19:38:31  Preparing to start chromedriver.exe 
+04/04/2022 19:38:32  Chromedriver.exe started 
+04/04/2022 19:38:37  Preparing to start chromedriver.exe 
+04/04/2022 19:38:38  Chromedriver.exe started 
+04/04/2022 19:38:42  Preparing to start chromedriver.exe 
+04/04/2022 19:38:43  Chromedriver.exe started 
+04/04/2022 19:38:47  Preparing to start chromedriver.exe 
+04/04/2022 19:38:48  Chromedriver.exe started 
+04/04/2022 19:38:52  Preparing to start chromedriver.exe 
+04/04/2022 19:38:53  Chromedriver.exe started 

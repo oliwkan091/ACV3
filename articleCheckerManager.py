@@ -47,13 +47,27 @@ def add_link(metaFileNames, pagesData):
 def remove_link(metaFileNames):
     links = Dict.loadDataFromFile(metaFileNames)
     if Dict.checkIfDicionEelementExists(links, "title"):
-        choice = Dict.make_choice('Wybierz który link chcesz usunąć', links["title"])
-        links["title"].pop(choice - 1)
+        choice = Dict.make_choice('Wybierz który link chcesz usunąć', links["title"] + ["Wyjdź"])
+        if choice != len(links["title"]) + 1:
+            groupData = Dict.loadDataFromFile(Dict.metaFileNames["groupFile"])
 
-        Dict.saveDataToFile(metaFileNames, links)
+            # Przechodzi przez grupy i sprawdza czy nie ma tam zapisanej strony która ma zostać usunięta
+            for i in range(1, 4):
+                currentGroup = "g" + str(i)
+                if str(choice) in groupData[currentGroup]:
+                    groupData[currentGroup].remove(str(choice))
 
-        print("Link usunięty")
+                j = 0
+                while j < len(groupData[currentGroup]):
+                    if int(groupData[currentGroup][j]) > choice:
+                        groupData[currentGroup][j] = str(int(groupData[currentGroup][j]) - 1)
+                    j += 1
 
+            Dict.saveDataToFile(Dict.metaFileNames["groupFile"], groupData)
+
+            links["title"].pop(choice - 1)
+            Dict.saveDataToFile(metaFileNames, links)
+            print("Link usunięty")
     else:
         print("Baza linków nie istnieje")
 
@@ -303,9 +317,10 @@ def edit_groups():
 def genereate_name_from_link():
 
     pages = Dict.loadDataFromFile(Dict.metaFileNames["pages"])["title"]
-    choice = Dict.make_choice("Z którego linku chcesz wygenerować nazwę: ", pages)
+    choice = Dict.make_choice("Z którego linku chcesz wygenerować nazwę: ", pages + ["Wyjdź"])
 
-    print(Dict.makeNameFromLink(pages[choice-1], ""))
+    if choice != len(pages) + 1:
+        print(Dict.makeNameFromLink(pages[choice-1], ""))
 
 def mainFunc():
     import Dictionary as Dict
@@ -324,7 +339,7 @@ def mainFunc():
         elif choice == 2:
             add_link(Dict.metaFileNames["pages"], Dict.pagesData)
         elif choice == 3:
-            remove_link()
+            remove_link(Dict.metaFileNames["pages"])
         elif choice == 4:
             show_exceptions(Dict.metaFileNames)
         elif choice == 5:

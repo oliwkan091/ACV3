@@ -4,8 +4,10 @@ Uruchamiany przed i po właściwym programie
 """
 
 
-# Pobiera dane z serwera przed startem właściwego programu
-def bootChecker():
+def bootChecker() -> None:
+    """
+    Pobiera dane z serwera przed startem właściwego programu
+    """
     import os
     import Dictionary as Dict
     Dict.moduleInstaller()
@@ -18,8 +20,10 @@ def bootChecker():
         repo.git.pull()
 
 
-# Uruchamiany na końcu prgoramu w celu wysłania zmian na serwer
-def finisher():
+def finisher() -> None:
+    """
+    Uruchamiany na końcu programu w celu wysłania zmian na serwer
+    """
     import os
 
     #   UNCOMMENT WHEN READY
@@ -30,7 +34,7 @@ def finisher():
 
         repo.git.add("--all")
         if repo.head.commit.diff() != []:
-            repo.git.commit('-m "auto commit"')
+            repo.git.commit("-m \"auto commit\"")
             repo.git.push()
             print("Dodano zmiany")
         else:
@@ -39,10 +43,13 @@ def finisher():
     print("Synchronizacja z git zakońona")
 
 
-# Sprawdza czy repoztorum już istanieje:
-#	- Jeżeli tak to je aktualizuje
-#	- Jeżeli nie to pobiera
-def isRepo():
+def isRepo() -> bool:
+    """
+    # Sprawdza czy repoztorum już istanieje:
+
+    :return: True repozytorium istnieje można działać, False repozytorium nie istnieje trzeba je pobrać
+    """
+
     import git
     import os
     import Dictionary as Dict
@@ -50,31 +57,35 @@ def isRepo():
         repo = git.Repo(os.getcwd())
         return True
     except git.exc.NoSuchPathError:
-        #reso = git.Repo.clone_from(Dict.gitMetaNames['repo'], os.getcwd())
+        #reso = git.Repo.clone_from(Dict.gitMetaNames["repo"], os.getcwd())
         return False
     except git.exc.InvalidGitRepositoryError:
-        #reso = git.Repo.clone_from(Dict.gitMetaNames['repo'], os.getcwd())
+        #reso = git.Repo.clone_from(Dict.gitMetaNames["repo"], os.getcwd())
         return False
 
 
-# Główna funkcja, pozwala łatow uruchomić program z innego skryptu
-def mainFunc(argu):
+def mainFunc(argu: str) -> None:
+    """
+    Główna funkcja, pozwala uruchomić program z innego skryptu
+    :param argu:
+    :return:
+    """
     # Sprawdza, czy dodano przełącznik
     if argu:
         import Dictionary as Dict
         Dict.whileNotIsConnected()
         # Uruchamia bootChecker
-        if argu == 'c':
+        if argu == "c":
             bootChecker()
         # Uruchamia finisher
-        elif argu == 'f':
+        elif argu == "f":
             finisher()
 
-        return 1
+        return
     else:
-        print('Przełącznik wymagany')
-        print('c - uruchamia bootChecker')
-        print('f - uruchamia finisher')
+        print("Przełącznik wymagany")
+        print("c - uruchamia bootChecker")
+        print("f - uruchamia finisher")
         # if useType == "boot":
         #     return 0
 

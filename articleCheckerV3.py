@@ -1,11 +1,18 @@
-'''
+"""
 Program ten scrapuje wybrane treści z interntu, sprawdza czy spełniają one kryteria, zapisuje do bazy danych i pliku wynikowego
-'''
-import sys
-import Dictionary as Dict
+"""
 
-# Pobiera wsszystkie linki ze stron
-def getLinksFromPage(pageLink):
+import Dictionary as Dict
+import bs4
+
+
+def getLinksFromPage(pageLink: str) -> bs4.BeautifulSoup:
+    """
+    Pobiera wsszystkie linki ze strony
+    :param pageLink: link do strony która ma zostać sprawdzona
+    :return: zwraca pobrany kod strony sformatowany w bs4
+    """
+
     from selenium import webdriver
     from selenium.webdriver.chrome.options import Options
     import Dictionary as Dict
@@ -13,15 +20,15 @@ def getLinksFromPage(pageLink):
     from time import sleep
     import os
 
-    print('Łączę z: ' + pageLink)
+    print("Łączę z: " + pageLink)
     if Dict.isLink(pageLink, [], ""):
 
-        Dict.addLog('PrepChrom', '')
+        Dict.addLog("PrepChrom", "")
         # Jeżeli system ma działać w tle to trzeba zainportować options i dodać headless
         chrome_options = Options()
         # chrome_options.add_argument("--headless")
         driver = webdriver.Chrome(options=chrome_options)
-        Dict.addLog('ChromStarted', '')
+        Dict.addLog("ChromStarted", "")
 
         # Sprawdza czy dla wybranej strony nie trzba się zalogować
         # Jeżeli skrypt logowania jest dostępny to wywołuje
@@ -37,55 +44,68 @@ def getLinksFromPage(pageLink):
 
         driver.get(pageLink)
         sleep(5)
-        driver.execute_script("return document.getElementsByTagName('html')[0].innerHTML")
+        driver.execute_script("return document.getElementsByTagName(\"html\")[0].innerHTML")
         sleep(5)
-        better_web = bs4.BeautifulSoup(driver.page_source, 'lxml')
+        better_web = bs4.BeautifulSoup(driver.page_source, "lxml")
         driver.quit()
         return better_web
     else:
         print(pageLink, " nie jest linkiem")
-        Dict.addLog('LinkErr', pageLink)
+        Dict.addLog("LinkErr", pageLink)
 
 
-# Kod z managedlinks który sprawdza czy wyjątki nie zatrzymują niktórych danych
-# def isDataBlockedOrKeyed():
-#     pass
+def getLinks() -> dict:
+    """
+    Pobiera linki do sprawdzenia z pliku txt
+    :return: zwraca wczytane z pliku linki lub posty dictionaty jeżeli nie było nic dowczytania
+    """
 
-
-# Pobiera linki do sprawdzenia z pliku txt
-def getLinks():
-    fileData = Dict.loadDataFromFile(Dict.metaFileNames['pages'])
+    fileData = Dict.loadDataFromFile(Dict.metaFileNames["pages"])
     if fileData == {}:
         return {}
     else:
         return fileData
 
 
-# Sprawdza czy w wybranym linku nie doszło do błędnego powtórzenia domeny
-def isRepeated(link, pageLink):
+
+def isRepeated(link: str, pageLink: str) -> bool:
+    """
+    Sprawdza czy w wybranym linku nie doszło do błędnego powtórzenia domeny
+    :param link: link sprawdzany w ramach poprawności
+    :param pageLink: link strony sprawdzanej
+    :return: True jeżeli jest poprawny, False jeżeli nie
+    """
     import re
     pageLink = Dict.onlyData(pageLink, Dict.repetedLinks)
     reFound = re.findall(pageLink, link)
 
     if len(reFound) > 1:
         for element in reFound:
-            print('    ' + element)
+            print("    " + element)
         return True
     else:
         return False
 
 
-# Spis treści funkcji bo jest bardzo duża :
-# 1. Sprawdzenie czy kod źródłowy strony oraz baza danych linków istanieje
-# 2. Wybranie linków z kodu strony i sprawdzenie  czy istanieją
-# 3. Sortuje tablicę linków i nazw po linkach i rozdziela na mniejsze tablice
-# 4. Usuwa powtózenia linków i wybiera jeden tytuł
-# 5. Jeżeli baza danych funkcji już instanieje to pobiera wszystkie zapisane w niej linki i porównuje czy któreś z nowych nie były już wcześniej pobrane
-# 6. Sprawdza czy linki nie są wykluczone lub wymagane
-# 7. Zapisuje dane do excela wzbogacone o świeżo poprane linki
-# 8. Jeżeli baza danych nie istanieje to zapisuje wszytkie linki do excela i nie zwraca newArticles
-# Z pobranych linków wyodrębnia te które są nowe
-def manageLinks(pageLink, better_web, newArticles):
+def manageLinks(pageLink: str, better_web: bs4.BeautifulSoup, newArticles: list[str,str]) -> list[str,str]:
+    """
+    Spis treści funkcji bo jest bardzo duża :
+        1. Sprawdzenie czy kod źródłowy strony oraz baza danych linków istanieje
+        2. Wybranie linków z kodu strony i sprawdzenie  czy istanieją
+        3. Sortuje tablicę linków i nazw po linkach i rozdziela na mniejsze tablice
+        4. Usuwa powtózenia linków i wybiera jeden tytuł
+        5. Jeżeli baza danych funkcji już instanieje to pobiera wszystkie zapisane w niej linki i porównuje czy któreś z nowych nie były już wcześniej pobrane
+        6. Sprawdza czy linki nie są wykluczone lub wymagane
+        7. Zapisuje dane do excela wzbogacone o świeżo poprane linki
+        8. Jeżeli baza danych nie istanieje to zapisuje wszytkie linki do excela i nie zwraca newArticles
+        Z pobranych linków wyodrębnia te które są nowe
+
+    :param pageLink: link do strony sprawdzanej
+    :param better_web: pobrany kod strony sformatowany w bs4
+    :param newArticles: lista do której zostaną zapisane wyniki
+    :return: listę z nazwami i linkmi do zapisania
+    """
+
     import Dictionary as Dict
     import os
     import pandas
@@ -104,17 +124,17 @@ def manageLinks(pageLink, better_web, newArticles):
     driver = webdriver.Chrome(options=chrome_options)
 
     # Sprawdza czy baza danych istnieje i ją otwiera
-    fileList = os.listdir(os.getcwd() + '\\' + Dict.metaFileNames['database'])
-    fileName = Dict.makeNameFromLink(pageLink, 'xlsx')
+    fileList = os.listdir(os.getcwd() + "\\" + Dict.metaFileNames["database"])
+    fileName = Dict.makeNameFromLink(pageLink, "xlsx")
     excelData = [[], []]
     if fileName in fileList:
-        dataFromExcel = pandas.read_excel(Dict.metaFileNames['database'] + '\\' + fileName)
+        dataFromExcel = pandas.read_excel(Dict.metaFileNames["database"] + "\\" + fileName)
         i = 0
-        excelLen = len(dataFromExcel['Links'])
+        excelLen = len(dataFromExcel["Links"])
         # Wczytuje wszystkie dane z bazy danych
         while i < excelLen:
-            excelData[0].append(dataFromExcel['Links'][i])
-            excelData[1].append(dataFromExcel['Names'][i])
+            excelData[0].append(dataFromExcel["Links"][i])
+            excelData[1].append(dataFromExcel["Names"][i])
             i += 1
 
     # 2
@@ -123,24 +143,24 @@ def manageLinks(pageLink, better_web, newArticles):
     linkAndName = []
 
     # Szuka linków w kodzie strony (linki to "a")
-    better_web2 = better_web.find_all('a')
+    better_web2 = better_web.find_all("a")
     for link in better_web2:
 
         # Sprawdza czy jest to link
-        tempLink = re.findall('href=\".[^\"]*\"', str(link))
-        tempName = re.findall('>.*?<', str(link))
+        tempLink = re.findall("href=\".[^\"]*\"", str(link))
+        tempName = re.findall(">.*?<", str(link))
 
         # Sprawdza czy link i nazwa istanieje
         if tempName and tempLink:
 
             tempNameA = []
-            [tempNameA.append(element.replace('<', '').replace('>', '').strip()) for element in tempName]
+            [tempNameA.append(element.replace("<", "").replace(">", "").strip()) for element in tempName]
             tempName = tempNameA
             tempNameA = []
             [tempNameA.append(element) for element in tempName if element and len(element) != 0]
             tempName = tempNameA
 
-            tempLink = tempLink[0].replace('href="', '').replace('"', '').strip()
+            tempLink = tempLink[0].replace("href="", "").replace(""", "").strip()
 
             if Dict.isLink(tempLink, excelData[0], driver):
                 if len(tempName) != 0:
@@ -148,11 +168,11 @@ def manageLinks(pageLink, better_web, newArticles):
                         linkAndName.append(tempLink + Dict.comma + name)
                 else:
                     linkAndName.append(tempLink + Dict.comma + "")
-            # Na dynamicznych stronach nie ma adresu głównego są tylko adresy wewnętrze które zaczynają się od '/',
+            # Na dynamicznych stronach nie ma adresu głównego są tylko adresy wewnętrze które zaczynają się od "/",
             #   należy do nich dodać adres główny
 
-            elif not tempLink.startswith('http'):
-                if tempLink.startswith('/'):
+            elif not tempLink.startswith("http"):
+                if tempLink.startswith("/"):
                     if Dict.isLink(makeTheMainLink(pageLink) + tempLink, excelData[0], driver):
                         if len(tempName) != 0:
                             for name in tempName:
@@ -160,12 +180,12 @@ def manageLinks(pageLink, better_web, newArticles):
                         else:
                             linkAndName.append(makeTheMainLink(pageLink) + tempLink + Dict.comma + "")
                 else:
-                    if Dict.isLink(makeTheMainLink(pageLink) + '/' + tempLink, excelData[0], driver):
+                    if Dict.isLink(makeTheMainLink(pageLink) + "/" + tempLink, excelData[0], driver):
                         if len(tempName) != 0:
                             for name in tempName:
-                                linkAndName.append(makeTheMainLink(pageLink) + '/' + tempLink + Dict.comma + name)
+                                linkAndName.append(makeTheMainLink(pageLink) + "/" + tempLink + Dict.comma + name)
                         else:
-                            linkAndName.append(makeTheMainLink(pageLink) + '/' + tempLink + Dict.comma + "")
+                            linkAndName.append(makeTheMainLink(pageLink) + "/" + tempLink + Dict.comma + "")
 
         # 3
     linkAndName = sorted(linkAndName)
@@ -308,9 +328,9 @@ def manageLinks(pageLink, better_web, newArticles):
 
         # 7
 
-        excelWriter = pandas.ExcelWriter(Dict.metaFileNames['database'] + '\\' + fileName)
-        dataF = pandas.DataFrame({'Links': newDataToExcel[0], 'Names': newDataToExcel[1]})
-        dataF.to_excel(excelWriter, '1', index=False)
+        excelWriter = pandas.ExcelWriter(Dict.metaFileNames["database"] + "\\" + fileName)
+        dataF = pandas.DataFrame({"Links": newDataToExcel[0], "Names": newDataToExcel[1]})
+        dataF.to_excel(excelWriter, "1", index=False)
         excelWriter.save()
         return newArticles
 
@@ -318,40 +338,48 @@ def manageLinks(pageLink, better_web, newArticles):
 
     # Jeżeli meta plik danej strony jeszcze nie istanieje
     else:
-        excelWriter = pandas.ExcelWriter(Dict.metaFileNames['database'] + '\\' + fileName)
-        dataF = pandas.DataFrame({'Links': links, 'Names': names})
-        dataF.to_excel(excelWriter, '1', index=False)
+        excelWriter = pandas.ExcelWriter(Dict.metaFileNames["database"] + "\\" + fileName)
+        dataF = pandas.DataFrame({"Links": links, "Names": names})
+        dataF.to_excel(excelWriter, "1", index=False)
         excelWriter.save()
         return newArticles
 
 
 # Używane przez articleCheckerManager
-def manualDatabaseUpdate(link, pageLink, managedArticles):
-    import Dictionary as Dict
-    managedArticles = manageLinks(link, getLinksFromPage(pageLink), managedArticles)
-    return managedArticles
+# Chwilowo nieużywane
+# def manualDatabaseUpdate(link, pageLink, managedArticles):
+#     import Dictionary as Dict
+#     managedArticles = manageLinks(link, getLinksFromPage(pageLink), managedArticles)
+#     return managedArticles
 
 
-# Zapisuje datę ostatniego logowanie programu
-def saveLogIn():
+def saveLogIn() -> None:
+    """
+    Zapisuje datę ostatniego logowanie programu
+    """
+
     from datetime import date
     today = date.today()
     d1 = today.strftime("%d/%m/%Y")
 
-    dataFile = open(Dict.metaFileNames['logIn'], 'w+')
+    dataFile = open(Dict.metaFileNames["logIn"], "w+")
     dataFile.write(d1)
     dataFile.close()
 
 
-# Sprawdza czy program nie został już dziś zaktualizowany
-def readyToSync():
+def readyToSync() -> bool:
+    """
+    Sprawdza czy program nie został już dziś zaktualizowany
+    :return: True jeżeli nie został, False jeżeli został
+    """
+
     from datetime import date
-    if not Dict.isFile(Dict.metaFileNames['logIn']):
+    if not Dict.isFile(Dict.metaFileNames["logIn"]):
         return True
     else:
-        dataFile = open(Dict.metaFileNames['logIn'], 'r+')
+        dataFile = open(Dict.metaFileNames["logIn"], "r+")
         dataLine = dataFile.readline()
-        dataLine = dataLine.split('/')
+        dataLine = dataLine.split("/")
 
         dataValue = int(dataLine[0]) + int(dataLine[1]) * 100 + int(dataLine[2]) * 10000
 
@@ -362,24 +390,32 @@ def readyToSync():
             return True
 
 
-# Słóży do tworznia głównego linku strony
-def makeTheMainLink(currentLink):
-    linkElements = currentLink.split('/')
-    return linkElements[0] + '//' + linkElements[2]
+def makeTheMainLink(currentLink: str) -> str:
+    """
+    Słóży do tworznia głównego linku bez podlinków po ukośnikach
+    :param currentLink: link do zmienienia
+    :return: zmieniony link
+    """
+
+    linkElements = currentLink.split("/")
+    return linkElements[0] + "//" + linkElements[2]
 
 
-# Sprawdza czy chromedriver.exe działa i jest aktualny
-def isChromedriverUpToDate():
+def isChromedriverUpToDate() -> bool:
+    """
+    Sprawdza czy chromedriver.exe działa i jest aktualny
+    :return: True jeżeli jest aktualny, False jeżeli nie
+    """
     from selenium import webdriver
     from selenium.webdriver.chrome.options import Options
 
-    Dict.addLog('PrepChrom', '')
+    Dict.addLog("PrepChrom", "")
     # Jeżeli system ma działać w tle to trzeba zainportować options i dodać headless
     try:
         chrome_options = Options()
         chrome_options.add_argument("--headless")
         driver = webdriver.Chrome(options=chrome_options)
-        Dict.addLog('ChromStarted', '')
+        Dict.addLog("ChromStarted", "")
 
         driver.get("https://www.google.pl/")
         driver.quit()
@@ -387,35 +423,17 @@ def isChromedriverUpToDate():
 
     except:
         # rise
-        Dict.addLog('ChromFail', '')
-        print('ChromeDriver.exe jest nieaktualny! Zaktualizuj go do wersji przeglądarki')
+        Dict.addLog("ChromFail", "")
+        print("ChromeDriver.exe jest nieaktualny! Zaktualizuj go do wersji przeglądarki")
         return False
 
 
-# Sprawdza bazę danych w celu znalecienia lokalizacji pliku zpisu, jeżeli nie znajdzie to prosi o podanie
-# def NAFileLoc():
-# 	import Dictionary as Dict
-# 	data = Dict.loadDataFromFile(Dict.metaFileNames['NALoc'])
-#
-# 	pcName = os.environ['COMPUTERNAME']
-#
-# 	for a,name in enumerate(data["Loc"]):
-# 		if name == pcName:
-# 			return data["Loc"][name]
-#
-# 	pathToNA = input("Brak informacji o punkcie zapisu na tym urządzniu. Wklej ścierzkę do folderu:")
-# 	isPath = False
-# 	while True:
-# 		if Dict.isDir(pathToNA):
-# 			print("Ścieżka jest poprawna")
-# 			data["Loc"][pcName] = pathToNA
-# 			Dict.saveDataToFile(Dict.metaFileNames["NALoc"],data)
-# 			return pathToNA
-# 		else:
-# 			pathToNA = input("Ścieżka jest niepoprawna, podaj poprawną ścieżkę: ")
+def threadCheeck(link: object) -> None:
+    """
+    Jest równloegłą funkcją wywoływaną osobno dla każdego linku
+    :param link: link do strony
+    """
 
-
-def threadCheeck(link):
     import os
 
     pageSourceCode = getLinksFromPage(link)
@@ -432,7 +450,7 @@ def threadCheeck(link):
 
         for article in newArticles:
             try:
-                newArticlesTempFile.write(article + '\n')
+                newArticlesTempFile.write(article + "\n")
             except:
                 for sign in article:
                     try:
@@ -444,8 +462,15 @@ def threadCheeck(link):
 
         newArticlesTempFile.close()
 
-# Jeżeli została wywołana grupa to filtruje i zostawia tylko linki w niej zawarte
-def filterForGroup(pageslinks, gGroup):
+
+def filterForGroup(pageslinks: list, gGroup: str) -> dict:
+    """
+    Jeżeli została wywołana grupa to filtruje i zostawia tylko linki w niej zawarte
+    :param pageslinks: linki do sprawdznia
+    :param gGroup: wywołana grupa filtrowania
+    :return: linki zawarte w grupie
+    """
+
     fileData = Dict.loadDataFromFile(Dict.metaFileNames["groupFile"])[gGroup]
     filteredPageslinks = []
 
@@ -458,30 +483,23 @@ def filterForGroup(pageslinks, gGroup):
     return filteredPageslinksInDictionary
 
 
-# Główna funkcja, pozwala na uruchomienie z innego skryptu
-    # gGroup - nazwa grupy, jeżeli pusty to grupa nie została wywołana
-def mainFunc(gGroup):
+def mainFunc(gGroup: str) -> None:
+    """
+    Główna funkcja, pozwala na uruchomienie z innego skryptu
+    :param gGroup: nazwa grupy, jeżeli pusta to żadna grupa nie została wywołana
+    """
     # Miernik czasu
     # import time
     # t_start = time.perf_counter()
     import Dictionary as Dict
     from time import sleep
     Dict.moduleInstaller()
-    Dict.addLog('ProgStart', '')
-
-    import urllib
-    from selenium import webdriver
-    from selenium.webdriver.chrome.options import Options
-    import bs4
-    import codecs
-    import re
-    import os
-    import pandas
-    from datetime import date
+    Dict.addLog("ProgStart", "")
 
     # Sprawdza czy dziś nie doszło już do synchronizacji
     if readyToSync():
-        Dict.whileNotIsConnected()
+        if not Dict.whileNotIsConnected():
+            exit(0)
         nASaveLoc = Dict.NAFileLoc()
 
         if not isChromedriverUpToDate():
@@ -511,11 +529,11 @@ def mainFunc(gGroup):
     # t_stop = time.perf_counter()
 
     else:
-        Dict.addLog('ProgEndDJZ', '')
-        print('Dziś już zaktualizowano')
+        Dict.addLog("ProgEndDJZ", "")
+        print("Dziś już zaktualizowano")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
 
     import sys
     argList = [sys.argv[0]] + [element.replace("-", "") for element in sys.argv[1:]]
@@ -528,71 +546,3 @@ if __name__ == '__main__':
     else:
         print("Do włącznia tego skryptu z pominięciem boota trzeba dodać przełącznik \"m\", "
               "pomijanie nie jest jednak zalecane bo omija synchronizacje z git")
-
-    '''
-    #DO WYRZUCENIA
-    #import time
-    #t_start = time.perf_counter()
-    import Dictionary as Dict
-    Dict.moduleInstaller()
-    Dict.addLog('ProgStart','')
-
-    import urllib
-    from selenium import webdriver
-    from selenium.webdriver.chrome.options import Options
-    import bs4
-    import codecs
-    import re
-    import os
-    import pandas
-    from datetime import date
-
-
-    #Sprawdza czy dziś nie doszło już do synchronizacji
-    if readyToSync():
-        #Dict.addLog('gitBootSyncStart','')
-        #Odpala gitManger i sychronizuje się z wersją git
-        #os.system(Dict.gitManagerMethods['boot'])
-        #Dict.addLog('gitBootSyncFinish','')
-
-        Dict.whileNotIsConnected()
-        nASaveLoc = Dict.NAFileLoc()
-
-        if not isChromedriverUpToDate():
-            exit(0)
-
-        #newArticles = []
-        pageslinks = getLinks()
-
-        Dict.makeDatabase()
-        #wasDataSavedToNA = False
-        import concurrent.futures
-        with concurrent.futures.ThreadPoolExecutor() as thread:
-
-            for i,link in enumerate(pageslinks["title"]):
-                if link:
-                    #pageSourceCode = getLinksFromPage(link)
-                    # manageLinks(link,pageSourceCode,newArticles)
-                    # newArticles, wasDataSavedToNA = saveNewArticles(newArticles,wasDataSavedToNA,nASaveLoc,link)
-                    #print("threadLink")
-                    thread.submit(threadCheeck,link)
-                    #threadCheeck(link)
-
-        Dict.saveNewArticlesV2(False)
-        # DO WYRZUCENIA
-        #t_stop = time.perf_counter()
-
-        #print(f"Czas działania programu {t_stop - t_start} s")
-        #saveLogIn()
-        #Dict.addLog('gitFinishSyncStart','')
-        #Odpala gitManger i wysyła postępy na github
-        #os.system(Dict.gitManagerMethods['finish'])
-        #Dict.addLog('gitFinishSyncFinish','')
-
-        #Dict.addLog('ProgEnd','')
-
-    else:
-        Dict.addLog('ProgEndDJZ','')
-        print('Dziś już zaktualizowano')
-
-    '''

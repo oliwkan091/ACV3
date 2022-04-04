@@ -1,12 +1,14 @@
-'''
+"""
 Plik ten daje użytkownikowi dostęp do programu i pozwala nim zarządzać
-'''
+"""
 
 
-import Dictionary as Dict
-
-# Pokazuje wszystkie linki które są w bazie
-def show_links(metaFileNames):
+def show_links(metaFileNames: str) -> None:
+    """
+    Pokazuje wszystkie linki które są w bazie
+    :param metaFileNames: nazwa pliku gdzie zapisane są linki
+    :return: wyłącze funkcję, nic nie zwraca
+    """
     pages = Dict.loadDataFromFile(metaFileNames)
     try:
         pages["title"]
@@ -24,12 +26,16 @@ def show_links(metaFileNames):
         print('W bazie nie ma linków')
 
 
-# Dodaje link strony do sprawdzenia do bazy
-def add_link(metaFileNames, pagesData):
+def add_link(metaFileNames: str) -> None:
+    """
+    Dodaje link strony do sprawdzenia do bazy
+    :param metaFileNames: nazwa pliku z linkami
+    """
+
     link = input("Wpisz link do strony: ")
     if Dict.isLink(link, []):
         links = Dict.loadDataFromFile(metaFileNames)
-        if Dict.checkIfDicionEelementExists(links, "title"):
+        if Dict.checkIfDictionElementExists(links, "title"):
             links["title"].append(link)
             Dict.saveDataToFile(metaFileNames, links)
             print("Link zapisany")
@@ -40,14 +46,18 @@ def add_link(metaFileNames, pagesData):
             print("Utworzono")
 
     else:
-        print('Link nie istanieje lub witryna jest nieosiągalna. Sprawdź link i połączenie z internetem')
+        print("Link nie istanieje lub witryna jest nieosiągalna. Sprawdź link i połączenie z internetem")
 
 
-# Usuwa wskazany link
-def remove_link(metaFileNames):
+def remove_link(metaFileNames: str) -> None:
+    """
+    Usuwa wskazany link
+    :param metaFileNames: nazwa pliku z linkami
+    """
+
     links = Dict.loadDataFromFile(metaFileNames)
-    if Dict.checkIfDicionEelementExists(links, "title"):
-        choice = Dict.make_choice('Wybierz który link chcesz usunąć', links["title"] + ["Wyjdź"])
+    if Dict.checkIfDictionElementExists(links, "title"):
+        choice = Dict.make_choice("Wybierz który link chcesz usunąć", links["title"] + ["Wyjdź"])
         if choice != len(links["title"]) + 1:
             groupData = Dict.loadDataFromFile(Dict.metaFileNames["groupFile"])
 
@@ -72,15 +82,19 @@ def remove_link(metaFileNames):
         print("Baza linków nie istnieje")
 
 
-# Pokazaju jakie wyjątki ma wybrany plik
-def show_exceptions(metaFileNames):
+def show_exceptions(metaFileNames: dict) -> None:
+    """
+    Pokazaju jakie wyjątki ma wybrany plik
+    :param metaFileNames: dictionary z nawzwami plików
+    """
+
     Dict.makeDatabase()
     links = Dict.loadDataFromFile(metaFileNames["pages"])
 
-    if Dict.checkIfDicionEelementExists(links, "title"):
-        choice = Dict.make_choice('Z jakiego pliku wyświetlić wyjątki', links["title"])
+    if Dict.checkIfDictionElementExists(links, "title"):
+        choice = Dict.make_choice("Z jakiego pliku wyświetlić wyjątki", links["title"])
 
-        fileToOpenName = Dict.makeNameFromLink(links["title"][choice - 1], 'txt')
+        fileToOpenName = Dict.makeNameFromLink(links["title"][choice - 1], "txt")
         if Dict.isFile(metaFileNames["database"] + "\\" + fileToOpenName):
             exceptions = Dict.loadDataFromFile(metaFileNames["database"] + "\\" + fileToOpenName)
 
@@ -102,19 +116,23 @@ def show_exceptions(metaFileNames):
         print("Baza danych nie istenieje")
 
 
-# Dodaje wyjątek do wybranego pliku
-def add_exception(metaFileNames):
+def add_exception(metaFileNames: dict) -> None:
+    """
+    Dodaje wyjątek do wybranego pliku
+    :param metaFileNames: dictionary z nawzwami plików
+    """
+
     Dict.makeDatabase()
     links = Dict.loadDataFromFile(metaFileNames["pages"])
 
-    if Dict.checkIfDicionEelementExists(links, "title"):
+    if Dict.checkIfDictionElementExists(links, "title"):
         choice = Dict.make_choice("Wybierz do jakiego pliku chcesz dodać wyjątek", links["title"])
-        typeChoice = Dict.make_choice(Dict.makeNameFromLink(links["title"][choice - 1], 'txt') + '   Podaj typ wyjątku',
+        typeChoice = Dict.make_choice(Dict.makeNameFromLink(links["title"][choice - 1], "txt") + "   Podaj typ wyjątku",
                                       Dict.exceptionTypes)
-        excInp = input('Podaj wyjątek: ')
+        excInp = input("Podaj wyjątek: ")
         excFile = Dict.loadDataFromFile(
-            Dict.metaFileNames['database'] + '\\' + Dict.makeNameFromLink(links["title"][choice - 1], 'txt'))
-        if not Dict.checkIfDicionEelementExists(excFile, "block") or not Dict.checkIfDicionEelementExists(excFile,
+            Dict.metaFileNames["database"] + "\\" + Dict.makeNameFromLink(links["title"][choice - 1], "txt"))
+        if not Dict.checkIfDictionElementExists(excFile, "block") or not Dict.checkIfDictionElementExists(excFile,
                                                                                                           "key"):
             excFile["block"] = []
             excFile["key"] = []
@@ -122,30 +140,34 @@ def add_exception(metaFileNames):
         excFile[Dict.exceptionTypes[typeChoice - 1]].append(excInp)
 
         Dict.saveDataToFile(
-            Dict.metaFileNames['database'] + '\\' + Dict.makeNameFromLink(links["title"][choice - 1], 'txt'), excFile)
+            Dict.metaFileNames["database"] + "\\" + Dict.makeNameFromLink(links["title"][choice - 1], "txt"), excFile)
         print("Dodano wyjątek")
 
     else:
         print("Baza danych nie istnieje")
 
 
-# Usuwa wyjątek z wybranego pliku
-def remove_exception(metaFileNames):
+def remove_exception(metaFileNames: dict) -> None:
+    """
+    Usuwa wyjątek z wybranego pliku
+    :param metaFileNames: dictionary z nazwami plików
+    """
+
     Dict.makeDatabase()
     import os
     links = Dict.loadDataFromFile(metaFileNames["pages"])
 
-    if Dict.checkIfDicionEelementExists(links, "title"):
+    if Dict.checkIfDictionElementExists(links, "title"):
         i = 0
         while i < len(links["title"]):
-            if not Dict.isFile(Dict.metaFileNames['database'] + '\\' + Dict.makeNameFromLink(links["title"][i], 'txt')):
+            if not Dict.isFile(Dict.metaFileNames["database"] + "\\" + Dict.makeNameFromLink(links["title"][i], "txt")):
                 links["title"].pop(i)
             i += 1
 
         choice = Dict.make_choice("Wybierz z jakiej bazy chcesz usunąć wyjątek", links["title"])
 
         exceptions = Dict.loadDataFromFile(
-            Dict.metaFileNames['database'] + '\\' + Dict.makeNameFromLink(links["title"][choice - 1], "txt"))
+            Dict.metaFileNames["database"] + "\\" + Dict.makeNameFromLink(links["title"][choice - 1], "txt"))
         print(exceptions)
         if exceptions["block"] != [] and exceptions["key"] != []:
             typeChoice = Dict.make_choice("Który typ chcesz usunąć", Dict.exceptionTypes)
@@ -161,27 +183,34 @@ def remove_exception(metaFileNames):
                 exceptions[Dict.exceptionTypes[1]].pop(toDel - 1)
 
         if exceptions["block"] == [] and exceptions["key"] == []:
-            os.remove(Dict.metaFileNames['database'] + '\\' + Dict.makeNameFromLink(links["title"][choice - 1], "txt"))
+            os.remove(Dict.metaFileNames["database"] + "\\" + Dict.makeNameFromLink(links["title"][choice - 1], "txt"))
         else:
             Dict.saveDataToFile(
-                Dict.metaFileNames['database'] + '\\' + Dict.makeNameFromLink(links["title"][choice - 1], "txt"),
+                Dict.metaFileNames["database"] + "\\" + Dict.makeNameFromLink(links["title"][choice - 1], "txt"),
                 exceptions)
     else:
         print("Baza danych nie istanieje")
 
 
-# Usuwa zapisane dane artykułów
-def deleteNewArticles():
+def deleteNewArticles() -> bool:
+    """
+    Usuwa zapisane dane artykułów
+    :return: True jeżeli plik istnieje, False jeżeli nie
+    """
     import os
-    if(Dict.isFile(Dict.NAFileLoc() + '\\' + Dict.metaFileNames['newArticles'])):
-        os.remove(Dict.NAFileLoc() + '\\' + Dict.metaFileNames['newArticles'])
+    if(Dict.isFile(Dict.NAFileLoc() + "\\" + Dict.metaFileNames["newArticles"])):
+        os.remove(Dict.NAFileLoc() + "\\" + Dict.metaFileNames["newArticles"])
         return True
     else:
         return False
 
 
-# Wczytuje do przeglądarki strony
-def open_browser(links):
+def open_browser(links: list) -> None:
+    """
+    Wczytuje do przeglądarki strony
+    :param links: lista linków zapisanych w newArticles
+    """
+
     from selenium import webdriver
 
     driver_path = "chromedriver.exe"
@@ -194,19 +223,21 @@ def open_browser(links):
 
     # Create new Instance of Chrome
     browser = webdriver.Chrome(executable_path=driver_path, chrome_options=option)
-    #browser.get(links[0])
     browser.get(links[0])
-    pagesNumber = range(0,len(links)-1)
+    pagesNumber = range(0, len(links)-1)
     print("Wczytywanie")
     for link,i in zip(links,pagesNumber):
-        browser.execute_script(f"window.open('about:blank',\'{i}\');")
+        browser.execute_script(f"window.open(\"about:blank\",\"{i}\");")
         browser.switch_to.window(f"{i}")
         browser.get(link)
     input("Naciśnij dowolny klawisz by zamknąć przeglądarkę")
 
 
-# Wczytuje zapisane linki
-def open_saved_links():
+def open_saved_links() -> None:
+    """
+    Wczytuje zapisane linki
+    """
+
     open_browser(Dict.loadNewArticles())
 
     if not Dict.make_choice("Czy chcesz usunąć plik z zakładkami", ["Tak", "Nie"]) - 1:
@@ -217,8 +248,12 @@ def open_saved_links():
     else:
         print("Nie usunięto")
 
-# Odpowiada za edycję grup
-def edit_groups():
+
+def edit_groups() -> None:
+    """
+    Odpowiada za edycję grup
+    """
+
     import Dictionary as Dict
 
     # Jeżeli plik z grupami nie istnieje to go tworzy
@@ -313,31 +348,35 @@ def edit_groups():
 #     else:
 #         print('Nie ma stron do sprawdzenia')
 
-# Wyświetla nazwę stworzoną z linku
-def genereate_name_from_link():
 
+def genereate_name_from_link() -> None:
+    """
+     Wyświetla nazwę stworzoną z linku
+    """
     pages = Dict.loadDataFromFile(Dict.metaFileNames["pages"])["title"]
     choice = Dict.make_choice("Z którego linku chcesz wygenerować nazwę: ", pages + ["Wyjdź"])
 
     if choice != len(pages) + 1:
         print(Dict.makeNameFromLink(pages[choice-1], ""))
 
-def mainFunc():
+
+def mainFunc() -> None:
+    """
+    Główna funkcja programu
+    """
     import Dictionary as Dict
 
     if Dict.checkIfExcelFileIsOpen():
         exit(0)
 
-    # os.system(Dict.gitManagerMethods['boot'])
-
     choice = 0
     while choice != 10:
-        choice = Dict.make_choice('Wybierz co chcesz zrobić', Dict.mainMenu)
+        choice = Dict.make_choice("Wybierz co chcesz zrobić", Dict.mainMenu)
 
         if choice == 1:
-            show_links(Dict.metaFileNames['pages'])
+            show_links(Dict.metaFileNames["pages"])
         elif choice == 2:
-            add_link(Dict.metaFileNames["pages"], Dict.pagesData)
+            add_link(Dict.metaFileNames["pages"])
         elif choice == 3:
             remove_link(Dict.metaFileNames["pages"])
         elif choice == 4:
@@ -360,7 +399,7 @@ def mainFunc():
             # exit(0)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
 
     import sys
     import Dictionary as Dict

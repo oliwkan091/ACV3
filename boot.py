@@ -23,7 +23,7 @@ if __name__ == "__main__":
             # Restartuje program
             if Dict.checkIfExcelFileIsOpen():
                 exit(0)
-            os.execv(sys.executable, ['python'] + argList)
+            os.execv(sys.executable, ["python"] + argList)
 
     # Synchronize z githubem, zawsze restartuje
     if Dict.switches["gitMode"] in argList:
@@ -37,7 +37,7 @@ if __name__ == "__main__":
         argList.append(Dict.switches["rebootMode"])
         print("Ponowne uruchamianie po synchronizacji z git")
         # Restartuje program
-        os.execv(sys.executable, ['python'] + argList)
+        os.execv(sys.executable, ["python"] + argList)
 
     # Po synchronizacji z githubem i restarcie, główna część
     if Dict.switches["rebootMode"] in argList:
@@ -70,7 +70,7 @@ if __name__ == "__main__":
 
         # Restartuje program po zakończeniu zdania przed synchronizacją z git
         print("Ponowne uruchamianie przed synchronizacją z git")
-        os.execv(sys.executable, ['python'] + [Dict.metaFileNames["boot"]] + [Dict.switches["finisher"]])
+        os.execv(sys.executable, ["python"] + [Dict.metaFileNames["boot"]] + [Dict.switches["finisher"]])
 
     # Zawsze synchronizuje z githubem, po zakończeniu działania programu i restarcie
     if Dict.switches["finisher"] in sys.argv:

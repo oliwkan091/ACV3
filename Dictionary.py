@@ -2,6 +2,8 @@
 Zawiera niezbędne bazy oraz funkcjie wspólne dla reszty plików
 """
 
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 import selenium
 
 metaFileNames = {"newArticles": "newArticles.txt",

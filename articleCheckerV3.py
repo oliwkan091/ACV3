@@ -401,31 +401,108 @@ def makeTheMainLink(currentLink: str) -> str:
     return linkElements[0] + "//" + linkElements[2]
 
 
+def isChromDriver() -> bool:
+    """
+    Sprawdza czy jakikolwiek chromedriver jest zainstalowany
+    :return: True jeżeli tak, False jeżeli nie
+    """
+
+    import os
+    import Dictionary as Dict
+
+    if Dict.metaFileNames["chrome"] in os.listdir():
+        return True
+    else:
+        print("Brak sterowanika chromedriver, trwa pobieranie")
+        return False
+
+
 def isChromedriverUpToDate() -> bool:
     """
     Sprawdza czy chromedriver.exe działa i jest aktualny
     :return: True jeżeli jest aktualny, False jeżeli nie
     """
+
     from selenium import webdriver
     from selenium.webdriver.chrome.options import Options
+    import Dictionary as Dict
 
-    Dict.addLog("PrepChrom", "")
     # Jeżeli system ma działać w tle to trzeba zainportować options i dodać headless
     try:
         chrome_options = Options()
         chrome_options.add_argument("--headless")
         driver = webdriver.Chrome(options=chrome_options)
-        Dict.addLog("ChromStarted", "")
 
-        driver.get("https://www.google.pl/")
+        driver.get(Dict.urlLinks["googlePage"])
         driver.quit()
         return True
 
-    except:
-        # rise
-        Dict.addLog("ChromFail", "")
-        print("ChromeDriver.exe jest nieaktualny! Zaktualizuj go do wersji przeglądarki")
+    except: # selenium.common.exceptions.SessionNotCreatedException as e
+        print("ChromeDriver.exe jest nieaktualny! Trwa Aktualizowanie")
         return False
+
+
+def getCurrentVersion() -> str:
+    """
+    Sprawdza jaka jest aktualna wersja przeglądarki chrome
+    :return: xwraca aktualną wersję przeglądarki
+    """
+
+    from selenium import webdriver
+    from selenium.webdriver.chrome.options import Options
+    import selenium
+    import re
+
+    try:
+        chrome_options = Options()
+        chrome_options.add_argument("--headless")
+        webdriver.Chrome(options=chrome_options)
+
+    except selenium.common.exceptions.SessionNotCreatedException as e:
+        # W opinie rzuconego wyjątku szuka informacji o wersji
+        firestPattern = re.findall("Current browser version is [\d.]* with binary path", str(e))
+        # Z całego zdanie wyciąga tylko wersję
+        secondPattern = re.findall(" [\d.]* ", firestPattern[0])
+        return secondPattern[0].replace(" ", "")
+
+
+def download(downloadUrl: str, pathToSave: str) -> None:
+    """
+    Pobiera plik ze wszkaznego linku i zpapisuje go pod wskazaną ścieżką.
+    Może być względna, ostatni element to nazwa pliku
+    :param downloadUrl: adres strony do pobrania pliku
+    :param pathToSave: ścieżka do zapisania pliku
+    """
+
+    import requests
+    from time import sleep
+
+    r = requests.get(downloadUrl, allow_redirects=False)
+    sleep(5)
+    open(pathToSave, "wb+").write(r.content)
+
+
+def extractZip(pathToFile: str, PathToSave: str) -> None:
+    """
+    Rozpakowuje podanego zipa do podanej ścieżki
+    :param pathToFile: ścieżka do zipa
+    :param PathToSave: ścieżka do rozpakowania
+    """
+
+    import zipfile
+
+    with zipfile.ZipFile(pathToFile, "r") as zip:
+        zip.extractall(PathToSave)
+
+
+def removeAfterDownload() -> None:
+    """
+    Usuwa pozostałości po pobieraniu (wskazane pliki)
+    """
+
+    import os
+    import Dictionary as Dict
+    os.remove(Dict.metaFileNames["chromeZip"])
 
 
 def threadCheeck(link: object) -> None:
@@ -488,6 +565,7 @@ def mainFunc(gGroup: str) -> None:
     Główna funkcja, pozwala na uruchomienie z innego skryptu
     :param gGroup: nazwa grupy, jeżeli pusta to żadna grupa nie została wywołana
     """
+
     # Miernik czasu
     # import time
     # t_start = time.perf_counter()
@@ -500,10 +578,28 @@ def mainFunc(gGroup: str) -> None:
     if readyToSync():
         if not Dict.whileNotIsConnected():
             exit(0)
-        nASaveLoc = Dict.NAFileLoc()
 
+        # Ścieżka do zapisu zawartosci pliku zip
+        PathToSaveExtract = ""
+
+        #Sprawdza czy chromedriver w ogóle istnieje
+        if not isChromDriver():
+            # Jeżeli nie to pobiera wskazany z internetu
+            # Nie byłem w stanie sprawdzić wersji przeglądarki chrome więc najpierw trzba pobrać losowy chromerdriver
+            # a potem sparwdzić wersję i jeszcze raz pobrać odpowieni
+            download(Dict.urlLinks["chromeDriverDownloadPermLink"], Dict.metaFileNames["chromeZip"])
+            extractZip(Dict.metaFileNames["chromeZip"], PathToSaveExtract)
+
+        # Sprawdza czy chromedriver jest aktulany
         if not isChromedriverUpToDate():
-            exit(0)
+            # Sprawdza wersję aktualnej wersji
+            version = getCurrentVersion()
+            # Link do pobrania
+            currentDownloadUrl = Dict.urlLinks["chromeDriverDownloadCurrLinkBegin"] + str(version) + Dict.urlLinks["chromeDriverDownloadCurrLinkEnd"]
+            download(currentDownloadUrl, Dict.metaFileNames["chromeZip"])
+            extractZip(Dict.metaFileNames["chromeZip"], PathToSaveExtract)
+            # Usuwa niepotrzebne pliki (tu zip po pobieraniu)
+            removeAfterDownload()
 
         pageslinks = getLinks()
 

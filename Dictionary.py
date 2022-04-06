@@ -20,25 +20,26 @@ metaFileNames = {"newArticles": "newArticles.txt",
                  "acm": "articleCheckerManager.py",
                  "Dict": "Dictionary.py",
                  "acv3": "articleCheckerV3.py",
-                 "logIn": "logIn"}
-
+                 # "logIn": "logIn",
+                 "chromeZip": "chromedriver.zip"}
 """
 Posiada nazwy plików kontrolowanych przez program
-    - "newArticles" - nazwa pliku zapisu noewych artykułów
-    - "pages" - to baza stron obsługiwanych przez program
-    - "database" - to nazwa bazy danych programu
-    - "tempDb" - tymczasowy folder zapisu noewych artykułów poszczególnych stron
-    - "chrome" - lokalizacja pliku chrome
-    - "logIn" - plik z datą
-    - "logs" - plik z danymi logów
-    - "NALoc" - plik z lokalizacjami zpaisu newArticles.txt na róznych urządzeniach
-    - "groupFile" - nazwa pliku zapisu z danymi grup
-    - "boot" -  nazwa pliku skryptu
-    - "gm" -  nazwa pliku skryptu
-    - "acm" -  nazwa pliku skryptu
-    - "Dict" -  nazwa pliku skryptu
-    - "acv3" -  nazwa pliku skryptu
-    - "logIn" - folder ze skryptami do logwania
+    - "newArticles": "newArticles.txt" - nazwa pliku zapisu noewych artykułów
+    - "pages": "pagesToCheck.txt" - to baza stron obsługiwanych przez program
+    - "database": "database" - to nazwa bazy danych programu
+    - "tempDb": "tempDatabase" - tymczasowy folder zapisu noewych artykułów poszczególnych stron
+    - "chrome": "chromedriver.exe" - nazwa sterownika chrome
+    - "logIn": "data.txt" - plik z datą
+    - "logs": "logs.txt" - plik z danymi logów
+    - "NALoc": "NALocFile.txt" - plik z lokalizacjami zpaisu newArticles.txt na róznych urządzeniach
+    - "groupFile": "groups.txt" - nazwa pliku zapisu z danymi grup
+    - "boot": "boot.py" -  nazwa pliku skryptu
+    - "gm": "gitManager.py" -  nazwa pliku skryptu
+    - "acm": "articleCheckerManager.py" -  nazwa pliku skryptu
+    - "Dict": "Dictionary.py" -  nazwa pliku skryptu
+    - "acv3": "articleCheckerV3.py" -  nazwa pliku skryptu
+    # - "logIn": "logIn" - folder ze skryptami do logwania
+    - "chromeZip": "chromedriver.zip" - nazwa sterownika chrome w zip
 """
 
 
@@ -149,6 +150,19 @@ txtEssential = {metaFileNames["pages"]: [["title"], [[]]],
                 metaFileNames["NALoc"]: [["Loc"], [{}]]}
 """
 Podczas wcyztywanie konkretnych plików sprawdza czy nie brakuje w nich zniezbędnych danych
+"""
+
+urlLinks = {"googlePage": "https://www.google.pl/",
+            "chromeDriverDownloadPermLink": "https://chromedriver.storage.googleapis.com/96.0.4664.45/chromedriver_win32.zip",
+            "chromeDriverDownloadCurrLinkBegin": "https://chromedriver.storage.googleapis.com/",
+            "chromeDriverDownloadCurrLinkEnd": "/chromedriver_win32.zip"}
+"""
+Linki do stron niezbędne do działania
+
+    - "googlePage": "https://www.google.pl/" - strona do googla, używana do sprawdzenia połączenia
+    - "chromeDriverDownloadPermLink": "https://chromedriver.storage.googleapis.com/96.0.4664.45/chromedriver_win32.zip" - stały link do pobrania drivera w sytuacji jego braku, potem i tak trzeba pobrać aktualny
+    - "chromeDriverDownloadCurrLinkBegin": "https://chromedriver.storage.googleapis.com/" - pierwsza część (przez wersją) linku używana do pobrania drivera
+    - "chromeDriverDownloadCurrLinkEnd": "/chromedriver_win32.zip"} - druga część linku (po wersji) używana do pobrania drivera
 """
 
 def isFile(fileName: str) -> bool:

@@ -11,7 +11,7 @@ metaFileNames = {"newArticles": "newArticles.txt",
                  "database": "database",
                  "tempDb": "tempDatabase",
                  "chrome": "chromedriver.exe",
-                 "logIn": "data.txt",
+                 "logInDate": "data.txt",
                  "logs": "logs.txt",
                  "NALoc": "NALocFile.txt",
                  "groupFile": "groups.txt",
@@ -20,7 +20,7 @@ metaFileNames = {"newArticles": "newArticles.txt",
                  "acm": "articleCheckerManager.py",
                  "Dict": "Dictionary.py",
                  "acv3": "articleCheckerV3.py",
-                 # "logIn": "logIn",
+                 "logIn": "logIn",
                  "chromeZip": "chromedriver.zip"}
 """
 Posiada nazwy plików kontrolowanych przez program

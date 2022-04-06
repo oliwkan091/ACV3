@@ -32,15 +32,17 @@ def getLinksFromPage(pageLink: str) -> bs4.BeautifulSoup:
 
         # Sprawdza czy dla wybranej strony nie trzba się zalogować
         # Jeżeli skrypt logowania jest dostępny to wywołuje
-        # print(Dict.makeNameFromLink(pageLink, "py"))
         if Dict.metaFileNames["logIn"] in os.listdir():
             if Dict.makeNameFromLink(pageLink, "py") in os.listdir(Dict.metaFileNames["logIn"]):
+                print("Logowanie do ", pageLink, " jest wymagane")
                 execImportFile = Dict.makeNameFromLink(pageLink, "")
                 # Ponieważ importowany jest zawsze skrypt dla konkretnego linku to musi być on wywołyaany za pomocą "exec"
                 exec(f"from logIn import {execImportFile} as scr")
                 exec("driver = scr.logIn(driver, pageLink)")
+            else:
+                print("Logowanie do ", pageLink, " nie jest wymagane")
         else:
-            print("nie ma folderu")
+            print("Nie ma folderu ze skryptami do logowań")
 
         driver.get(pageLink)
         sleep(5)
@@ -160,7 +162,7 @@ def manageLinks(pageLink: str, better_web: bs4.BeautifulSoup, newArticles: list[
             [tempNameA.append(element) for element in tempName if element and len(element) != 0]
             tempName = tempNameA
 
-            tempLink = tempLink[0].replace("href="", "").replace(""", "").strip()
+            tempLink = tempLink[0].replace("href=\"", "").replace("\"", "").strip()
 
             if Dict.isLink(tempLink, excelData[0], driver):
                 if len(tempName) != 0:
@@ -362,7 +364,7 @@ def saveLogIn() -> None:
     today = date.today()
     d1 = today.strftime("%d/%m/%Y")
 
-    dataFile = open(Dict.metaFileNames["logIn"], "w+")
+    dataFile = open(Dict.metaFileNames["logInDate"], "w+")
     dataFile.write(d1)
     dataFile.close()
 
@@ -374,10 +376,10 @@ def readyToSync() -> bool:
     """
 
     from datetime import date
-    if not Dict.isFile(Dict.metaFileNames["logIn"]):
+    if not Dict.isFile(Dict.metaFileNames["logInDate"]):
         return True
     else:
-        dataFile = open(Dict.metaFileNames["logIn"], "r+")
+        dataFile = open(Dict.metaFileNames["logInDate"], "r+")
         dataLine = dataFile.readline()
         dataLine = dataLine.split("/")
 

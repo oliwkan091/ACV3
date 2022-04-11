@@ -9,6 +9,9 @@ def show_links(metaFileNames: str) -> None:
     :param metaFileNames: nazwa pliku gdzie zapisane są linki
     :return: wyłącze funkcję, nic nie zwraca
     """
+
+    import Dictionary as Dict
+
     pages = Dict.loadDataFromFile(metaFileNames)
     try:
         pages["title"]
@@ -32,6 +35,8 @@ def add_link(metaFileNames: str) -> None:
     :param metaFileNames: nazwa pliku z linkami
     """
 
+    import Dictionary as Dict
+
     link = input("Wpisz link do strony: ")
     if Dict.isLink(link, []):
         links = Dict.loadDataFromFile(metaFileNames)
@@ -54,6 +59,8 @@ def remove_link(metaFileNames: str) -> None:
     Usuwa wskazany link
     :param metaFileNames: nazwa pliku z linkami
     """
+
+    import Dictionary as Dict
 
     links = Dict.loadDataFromFile(metaFileNames)
     if Dict.checkIfDictionElementExists(links, "title"):
@@ -87,6 +94,8 @@ def show_exceptions(metaFileNames: dict) -> None:
     Pokazaju jakie wyjątki ma wybrany plik
     :param metaFileNames: dictionary z nawzwami plików
     """
+
+    import Dictionary as Dict
 
     Dict.makeDatabase()
     links = Dict.loadDataFromFile(metaFileNames["pages"])
@@ -122,6 +131,8 @@ def add_exception(metaFileNames: dict) -> None:
     :param metaFileNames: dictionary z nawzwami plików
     """
 
+    import Dictionary as Dict
+
     Dict.makeDatabase()
     links = Dict.loadDataFromFile(metaFileNames["pages"])
 
@@ -152,6 +163,8 @@ def remove_exception(metaFileNames: dict) -> None:
     Usuwa wyjątek z wybranego pliku
     :param metaFileNames: dictionary z nazwami plików
     """
+
+    import Dictionary as Dict
 
     Dict.makeDatabase()
     import os
@@ -197,7 +210,10 @@ def deleteNewArticles() -> bool:
     Usuwa zapisane dane artykułów
     :return: True jeżeli plik istnieje, False jeżeli nie
     """
+
+    import Dictionary as Dict
     import os
+
     if(Dict.isFile(Dict.NAFileLoc() + "\\" + Dict.metaFileNames["newArticles"])):
         os.remove(Dict.NAFileLoc() + "\\" + Dict.metaFileNames["newArticles"])
         return True
@@ -237,6 +253,8 @@ def open_saved_links() -> None:
     """
     Wczytuje zapisane linki
     """
+
+    import Dictionary as Dict
 
     open_browser(Dict.loadNewArticles())
 
@@ -353,6 +371,9 @@ def genereate_name_from_link() -> None:
     """
      Wyświetla nazwę stworzoną z linku
     """
+
+    import Dictionary as Dict
+
     pages = Dict.loadDataFromFile(Dict.metaFileNames["pages"])["title"]
     choice = Dict.make_choice("Z którego linku chcesz wygenerować nazwę: ", pages + ["Wyjdź"])
 

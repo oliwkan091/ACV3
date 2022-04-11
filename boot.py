@@ -5,10 +5,7 @@ Funkcja startuje cały program i poszczególne jego skrypty składowe, do tego r
 if __name__ == "__main__":
     import sys
     import Dictionary as Dict
-    import gitManager as gm
-    import articleCheckerV3 as acv3
-    import articleCheckerManager as acm
-    import os
+    # Wszystkie moduły które muszą być zainstalowane z zewnątrz muszą być importowane pod instalatorem
 
     # LOVE Comprehensions
     # Usuwa ogonki przed przetacznikami o ile istnieją
@@ -23,7 +20,15 @@ if __name__ == "__main__":
             # Restartuje program
             if Dict.checkIfExcelFileIsOpen():
                 exit(0)
+
+            import os
             os.execv(sys.executable, ["python"] + argList)
+
+    # Niektóre importy muszą zostać zainstalowane z zewnątrz więc nie mogą być nad instalatorem
+    import gitManager as gm
+    import articleCheckerV3 as acv3
+    import articleCheckerManager as acm
+    import os
 
     # Synchronize z githubem, zawsze restartuje
     if Dict.switches["gitMode"] in argList:

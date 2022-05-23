@@ -221,11 +221,15 @@ def deleteNewArticles() -> bool:
         return False
 
 
-def open_browser(links: list) -> None:
+def open_browser(links: list) -> bool:
     """
     Wczytuje do przeglądarki strony
     :param links: lista linków zapisanych w newArticles
     """
+
+    if not links:
+        print("Brak linków do otworzenia")
+        return False
 
     from selenium import webdriver
 
@@ -242,11 +246,12 @@ def open_browser(links: list) -> None:
     browser.get(links[0])
     pagesNumber = range(0, len(links)-1)
     print("Wczytywanie")
-    for link,i in zip(links,pagesNumber):
+    for link, i in zip(links,pagesNumber):
         browser.execute_script(f"window.open(\"about:blank\",\"{i}\");")
         browser.switch_to.window(f"{i}")
         browser.get(link)
     input("Naciśnij dowolny klawisz by zamknąć przeglądarkę")
+    return True
 
 
 def open_saved_links() -> None:
@@ -256,7 +261,8 @@ def open_saved_links() -> None:
 
     import Dictionary as Dict
 
-    open_browser(Dict.loadNewArticles())
+    if not open_browser(Dict.loadNewArticles()):
+        return
 
     if not Dict.make_choice("Czy chcesz usunąć plik z zakładkami", ["Tak", "Nie"]) - 1:
         if deleteNewArticles():

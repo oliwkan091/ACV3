@@ -772,9 +772,13 @@ def make_choice(instruction: str, elementList: list) -> int:
     print()
     return 0
 
-
+#Zakomentowane bo wywoływało błędy
+'''
 def checkValid(validity: [str, list[list[str] | list[list]] | list[list[str] | list[dict]]], diction:  dict[str, list[dict]]) \
         -> [bool, dict[object, bool]]:
+        '''
+
+def checkValid(validity, diction):
     """
     Sprawdza czy w pliku nie brakuje niezbędnych danych, czy nie jest uszkodzony
     :param validity: wskazówki poprawności

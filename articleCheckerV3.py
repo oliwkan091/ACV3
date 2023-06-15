@@ -88,8 +88,9 @@ def isRepeated(link: str, pageLink: str) -> bool:
     else:
         return False
 
-
-def manageLinks(pageLink: str, better_web: bs4.BeautifulSoup, newArticles: list[str,str]) -> list[str,str]:
+#Zakomentowane bo wywoływało błędy
+'''def manageLinks(pageLink: str, better_web: bs4.BeautifulSoup, newArticles: list[str,str]) -> list[str,str]:'''
+def manageLinks(pageLink, better_web, newArticles):
     """
     Spis treści funkcji bo jest bardzo duża :
         1. Sprawdzenie czy kod źródłowy strony oraz baza danych linków istanieje
